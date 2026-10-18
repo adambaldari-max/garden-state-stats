@@ -2,6 +2,19 @@
   "updated": "2026-10-16",
   "standings": [
     {
+      "team": "AB7 Future Academy",
+      "played": 4,
+      "w": 4,
+      "d": 0,
+      "l": 0,
+      "gf": 19,
+      "ga": 6,
+      "gd": 13,
+      "pts": 12,
+      "rank": 1,
+      "ppm": 3.0
+    },
+    {
       "team": "Players Development Academy",
       "played": 5,
       "w": 4,
@@ -11,7 +24,8 @@
       "ga": 4,
       "gd": 15,
       "pts": 13,
-      "rank": 1
+      "rank": 2,
+      "ppm": 2.6
     },
     {
       "team": "TSF Academy",
@@ -23,19 +37,8 @@
       "ga": 3,
       "gd": 14,
       "pts": 12,
-      "rank": 2
-    },
-    {
-      "team": "AB7 Future Academy",
-      "played": 4,
-      "w": 4,
-      "d": 0,
-      "l": 0,
-      "gf": 19,
-      "ga": 6,
-      "gd": 13,
-      "pts": 12,
-      "rank": 3
+      "rank": 3,
+      "ppm": 2.4
     },
     {
       "team": "Real Futbol Academy",
@@ -47,55 +50,8 @@
       "ga": 9,
       "gd": 6,
       "pts": 12,
-      "rank": 4
-    },
-    {
-      "team": "The Football Academy",
-      "played": 5,
-      "w": 2,
-      "d": 1,
-      "l": 2,
-      "gf": 25,
-      "ga": 17,
-      "gd": 8,
-      "pts": 7,
-      "rank": 5
-    },
-    {
-      "team": "Cedar Stars Academy Bergen",
-      "played": 4,
-      "w": 2,
-      "d": 1,
-      "l": 1,
-      "gf": 7,
-      "ga": 6,
-      "gd": 1,
-      "pts": 7,
-      "rank": 6
-    },
-    {
-      "team": "Torpedoes SC",
-      "played": 3,
-      "w": 1,
-      "d": 2,
-      "l": 0,
-      "gf": 4,
-      "ga": 3,
-      "gd": 1,
-      "pts": 5,
-      "rank": 7
-    },
-    {
-      "team": "PDA Hibernian",
-      "played": 3,
-      "w": 1,
-      "d": 1,
-      "l": 1,
-      "gf": 12,
-      "ga": 10,
-      "gd": 2,
-      "pts": 4,
-      "rank": 8
+      "rank": 4,
+      "ppm": 2.0
     },
     {
       "team": "Trenton City Soccer Club",
@@ -107,31 +63,60 @@
       "ga": 4,
       "gd": 1,
       "pts": 4,
-      "rank": 9
+      "rank": 5,
+      "ppm": 2.0
     },
     {
-      "team": "Union County Football Club",
+      "team": "Cedar Stars Academy Bergen",
+      "played": 4,
+      "w": 2,
+      "d": 1,
+      "l": 1,
+      "gf": 7,
+      "ga": 6,
+      "gd": 1,
+      "pts": 7,
+      "rank": 6,
+      "ppm": 1.75
+    },
+    {
+      "team": "Torpedoes SC",
+      "played": 3,
+      "w": 1,
+      "d": 2,
+      "l": 0,
+      "gf": 4,
+      "ga": 3,
+      "gd": 1,
+      "pts": 5,
+      "rank": 7,
+      "ppm": 1.6667
+    },
+    {
+      "team": "The Football Academy",
       "played": 5,
-      "w": 1,
+      "w": 2,
       "d": 1,
-      "l": 3,
-      "gf": 12,
-      "ga": 13,
-      "gd": -1,
-      "pts": 4,
-      "rank": 10
+      "l": 2,
+      "gf": 25,
+      "ga": 17,
+      "gd": 8,
+      "pts": 7,
+      "rank": 8,
+      "ppm": 1.4
     },
     {
-      "team": "PDA SC Vistula",
-      "played": 6,
+      "team": "PDA Hibernian",
+      "played": 3,
       "w": 1,
       "d": 1,
-      "l": 4,
-      "gf": 17,
-      "ga": 22,
-      "gd": -5,
+      "l": 1,
+      "gf": 12,
+      "ga": 10,
+      "gd": 2,
       "pts": 4,
-      "rank": 11
+      "rank": 9,
+      "ppm": 1.3333
     },
     {
       "team": "Jersey Football Club",
@@ -143,7 +128,21 @@
       "ga": 17,
       "gd": -5,
       "pts": 4,
-      "rank": 12
+      "rank": 10,
+      "ppm": 1.0
+    },
+    {
+      "team": "Union County Football Club",
+      "played": 5,
+      "w": 1,
+      "d": 1,
+      "l": 3,
+      "gf": 12,
+      "ga": 13,
+      "gd": -1,
+      "pts": 4,
+      "rank": 11,
+      "ppm": 0.8
     },
     {
       "team": "Cedar Stars Academy Newark",
@@ -155,7 +154,21 @@
       "ga": 8,
       "gd": -1,
       "pts": 3,
-      "rank": 13
+      "rank": 12,
+      "ppm": 0.75
+    },
+    {
+      "team": "PDA SC Vistula",
+      "played": 6,
+      "w": 1,
+      "d": 1,
+      "l": 4,
+      "gf": 17,
+      "ga": 22,
+      "gd": -5,
+      "pts": 4,
+      "rank": 13,
+      "ppm": 0.6667
     },
     {
       "team": "Ironbound Soccer Club",
@@ -167,7 +180,8 @@
       "ga": 21,
       "gd": -18,
       "pts": 3,
-      "rank": 14
+      "rank": 14,
+      "ppm": 0.6
     },
     {
       "team": "Cedar Stars Academy Monmouth",
@@ -179,7 +193,8 @@
       "ga": 32,
       "gd": -31,
       "pts": 0,
-      "rank": 15
+      "rank": 15,
+      "ppm": 0.0
     }
   ],
   "scorers": [

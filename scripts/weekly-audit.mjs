@@ -31,7 +31,7 @@ function audit(age, d) {
     }
     if (!clubs.has(m.home)||!clubs.has(m.away)) errors.push('Unknown club in '+key);
     if (m.home===m.away) errors.push('Self-match '+key);
-    if (!/^\\d{4}-\\d{2}-\\d{2}$/.test(m.date)) errors.push('Invalid date '+key);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(m.date)) errors.push('Invalid date '+key);
     if (m.completed && (!Number.isInteger(m.hs)||m.hs<0||!Number.isInteger(m.as_)||m.as_<0)) errors.push('Invalid final score '+key);
     if (!m.completed && (Number.isInteger(m.hs)||Number.isInteger(m.as_))) warnings.push('Uncompleted match has score '+key);
   }

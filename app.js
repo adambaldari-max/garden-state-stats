@@ -4,8 +4,27 @@ const el=id=>document.getElementById(id);
 const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function setTab(id){document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('hidden',p.id!==id));document.querySelectorAll('.tabs button').forEach(b=>b.classList.toggle('active',b.dataset.tab===id));history.replaceState(null,'','#'+id)}
 document.querySelectorAll('.tabs button').forEach(b=>b.addEventListener('click',()=>setTab(b.dataset.tab)));
+// Calculate standings from completed match scores, not pre-existing JSON ranks.
+function calculateStandings(data) {
+  const teams = new Map(data.standings.map(t => [t.team, {team:t.team, played:0,w:0,d:0,l:0,gf:0,ga:0}]));
+  for (const m of data.matches) {
+    if (!m.completed || !Number.isFinite(m.hs) || !Number.isFinite(m.as_)) continue;
+    for (const [name, gf, ga] of [[m.home,m.hs,m.as_],[m.away,m.as_,m.hs]]) {
+      if (!teams.has(name)) teams.set(name,{team:name,played:0,w:0,d:0,l:0,gf:0,ga:0});
+      const t=teams.get(name); t.played++;t.gf+=gf;t.ga+=ga;
+      if(gf>ga)t.w++;else if(gf===ga)t.d++;else t.l++;
+    }
+  }
+  const result=[...teams.values()];
+  for (const t of result) {
+    t.pts=3*t.w+t.d;t.gd=t.gf-t.ga;t.ppm=t.played?t.pts/t.played:0;
+  }
+  result.sort((a,b)=>b.ppm-a.ppm || b.gd-a.gd || b.gf-a.gf || a.team.localeCompare(b.team));
+  result.forEach((t,i)=>t.rank=i+1);
+  return result;
+}
 function drawStandings(){el('standingsRows').innerHTML=db.standings.map(x=>`<tr class="${x.team.includes('AB7')?'highlight':''}"><td>${x.rank}</td><td class="teamname">${safe(x.team)}</td><td>${x.played}</td><td>${x.w}</td><td>${x.d}</td><td>${x.l}</td><td>${x.gf}</td><td>${x.ga}</td><td>${x.gd>0?'+':''}${x.gd}</td><td>${x.pts}</td><td>${x.ppm.toFixed(2)}</td></tr>`).join('')}
 function drawScorers(){let s=el('playerSearch').value.toLowerCase(),club=el('clubFilter').value,top=el('top25').checked;let list=db.scorers.filter(x=>(!club||x.audit_club===club)&&(`${x.player} ${x.audit_club}`.toLowerCase().includes(s)));if(top)list=list.filter(x=>db.scorers.indexOf(x)<25);el('scorerRows').innerHTML=list.map(x=>`<tr><td>${x.rank}</td><td class="teamname">${safe(x.player)}</td><td>${safe(x.audit_club)}</td><td>${x.goals}</td></tr>`).join('')||'<tr><td colspan="4">No matching players</td></tr>'}
 function drawAb7(){el('ab7Rows').innerHTML=db.ab7.map(x=>`<tr><td>${x.rank}</td><td class="teamname">${safe(x.player)}</td><td>#${safe(x.jersey)}</td><td>${safe(x.roster_age)}</td><td>${x.goals}</td></tr>`).join('')}
 function drawResults(){let club=el('resultClub').value,upcoming=el('showUpcoming').checked;let list=db.matches.filter(x=>(!club||x.home===club||x.away===club)&&(upcoming||x.completed));el('resultsList').innerHTML=list.map(x=>`<div class="game"><span class="date">${safe(x.date)}</span><span class="home">${safe(x.home)}</span><span class="score">${x.completed?x.hs+' – '+x.as_:'TBD'}</span><span>${safe(x.away)}</span></div>`).join('')||'<p>No matches found.</p>'}
-fetch('data/stats.json').then(r=>{if(!r.ok)throw Error('Data unavailable');return r.json()}).then(x=>{db=x;el('matchCount').textContent=x.meta.completed;el('clubCount').textContent=x.standings.length;el('goalCount').textContent=x.standings.reduce((s,t)=>s+t.gf,0);let opts=x.standings.map(t=>`<option value="${safe(t.team)}">${safe(t.team)}</option>`).join('');el('clubFilter').insertAdjacentHTML('beforeend',opts);el('resultClub').insertAdjacentHTML('beforeend',opts);drawStandings();drawScorers();drawAb7();drawResults();['playerSearch','clubFilter','top25'].forEach(id=>el(id).addEventListener('input',drawScorers));['resultClub','showUpcoming'].forEach(id=>el(id).addEventListener('input',drawResults));let tab=location.hash.slice(1);if(['standings','scorers','ab7','results','about'].includes(tab))setTab(tab)}).catch(err=>{el('standingsRows').innerHTML=`<tr><td colspan="11">Unable to load statistics. Open through a web server, not as a local file.</td></tr>`;console.error(err)});
+fetch('data/stats.json?v=20261018-2', {cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Data unavailable');return r.json()}).then(x=>{db=x;db.standings=calculateStandings(x);el('matchCount').textContent=x.meta.completed;el('clubCount').textContent=x.standings.length;el('goalCount').textContent=x.standings.reduce((s,t)=>s+t.gf,0);let opts=x.standings.map(t=>`<option value="${safe(t.team)}">${safe(t.team)}</option>`).join('');el('clubFilter').insertAdjacentHTML('beforeend',opts);el('resultClub').insertAdjacentHTML('beforeend',opts);drawStandings();drawScorers();drawAb7();drawResults();['playerSearch','clubFilter','top25'].forEach(id=>el(id).addEventListener('input',drawScorers));['resultClub','showUpcoming'].forEach(id=>el(id).addEventListener('input',drawResults));let tab=location.hash.slice(1);if(['standings','scorers','ab7','results','about'].includes(tab))setTab(tab)}).catch(err=>{el('standingsRows').innerHTML=`<tr><td colspan="11">Unable to load statistics. Open through a web server, not as a local file.</td></tr>`;console.error(err)});

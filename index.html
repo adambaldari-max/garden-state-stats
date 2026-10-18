@@ -63,6 +63,35 @@ body{background:linear-gradient(180deg,#eaf1fa 0%,#f8fafc 520px);color:var(--ink
 @media(max-width:600px){.hero-inner{min-height:190px}.hero h1{font-size:49px}.hero-kicker{font-size:.39em}.hero-title-small{font-size:.59em}.hero-visual{opacity:.12}.panel-header{padding:22px 18px}.panel h2{font-size:35px}.data-table td{padding:12px 10px}}
 
 .age-switch{display:flex;align-items:center;gap:10px;padding-top:12px;padding-bottom:12px}.age-button{border:1px solid #cbd5e1;background:#fff;color:#071b36;font-weight:900;letter-spacing:.08em;border-radius:5px;padding:10px 26px;cursor:pointer}.age-button.selected{background:#071b36;color:#efb742;border-color:#071b36}.age-switch #coverageStatus{margin-left:auto;font-size:12px;color:#63738a;font-weight:700}@media(max-width:600px){.age-switch{flex-wrap:wrap}.age-switch #coverageStatus{width:100%;margin-left:0}}
+
+/* Mobile compact layout: tighter spacing without changing data or calculations. */
+@media(max-width:600px){
+  .shell{width:calc(100% - 20px)}
+  .site-header{height:54px}.identity-mark{width:32px;height:32px;font-size:19px}.identity-copy{font-size:10px}.season-chip{font-size:8px;padding:6px 8px}
+  .age-switch{gap:6px;padding-top:8px;padding-bottom:8px}.age-button{padding:8px 16px;font-size:11px}.age-switch #coverageStatus{font-size:10px}
+  .hero-inner{min-height:155px}.hero-content{padding:19px 0 16px}.hero h1{font-size:42px;margin:9px 0 8px}.hero p{font-size:10px;line-height:1.4;margin-bottom:8px}.hero-bottom{gap:7px;font-size:8px}.hero-visual{opacity:.08}
+  .stats-strip{grid-template-columns:repeat(2,minmax(0,1fr))}.stat{min-height:86px;padding:10px 12px}.stat strong{font-size:31px}.stat-label{font-size:8px}.stat-caption{font-size:9px}.stat-icon{opacity:.3}
+  .section-overline{margin:14px 0 7px;font-size:9px}
+  .tabs{scrollbar-width:thin}.tabs button{padding:12px 12px;font-size:11px}.tab-index{font-size:9px}
+  .panel-header{padding:15px 13px 12px}.panel h2{font-size:30px;line-height:1}.eyebrow{font-size:9px}.panel-description{font-size:10px;line-height:1.45}.status-tag{font-size:8px;padding:6px}
+  .filters{padding:0 12px 12px;gap:7px}.filters input[type=search],.filters select{padding:9px 10px;font-size:12px}.toggle{font-size:11px}
+  .table-footer{padding:11px 12px 14px;font-size:9px;line-height:1.4}
+  .data-table th{font-size:9px;padding:9px 6px;letter-spacing:.25px}.data-table td{font-size:11px;padding:9px 6px;line-height:1.25}.data-table td:first-child{font-size:15px}
+  #scorers .data-table{min-width:0;table-layout:fixed;width:100%}
+  #scorers .data-table th:nth-child(1){width:10%}
+  #scorers .data-table th:nth-child(2){width:14%}
+  #scorers .data-table th:nth-child(3){width:30%}
+  #scorers .data-table th:nth-child(4){width:32%}
+  #scorers .data-table th:nth-child(5){width:14%}
+  #scorers .data-table td{overflow-wrap:anywhere;word-break:normal;font-size:10px;padding:9px 4px}
+  #scorers .data-table td:first-child{font-size:14px}
+  #scorers .data-table td:nth-child(2){font-size:11px}
+  #scorers .data-table td:last-child{font-size:18px}
+  #scorers .data-table th{white-space:normal;font-size:8px;padding:9px 3px}
+  .spotlight-banner{margin:0 12px 15px;grid-template-columns:repeat(2,minmax(0,1fr))}.spotlight-banner>div{padding:12px}.spotlight-banner strong{font-size:32px}
+  .minor-heading{padding-left:12px}.results{padding:0 8px}.game{min-height:0;margin-bottom:6px;padding:8px 6px}.game .date{font-size:9px}.game .score{padding:6px;font-size:16px}
+}
+@media(max-width:380px){#scorers .data-table td{font-size:9px;padding:8px 3px}#scorers .data-table th{font-size:7px}.panel h2{font-size:27px}.tabs button{padding:11px 10px}}
 </style></head><body>
 <header class="site-header"><div class="shell header-inner"><a class="identity" href="#standings" aria-label="Garden State Stats home"><span class="identity-mark">GS<span class="identity-dot">.</span></span><span class="identity-copy"><b>GARDEN STATE</b><small>ACADEMY STATS</small></span></a><div class="header-right"><span class="season-chip"><span class="live-dot"></span> 2026 / 27 SEASON</span><span class="independent">INDEPENDENT COVERAGE</span></div></div></header>
 <main><div class="age-switch shell" role="group" aria-label="Age division"><button class="age-button selected" data-age="u13">U13</button><button class="age-button" data-age="u14">U14</button><span id="coverageStatus">U13 · Audited snapshot</span></div><section class="hero"><div class="hero-grid"></div><div class="shell hero-inner"><div class="hero-content"><div class="eyebrow light"><span class="eyebrow-line"></span> MLS NEXT <span class="slash">/</span> ACADEMY DIVISION <span class="slash">/</span> GARDEN STATE</div><h1><span class="hero-kicker">GARDEN STATE CONFERENCE</span><br><em><span id="heroAge">U13</span></em> <span class="hero-title-small">STATISTICS</span></h1><p>2026–27 Academy Division · Conference standings, Golden Boot rankings and match results.</p><div class="hero-bottom"><span class="hero-label">2026–27 CONFERENCE TRACKER</span><span class="hero-date">DATA THROUGH OCT 16, 2026</span></div></div><div class="hero-visual" aria-hidden="true"><span class="visual-ring ring-one"></span><span class="visual-ring ring-two"></span><span class="visual-ring ring-three"></span><span class="visual-number" id="visualAge">U13</span><span class="visual-caption">2026–27<br>ACADEMY DIVISION</span></div></div></section>

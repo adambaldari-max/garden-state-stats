@@ -108,7 +108,8 @@ function renderAge(){
     el('standingsRows').insertAdjacentHTML('beforebegin', '<tr id="u14Warning"><td colspan="11" style="padding:14px;background:#fff0cf;color:#603b00;font-weight:700">'+msg+'</td></tr>');
   }else{el('spotlightBanner').style.display='';}
   if(age==='u13'){const warning=el('u14Warning');if(warning)warning.remove()}
-  const count=el('standingsCount');if(count)count.textContent=`Showing ${db.standings.length} of ${db.standings.length} conference clubs`;
+  const count=el('standingsCount');if(count)count.textContent=`Showing ${db.standings.length} of 15 conference clubs · Build 2026-10-18-FINAL`;
+  if(age==='u14' && (db.standings.length!==15 || db.scorers.length!==81)) console.error('U14 data integrity failed',db.standings.length,db.scorers.length);
   const scorerCount=el('scorerCount');if(scorerCount)scorerCount.textContent=`${db.scorers.length} provisional scoring entries available for ${age.toUpperCase()}`;
   const note=document.getElementById('scorerAuditNotice');if(note)note.textContent=age==='u14'?'U14: Candidate scorer totals are all-competition FootyAccess totals; they are NOT confirmed Garden State-only goals. 81 players from the U14 age-filtered capture, including one-goal scorers.':'U13: Match-event scorer totals are provisional. Two goals remain unreconciled against official scores, and 24 goal events have uncertain club attribution.';
 }
@@ -117,4 +118,4 @@ document.querySelectorAll('.age-button').forEach(b=>b.addEventListener('click',(
 ['playerSearch','clubFilter','top25'].forEach(id=>el(id).addEventListener('input',drawScorers));
 ['resultClub','showUpcoming'].forEach(id=>el(id).addEventListener('input',drawResults));
 renderAge();const initialTab=location.hash.slice(1);if(['standings','scorers','ab7','results','about'].includes(initialTab))setTab(initialTab);
-</script></body></html>
+</script><div style="text-align:center;padding:10px;font-size:11px;color:#64748b">Data build: 2026-10-18-FINAL · U13 15 clubs · U14 15 clubs / 81 candidates</div></body></html>

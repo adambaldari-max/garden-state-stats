@@ -1,0 +1,1030 @@
+{
+  "updated": "2026-10-16",
+  "standings": [
+    {
+      "team": "Players Development Academy",
+      "played": 5,
+      "w": 4,
+      "d": 1,
+      "l": 0,
+      "gf": 19,
+      "ga": 4,
+      "gd": 15,
+      "pts": 13,
+      "rank": 1
+    },
+    {
+      "team": "TSF Academy",
+      "played": 5,
+      "w": 4,
+      "d": 0,
+      "l": 1,
+      "gf": 17,
+      "ga": 3,
+      "gd": 14,
+      "pts": 12,
+      "rank": 2
+    },
+    {
+      "team": "AB7 Future Academy",
+      "played": 4,
+      "w": 4,
+      "d": 0,
+      "l": 0,
+      "gf": 19,
+      "ga": 6,
+      "gd": 13,
+      "pts": 12,
+      "rank": 3
+    },
+    {
+      "team": "Real Futbol Academy",
+      "played": 6,
+      "w": 4,
+      "d": 0,
+      "l": 2,
+      "gf": 15,
+      "ga": 9,
+      "gd": 6,
+      "pts": 12,
+      "rank": 4
+    },
+    {
+      "team": "The Football Academy",
+      "played": 5,
+      "w": 2,
+      "d": 1,
+      "l": 2,
+      "gf": 25,
+      "ga": 17,
+      "gd": 8,
+      "pts": 7,
+      "rank": 5
+    },
+    {
+      "team": "Cedar Stars Academy Bergen",
+      "played": 4,
+      "w": 2,
+      "d": 1,
+      "l": 1,
+      "gf": 7,
+      "ga": 6,
+      "gd": 1,
+      "pts": 7,
+      "rank": 6
+    },
+    {
+      "team": "Torpedoes SC",
+      "played": 3,
+      "w": 1,
+      "d": 2,
+      "l": 0,
+      "gf": 4,
+      "ga": 3,
+      "gd": 1,
+      "pts": 5,
+      "rank": 7
+    },
+    {
+      "team": "PDA Hibernian",
+      "played": 3,
+      "w": 1,
+      "d": 1,
+      "l": 1,
+      "gf": 12,
+      "ga": 10,
+      "gd": 2,
+      "pts": 4,
+      "rank": 8
+    },
+    {
+      "team": "Trenton City Soccer Club",
+      "played": 2,
+      "w": 1,
+      "d": 1,
+      "l": 0,
+      "gf": 5,
+      "ga": 4,
+      "gd": 1,
+      "pts": 4,
+      "rank": 9
+    },
+    {
+      "team": "Union County Football Club",
+      "played": 5,
+      "w": 1,
+      "d": 1,
+      "l": 3,
+      "gf": 12,
+      "ga": 13,
+      "gd": -1,
+      "pts": 4,
+      "rank": 10
+    },
+    {
+      "team": "PDA SC Vistula",
+      "played": 6,
+      "w": 1,
+      "d": 1,
+      "l": 4,
+      "gf": 17,
+      "ga": 22,
+      "gd": -5,
+      "pts": 4,
+      "rank": 11
+    },
+    {
+      "team": "Jersey Football Club",
+      "played": 4,
+      "w": 1,
+      "d": 1,
+      "l": 2,
+      "gf": 12,
+      "ga": 17,
+      "gd": -5,
+      "pts": 4,
+      "rank": 12
+    },
+    {
+      "team": "Cedar Stars Academy Newark",
+      "played": 4,
+      "w": 1,
+      "d": 0,
+      "l": 3,
+      "gf": 7,
+      "ga": 8,
+      "gd": -1,
+      "pts": 3,
+      "rank": 13
+    },
+    {
+      "team": "Ironbound Soccer Club",
+      "played": 5,
+      "w": 1,
+      "d": 0,
+      "l": 4,
+      "gf": 3,
+      "ga": 21,
+      "gd": -18,
+      "pts": 3,
+      "rank": 14
+    },
+    {
+      "team": "Cedar Stars Academy Monmouth",
+      "played": 5,
+      "w": 0,
+      "d": 0,
+      "l": 5,
+      "gf": 1,
+      "ga": 32,
+      "gd": -31,
+      "pts": 0,
+      "rank": 15
+    }
+  ],
+  "scorers": [
+    {
+      "player": "Liam Avila",
+      "audit_club": "TSF Academy",
+      "goals": 10,
+      "rank": 1
+    },
+    {
+      "player": "Jayden Cruz",
+      "audit_club": "PDA SC Vistula",
+      "goals": 6,
+      "rank": 2
+    },
+    {
+      "player": "Anthony Henrriquez",
+      "audit_club": "PDA SC Vistula",
+      "goals": 5,
+      "rank": 3
+    },
+    {
+      "player": "Max Youngren",
+      "audit_club": "The Football Academy",
+      "goals": 5,
+      "rank": 3
+    },
+    {
+      "player": "Bilal Williams",
+      "audit_club": "AB7 Future Academy",
+      "goals": 4,
+      "rank": 5
+    },
+    {
+      "player": "Erick Morales",
+      "audit_club": "PDA Hibernian",
+      "goals": 4,
+      "rank": 5
+    },
+    {
+      "player": "Joseph Kellogg",
+      "audit_club": "Players Development Academy",
+      "goals": 4,
+      "rank": 5
+    },
+    {
+      "player": "Noah Bllaca",
+      "audit_club": "AB7 Future Academy",
+      "goals": 4,
+      "rank": 5
+    },
+    {
+      "player": "William Holman",
+      "audit_club": "The Football Academy",
+      "goals": 4,
+      "rank": 5
+    },
+    {
+      "player": "Amdi Sulejmani",
+      "audit_club": "AB7 Future Academy",
+      "goals": 3,
+      "rank": 10
+    },
+    {
+      "player": "Burak Sakallioglu",
+      "audit_club": "Real Futbol Academy",
+      "goals": 3,
+      "rank": 10
+    },
+    {
+      "player": "Caleb Wood",
+      "audit_club": "Jersey Football Club",
+      "goals": 3,
+      "rank": 10
+    },
+    {
+      "player": "Gino Taormina",
+      "audit_club": "Cedar Stars Academy Bergen",
+      "goals": 3,
+      "rank": 10
+    },
+    {
+      "player": "Jeimarck Vargas",
+      "audit_club": "Players Development Academy",
+      "goals": 3,
+      "rank": 10
+    },
+    {
+      "player": "Landon Rodgers",
+      "audit_club": "AB7 Future Academy",
+      "goals": 3,
+      "rank": 10
+    },
+    {
+      "player": "Ali Haghighi",
+      "audit_club": "The Football Academy",
+      "goals": 2,
+      "rank": 16
+    },
+    {
+      "player": "Ali Shahrabi Farahani",
+      "audit_club": "PDA SC Vistula",
+      "goals": 2,
+      "rank": 16
+    },
+    {
+      "player": "Colby Miller",
+      "audit_club": "Real Futbol Academy",
+      "goals": 2,
+      "rank": 16
+    },
+    {
+      "player": "Crosby Otieno",
+      "audit_club": "Jersey Football Club",
+      "goals": 2,
+      "rank": 16
+    },
+    {
+      "player": "Felipe Franco",
+      "audit_club": "Cedar Stars Academy Bergen",
+      "goals": 2,
+      "rank": 16
+    },
+    {
+      "player": "Ian Griffin",
+      "audit_club": "The Football Academy",
+      "goals": 2,
+      "rank": 16
+    },
+    {
+      "player": "Ian Vasquez",
+      "audit_club": "PDA Hibernian",
+      "goals": 2,
+      "rank": 16
+    },
+    {
+      "player": "Jeremy Mancia",
+      "audit_club": "Real Futbol Academy",
+      "goals": 2,
+      "rank": 16
+    },
+    {
+      "player": "Jordan Skot",
+      "audit_club": "AB7 Future Academy",
+      "goals": 2,
+      "rank": 16
+    },
+    {
+      "player": "Lucas Rodriguez",
+      "audit_club": "The Football Academy",
+      "goals": 2,
+      "rank": 16
+    },
+    {
+      "player": "Maxwell Michel",
+      "audit_club": "The Football Academy",
+      "goals": 2,
+      "rank": 16
+    },
+    {
+      "player": "Muhammad Ndour",
+      "audit_club": "Jersey Football Club",
+      "goals": 2,
+      "rank": 16
+    },
+    {
+      "player": "Nana Agyeman Jr.",
+      "audit_club": "TSF Academy",
+      "goals": 2,
+      "rank": 16
+    },
+    {
+      "player": "Nathaniel Thomas",
+      "audit_club": "The Football Academy",
+      "goals": 2,
+      "rank": 16
+    },
+    {
+      "player": "Omer Hamerman",
+      "audit_club": "Cedar Stars Academy Bergen",
+      "goals": 2,
+      "rank": 16
+    },
+    {
+      "player": "PIETRUSZEWSKI Damian",
+      "audit_club": "Jersey Football Club",
+      "goals": 2,
+      "rank": 16
+    },
+    {
+      "player": "Ruhaan Rathi",
+      "audit_club": "TSF Academy",
+      "goals": 2,
+      "rank": 16
+    },
+    {
+      "player": "Ryan Boyle",
+      "audit_club": "PDA Hibernian",
+      "goals": 2,
+      "rank": 16
+    },
+    {
+      "player": "Shinji Kaneko",
+      "audit_club": "Players Development Academy",
+      "goals": 2,
+      "rank": 16
+    },
+    {
+      "player": "Valentino DiMeglio",
+      "audit_club": "Players Development Academy",
+      "goals": 2,
+      "rank": 16
+    },
+    {
+      "player": "Viraj Chauhan",
+      "audit_club": "Cedar Stars Academy Newark",
+      "goals": 2,
+      "rank": 16
+    },
+    {
+      "player": "Yusuf Aly",
+      "audit_club": "Real Futbol Academy",
+      "goals": 2,
+      "rank": 16
+    },
+    {
+      "player": "Adam Dardeir",
+      "audit_club": "AB7 Future Academy",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Alban Berdica",
+      "audit_club": "AB7 Future Academy",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Alexander Gonzalez",
+      "audit_club": "PDA SC Vistula",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Andrew Levenbach",
+      "audit_club": "Real Futbol Academy",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Bodhi Gerber",
+      "audit_club": "Real Futbol Academy",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Brayden Schwambach",
+      "audit_club": "Real Futbol Academy",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Carter Moreng",
+      "audit_club": "PDA SC Vistula",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Damon Keddell",
+      "audit_club": "TSF Academy",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Daniel Maziarz",
+      "audit_club": "Torpedoes SC",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Daniel Valera",
+      "audit_club": "Jersey Football Club",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Dmitriy Kalinichenko",
+      "audit_club": "The Football Academy",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Evan Boyle",
+      "audit_club": "PDA Hibernian",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Everett Gottschall",
+      "audit_club": "Players Development Academy",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Fabian Chapman",
+      "audit_club": "PDA Hibernian",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Henry Hysa",
+      "audit_club": "AB7 Future Academy",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Idan Salkinder",
+      "audit_club": "Players Development Academy",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Isaiah Kotei",
+      "audit_club": "Cedar Stars Academy Newark",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Joaquin Shoaf Kozak",
+      "audit_club": "PDA Hibernian",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Johan Romero",
+      "audit_club": "Real Futbol Academy",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Jordi Morocho",
+      "audit_club": "PDA SC Vistula",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Juan F Cubides Estupinan",
+      "audit_club": "PDA SC Vistula",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Kolson Bloch",
+      "audit_club": "Torpedoes SC",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Kyler Sousa",
+      "audit_club": "Cedar Stars Academy Newark",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Leo Bubbs",
+      "audit_club": "The Football Academy",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Leyton Libo",
+      "audit_club": "Players Development Academy",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Liam Inyang",
+      "audit_club": "PDA Hibernian",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Lucca Yassky",
+      "audit_club": "TSF Academy",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Luciano Firenzuoli",
+      "audit_club": "The Football Academy",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Luke Burke",
+      "audit_club": "Real Futbol Academy",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Manu Barwuah",
+      "audit_club": "Real Futbol Academy",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Mark Hakim",
+      "audit_club": "Players Development Academy",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Mason Maravi",
+      "audit_club": "Cedar Stars Academy Newark",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Mason Neves",
+      "audit_club": "The Football Academy",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Matthew Ribeiro",
+      "audit_club": "Jersey Football Club",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Maximilian Jung",
+      "audit_club": "Cedar Stars Academy Newark",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Michael Nero",
+      "audit_club": "Torpedoes SC",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Nicholas Cincotta",
+      "audit_club": "Players Development Academy",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Paulo Andreev",
+      "audit_club": "Torpedoes SC",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Satvik Chelluka",
+      "audit_club": "Players Development Academy",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Sterling Panora",
+      "audit_club": "Players Development Academy",
+      "goals": 1,
+      "rank": 38
+    },
+    {
+      "player": "Thomas Downs, VI",
+      "audit_club": "Jersey Football Club",
+      "goals": 1,
+      "rank": 38
+    }
+  ],
+  "ab7": [
+    {
+      "player": "Bilal Williams",
+      "jersey": "29",
+      "roster_age": "U13",
+      "goals": 4,
+      "rank": 1
+    },
+    {
+      "player": "Noah Bllaca",
+      "jersey": "41",
+      "roster_age": "U13",
+      "goals": 4,
+      "rank": 1
+    },
+    {
+      "player": "Amdi Sulejmani",
+      "jersey": "14",
+      "roster_age": "U13",
+      "goals": 3,
+      "rank": 3
+    },
+    {
+      "player": "Landon Rodgers",
+      "jersey": "18",
+      "roster_age": "U13",
+      "goals": 3,
+      "rank": 3
+    },
+    {
+      "player": "Jordan Skot",
+      "jersey": "9",
+      "roster_age": "U13",
+      "goals": 2,
+      "rank": 5
+    },
+    {
+      "player": "Adam Dardeir",
+      "jersey": "15",
+      "roster_age": "U13",
+      "goals": 1,
+      "rank": 6
+    },
+    {
+      "player": "Alban Berdica",
+      "jersey": "8",
+      "roster_age": "U12",
+      "goals": 1,
+      "rank": 6
+    },
+    {
+      "player": "Henry Hysa",
+      "jersey": "7",
+      "roster_age": "U13",
+      "goals": 1,
+      "rank": 6
+    }
+  ],
+  "matches": [
+    {
+      "date": "2026-10-04",
+      "home": "Cedar Stars Academy Newark",
+      "away": "Cedar Stars Academy Bergen",
+      "hs": 0,
+      "as_": 1,
+      "completed": true,
+      "event_id": "5857074"
+    },
+    {
+      "date": "2026-10-04",
+      "home": "The Football Academy",
+      "away": "TSF Academy",
+      "hs": 1,
+      "as_": 4,
+      "completed": true,
+      "event_id": "5856777"
+    },
+    {
+      "date": "2026-10-04",
+      "home": "Jersey Football Club",
+      "away": "Union County Football Club",
+      "hs": 3,
+      "as_": 3,
+      "completed": true,
+      "event_id": "5857230"
+    },
+    {
+      "date": "2026-10-04",
+      "home": "Real Futbol Academy",
+      "away": "AB7 Future Academy",
+      "hs": 2,
+      "as_": 3,
+      "completed": true,
+      "event_id": "5855700"
+    },
+    {
+      "date": "2026-10-04",
+      "home": "Ironbound Soccer Club",
+      "away": "Cedar Stars Academy Monmouth",
+      "hs": 2,
+      "as_": 0,
+      "completed": true,
+      "event_id": "5855127"
+    },
+    {
+      "date": "2026-10-04",
+      "home": "Torpedoes SC",
+      "away": "Trenton City Soccer Club",
+      "hs": 1,
+      "as_": 1,
+      "completed": true,
+      "event_id": "5858268"
+    },
+    {
+      "date": "2026-10-04",
+      "home": "Players Development Academy",
+      "away": "PDA SC Vistula",
+      "hs": 5,
+      "as_": 1,
+      "completed": true,
+      "event_id": "5855514"
+    },
+    {
+      "date": "2026-10-03",
+      "home": "Jersey Football Club",
+      "away": "Cedar Stars Academy Newark",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857290"
+    },
+    {
+      "date": "2026-10-03",
+      "home": "PDA Hibernian",
+      "away": "The Football Academy",
+      "hs": 5,
+      "as_": 5,
+      "completed": true,
+      "event_id": "5856578"
+    },
+    {
+      "date": "2026-10-03",
+      "home": "Torpedoes SC",
+      "away": "PDA SC Vistula",
+      "hs": 1,
+      "as_": 1,
+      "completed": true,
+      "event_id": "5858244"
+    },
+    {
+      "date": "2026-10-03",
+      "home": "Cedar Stars Academy Monmouth",
+      "away": "AB7 Future Academy",
+      "hs": 0,
+      "as_": 8,
+      "completed": true,
+      "event_id": "5854630"
+    },
+    {
+      "date": "2026-10-03",
+      "home": "Real Futbol Academy",
+      "away": "Union County Football Club",
+      "hs": 3,
+      "as_": 1,
+      "completed": true,
+      "event_id": "5855724"
+    },
+    {
+      "date": "2026-10-03",
+      "home": "Players Development Academy",
+      "away": "Ironbound Soccer Club",
+      "hs": 5,
+      "as_": 0,
+      "completed": true,
+      "event_id": "5855496"
+    },
+    {
+      "date": "2026-09-27",
+      "home": "PDA Hibernian",
+      "away": "PDA SC Vistula",
+      "hs": 6,
+      "as_": 2,
+      "completed": true,
+      "event_id": "5856620"
+    },
+    {
+      "date": "2026-09-27",
+      "home": "Real Futbol Academy",
+      "away": "TSF Academy",
+      "hs": 1,
+      "as_": 0,
+      "completed": true,
+      "event_id": "5855586"
+    },
+    {
+      "date": "2026-09-20",
+      "home": "Cedar Stars Academy Bergen",
+      "away": "Players Development Academy",
+      "hs": 1,
+      "as_": 1,
+      "completed": true,
+      "event_id": "5854486"
+    },
+    {
+      "date": "2026-09-20",
+      "home": "Jersey Football Club",
+      "away": "The Football Academy",
+      "hs": 3,
+      "as_": 6,
+      "completed": true,
+      "event_id": "5857302"
+    },
+    {
+      "date": "2026-09-20",
+      "home": "PDA SC Vistula",
+      "away": "Ironbound Soccer Club",
+      "hs": 11,
+      "as_": 0,
+      "completed": true,
+      "event_id": "5858059"
+    },
+    {
+      "date": "2026-09-20",
+      "home": "Torpedoes SC",
+      "away": "Real Futbol Academy",
+      "hs": 2,
+      "as_": 1,
+      "completed": true,
+      "event_id": "5858316"
+    },
+    {
+      "date": "2026-09-20",
+      "home": "TSF Academy",
+      "away": "Union County Football Club",
+      "hs": 2,
+      "as_": 0,
+      "completed": true,
+      "event_id": "5855863"
+    },
+    {
+      "date": "2026-09-20",
+      "home": "Cedar Stars Academy Monmouth",
+      "away": "Cedar Stars Academy Newark",
+      "hs": 1,
+      "as_": 4,
+      "completed": true,
+      "event_id": "5854600"
+    },
+    {
+      "date": "2026-09-20",
+      "home": "AB7 Future Academy",
+      "away": "PDA Hibernian",
+      "hs": 3,
+      "as_": 1,
+      "completed": true,
+      "event_id": "5858178"
+    },
+    {
+      "date": "2026-09-19",
+      "home": "The Football Academy",
+      "away": "AB7 Future Academy",
+      "hs": 3,
+      "as_": 5,
+      "completed": true,
+      "event_id": "5856668"
+    },
+    {
+      "date": "2026-09-19",
+      "home": "Cedar Stars Academy Bergen",
+      "away": "Ironbound Soccer Club",
+      "hs": 2,
+      "as_": 0,
+      "completed": true,
+      "event_id": "5854444"
+    },
+    {
+      "date": "2026-09-19",
+      "home": "TSF Academy",
+      "away": "Cedar Stars Academy Monmouth",
+      "hs": 8,
+      "as_": 0,
+      "completed": true,
+      "event_id": "5855730"
+    },
+    {
+      "date": "2026-09-19",
+      "home": "Cedar Stars Academy Newark",
+      "away": "Real Futbol Academy",
+      "hs": 2,
+      "as_": 3,
+      "completed": true,
+      "event_id": "5857062"
+    },
+    {
+      "date": "2026-09-19",
+      "home": "Union County Football Club",
+      "away": "PDA SC Vistula",
+      "hs": 5,
+      "as_": 1,
+      "completed": true,
+      "event_id": "5857086"
+    },
+    {
+      "date": "2026-09-19",
+      "home": "Players Development Academy",
+      "away": "Jersey Football Club",
+      "hs": 5,
+      "as_": 1,
+      "completed": true,
+      "event_id": "5855502"
+    },
+    {
+      "date": "2026-09-13",
+      "home": "Union County Football Club",
+      "away": "Trenton City Soccer Club",
+      "hs": 3,
+      "as_": 4,
+      "completed": true,
+      "event_id": "5857122"
+    },
+    {
+      "date": "2026-09-13",
+      "home": "Cedar Stars Academy Monmouth",
+      "away": "The Football Academy",
+      "hs": 0,
+      "as_": 10,
+      "completed": true,
+      "event_id": "5854594"
+    },
+    {
+      "date": "2026-09-13",
+      "home": "PDA SC Vistula",
+      "away": "Real Futbol Academy",
+      "hs": 1,
+      "as_": 5,
+      "completed": true,
+      "event_id": "5858052"
+    },
+    {
+      "date": "2026-09-13",
+      "home": "Jersey Football Club",
+      "away": "Cedar Stars Academy Bergen",
+      "hs": 5,
+      "as_": 3,
+      "completed": true,
+      "event_id": "5857350"
+    },
+    {
+      "date": "2026-09-13",
+      "home": "Cedar Stars Academy Newark",
+      "away": "Players Development Academy",
+      "hs": 1,
+      "as_": 3,
+      "completed": true,
+      "event_id": "5857068"
+    },
+    {
+      "date": "2026-09-13",
+      "home": "Ironbound Soccer Club",
+      "away": "TSF Academy",
+      "hs": 1,
+      "as_": 3,
+      "completed": true,
+      "event_id": "5855103"
+    }
+  ],
+  "meta": {
+    "completed": 33,
+    "scheduled": 1,
+    "scorer_events": 173,
+    "source_attributed": 149,
+    "inferred": 13,
+    "unresolved": 7,
+    "own_goals": 4
+  }
+}

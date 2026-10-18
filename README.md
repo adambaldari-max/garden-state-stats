@@ -1,25 +1,9 @@
-# Garden State Academy Stats — Professional Redesign
+# Garden State Stats — Broadcast Edition
 
-Independent, unofficial MLS NEXT Academy Division U13 Garden State Conference statistics site. Static GitHub Pages deployment; no backend required.
+Website theme inspired by the user-provided navy, white and gold Top 25 poster. The poster is a visual reference only: the site continues using the audited October 16 snapshot rather than copying its potentially inaccurate player rows.
 
-## Upload
+## Deploy to GitHub Pages
 
-1. Extract the ZIP.
-2. In `https://github.com/adambaldari-max/garden-state-stats`, upload `index.html`, `style.css`, `app.js`, and the `data` folder **at the repository root**, replacing existing files.
-3. Commit changes on `main`. GitHub Pages should deploy automatically.
-4. Open `https://adambaldari-max.github.io/garden-state-stats/?v=pro-20261018` and hard refresh if needed.
+Upload `index.html`, `style.css`, `app.js`, and the `data` directory into the root of `adambaldari-max/garden-state-stats`, replacing files with matching names. Commit to `main`. Refresh https://adambaldari-max.github.io/garden-state-stats/ after deployment.
 
-## Important
-
-- `data/stats.json` must remain inside the `data` directory.
-- Standings are recalculated from completed match scores using 3/1/0 points and sorted by PPM, then GD, then GF. AB7 is first at 3.00 PPM.
-- The 2026-10-16 data snapshot is preserved, not live-updated.
-- Golden Boot data is provisional and excludes unresolved or inferred player-club attribution.
-- No official MLS NEXT affiliation or endorsement is implied.
-
-## Files
-
-- `index.html`: page layout and content
-- `style.css`: responsive visual styling
-- `app.js`: tabs, standings calculation, filters, and match archive
-- `data/stats.json`: source snapshot
+No external image assets or unverified team crests are used. Standings are calculated from completed matches, ranked by PPM (3-1-0). Player statistics remain provisional.

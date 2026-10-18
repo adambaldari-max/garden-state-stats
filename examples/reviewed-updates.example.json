@@ -1,0 +1,29 @@
+{
+  "approved": false,
+  "snapshot_date": "2026-10-18",
+  "source_note": "Replace with verified source description and access date.",
+  "ages": {
+    "U13": {
+      "matches": [
+        {
+          "event_id": "REPLACE_WITH_EXISTING_EVENT_ID",
+          "completed": true,
+          "hs": 2,
+          "as_": 1,
+          "verified": true,
+          "source_url": "https://example.org/official-match-result"
+        }
+      ],
+      "players": [
+        {
+          "player": "REPLACE_WITH_EXACT_EXISTING_NAME",
+          "audit_club": "REPLACE_WITH_EXACT_CLUB",
+          "goals": 5,
+          "verified": true,
+          "source_url": "https://example.org/player-statistics"
+        }
+      ]
+    },
+    "U14": { "matches": [], "players": [] }
+  }
+}

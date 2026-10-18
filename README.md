@@ -1,10 +1,11 @@
-# Garden State Stats — U13 + U14
+# U13 + U14 statistics — repaired package
 
-Upload the contents of this folder to the GitHub Pages repository root. Preserve `data/stats.json` and `data/u14.json`.
+Upload ALL files and folders from this package to the ROOT of your GitHub Pages repository (not the enclosing folder). Replace existing files.
 
-## Coverage limitations
-U13 is the original audited snapshot (through October 16, 2026). U14 currently includes **15 verified results** gathered from public U14 Garden State club schedules, **not all conference matches**. The U14 standings are therefore explicitly marked partial, and U14 Golden Boot/individual player stats are withheld until scorer events can be audited. Do not describe the U14 standings as complete or official.
+Files: index.html, style.css, app.js, data/stats.json, data/u14.json, data/embedded.js.
 
-Sources: https://leaguetables.soccer/mls-next-academy-division/u14/garden-state/ab7-future-academy ; https://leaguetables.soccer/mls-next-academy-division/u14/garden-state/the-football-academy ; https://leaguetables.soccer/mls-next-academy-division/u14/garden-state/jersey-football-club ; https://leaguetables.soccer/mls-next-academy-division/u14/garden-state/players-development-academy
+The new `data/embedded.js` holds an offline fallback copy of both age-group snapshots, so a missing JSON upload cannot blank the whole site. JSON remains the preferred source when available.
 
-Next step: ingest the complete U14 official schedule and independently audited scorer events.
+U13: 33 completed games, 15 teams, 175 goals (Oct 16 snapshot). U14: 15-game partial sample, NOT a complete conference table. Individual U14 scorer attribution remains unavailable.
+
+After committing, refresh with Ctrl+Shift+R.

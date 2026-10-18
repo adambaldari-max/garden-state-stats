@@ -33,13 +33,25 @@ function renderAge(){
   }else{el('spotlightBanner').style.display='';}
   if(age==='u13'){const warning=el('u14Warning');if(warning)warning.remove()}
 }
-Promise.all([
-  fetch('data/stats.json?v=u14-20261018-2',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('U13 data missing');return r.json()}),
-  fetch('data/u14.json?v=u14-20261018-2',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('U14 data missing');return r.json()})
-]).then(([u13,u14])=>{
+// The embedded snapshots guarantee that both age groups remain visible even if a JSON file is missing.
+const backup=window.GARDEN_STATE_DATA||{};
+async function loadSnapshot(ageGroup, file){
+  try {
+    const response=await fetch(file+'?v=repair-20261018-3',{cache:'no-store'});
+    if(!response.ok)throw new Error(file+' returned HTTP '+response.status);
+    const data=await response.json();
+    if(!data || !Array.isArray(data.matches))throw new Error(file+' has an unexpected format');
+    return data;
+  } catch(error){
+    console.warn('Using packaged '+ageGroup.toUpperCase()+' backup data:',error);
+    if(backup[ageGroup])return backup[ageGroup];
+    throw error;
+  }
+}
+Promise.all([loadSnapshot('u13','data/stats.json'),loadSnapshot('u14','data/u14.json')]).then(([u13,u14])=>{
  originalU13=u13;originalU14=u14;
  document.querySelectorAll('.age-button').forEach(b=>b.addEventListener('click',()=>{const warn=el('u14Warning');if(warn)warn.remove();age=b.dataset.age;renderAge()}));
  ['playerSearch','clubFilter','top25'].forEach(id=>el(id).addEventListener('input',drawScorers));
  ['resultClub','showUpcoming'].forEach(id=>el(id).addEventListener('input',drawResults));
  renderAge();const tab=location.hash.slice(1);if(['standings','scorers','ab7','results','about'].includes(tab))setTab(tab);
-}).catch(err=>{el('standingsRows').innerHTML='<tr><td colspan="11">Data could not load. Check data/stats.json and data/u14.json.</td></tr>';console.error(err)});
+}).catch(err=>{el('standingsRows').innerHTML='<tr><td colspan="11">Unable to load the bundled statistics. Please re-upload all files.</td></tr>';console.error(err)});

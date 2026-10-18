@@ -28,19 +28,19 @@ function renderAge(){
 
     // drawAb7() supplies the appropriate U14 provisional-data notice.
     el('spotlightBanner').style.display='none';
-    const msg='U14 official match standings through Oct 16. Golden Boot entries are FootyAccess candidates, NOT verified Garden State-only goals.';
+    const msg='U14 official match standings through Oct 16. Golden Boot: 81 FootyAccess U14 candidates; MLS NEXT-wide totals are NOT verified Garden State-only goals.';
     el('standingsRows').insertAdjacentHTML('beforebegin', '<tr id="u14Warning"><td colspan="11" style="padding:14px;background:#fff0cf;color:#603b00;font-weight:700">'+msg+'</td></tr>');
   }else{el('spotlightBanner').style.display='';}
   if(age==='u13'){const warning=el('u14Warning');if(warning)warning.remove()}
   const count=el('standingsCount');if(count)count.textContent=`Showing ${db.standings.length} of ${db.standings.length} conference clubs`;
   const scorerCount=el('scorerCount');if(scorerCount)scorerCount.textContent=`${db.scorers.length} provisional scoring entries available for ${age.toUpperCase()}`;
-  const note=document.getElementById('scorerAuditNotice');if(note)note.textContent=age==='u14'?'U14: Candidate scorer totals are all-competition FootyAccess totals; they are NOT confirmed Garden State-only goals. List is incomplete below 4 goals.':'U13: Match-event scorer totals are provisional. Two goals remain unreconciled against official scores, and 24 goal events have uncertain club attribution.';
+  const note=document.getElementById('scorerAuditNotice');if(note)note.textContent=age==='u14'?'U14: Candidate scorer totals are all-competition FootyAccess totals; they are NOT confirmed Garden State-only goals. 81 players from the U14 age-filtered capture, including one-goal scorers.':'U13: Match-event scorer totals are provisional. Two goals remain unreconciled against official scores, and 24 goal events have uncertain club attribution.';
 }
 // The embedded snapshots guarantee that both age groups remain visible even if a JSON file is missing.
 const backup=window.GARDEN_STATE_DATA||{};
 async function loadSnapshot(ageGroup, file){
   try {
-    const response=await fetch(file+'?v=displayfix-20261018-5',{cache:'no-store'});
+    const response=await fetch(file+'?v=u14full-20261018-6',{cache:'no-store'});
     if(!response.ok)throw new Error(file+' returned HTTP '+response.status);
     const data=await response.json();
     if(!data || !Array.isArray(data.matches))throw new Error(file+' has an unexpected format');

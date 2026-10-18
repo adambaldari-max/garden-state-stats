@@ -7,7 +7,7 @@ function setTab(id){document.querySelectorAll('.panel').forEach(p=>p.classList.t
 document.querySelectorAll('.tabs button').forEach(b=>b.addEventListener('click',()=>setTab(b.dataset.tab)));
 function calculateStandings(data){const teams=new Map((data.standings||[]).map(t=>[t.team,{team:t.team,played:0,w:0,d:0,l:0,gf:0,ga:0}]));for(const m of data.matches){if(!m.completed||!Number.isFinite(m.hs)||!Number.isFinite(m.as_))continue;for(const [name,gf,ga] of [[m.home,m.hs,m.as_],[m.away,m.as_,m.hs]]){if(!teams.has(name))teams.set(name,{team:name,played:0,w:0,d:0,l:0,gf:0,ga:0});const t=teams.get(name);t.played++;t.gf+=gf;t.ga+=ga;if(gf>ga)t.w++;else if(gf===ga)t.d++;else t.l++}}const result=[...teams.values()];for(const t of result){t.pts=3*t.w+t.d;t.gd=t.gf-t.ga;t.ppm=t.played?t.pts/t.played:0}result.sort((a,b)=>b.ppm-a.ppm||b.gd-a.gd||b.gf-a.gf||a.team.localeCompare(b.team));result.forEach((t,i)=>t.rank=i+1);return result}
 function drawStandings(){el('standingsRows').innerHTML=db.standings.map(x=>`<tr class="${x.team==='AB7 Future Academy'?'highlight':''}"><td>${x.rank}</td><td>${safe(x.team)}</td><td>${x.played}</td><td>${x.w}</td><td>${x.d}</td><td>${x.l}</td><td>${x.gf}</td><td>${x.ga}</td><td>${x.gd>0?'+':''}${x.gd}</td><td>${x.pts}</td><td class="ppm-value">${x.ppm.toFixed(2)}</td></tr>`).join('')}
-function drawScorers(){if(age==='u14'){el('scorerRows').innerHTML='<tr><td colspan=4>U14 individual scorer records are not verified yet.</td></tr>';return}const s=el('playerSearch').value.trim().toLowerCase(),club=el('clubFilter').value,top=el('top25').checked;let list=db.scorers.filter(x=>(!club||x.audit_club===club)&&(`${x.player} ${x.audit_club}`.toLowerCase().includes(s)));if(top)list=list.filter(x=>db.scorers.indexOf(x)<25);el('scorerRows').innerHTML=list.map(x=>`<tr><td>${x.rank}</td><td>${safe(x.player)}</td><td>${safe(x.audit_club)}</td><td class="ppm-value">${x.goals}</td></tr>`).join('')||'<tr><td colspan="4">No matching players</td></tr>'}
+function drawScorers(){const s=el('playerSearch').value.trim().toLowerCase(),club=el('clubFilter').value,top=el('top25').checked;let list=db.scorers.filter(x=>(!club||x.audit_club===club)&&(`${x.player} ${x.audit_club}`.toLowerCase().includes(s)));if(top)list=list.filter(x=>db.scorers.indexOf(x)<25);el('scorerRows').innerHTML=list.map(x=>`<tr><td>${x.rank}</td><td>${safe(x.player)}</td><td>${safe(x.audit_club)}</td><td class="ppm-value">${x.goals}</td></tr>`).join('')||'<tr><td colspan="4">No matching players</td></tr>'}
 function drawAb7(){el('ab7Rows').innerHTML=(db.ab7||[]).map(x=>`<tr><td>${x.rank}</td><td>${safe(x.player)}</td><td>#${safe(x.jersey)}</td><td>${safe(x.roster_age)}</td><td class="ppm-value">${x.goals}</td></tr>`).join('') || '<tr><td colspan=5>U14 player scoring records are not yet verified.</td></tr>'}
 function drawResults(){const club=el('resultClub').value,upcoming=el('showUpcoming').checked;const list=db.matches.filter(x=>(!club||x.home===club||x.away===club)&&(upcoming||x.completed));el('resultsList').innerHTML=list.map(x=>`<div class="game"><span class="date">${niceDate(x.date)}</span><span class="home">${safe(x.home)}</span><span class="score ${x.completed?'':'pending'}">${x.completed?x.hs+' – '+x.as_:'TBD'}</span><span class="away">${safe(x.away)}</span></div>`).join('')||'<p>No matches found.</p>'}
 function renderAge(){
@@ -16,7 +16,7 @@ function renderAge(){
   document.querySelectorAll('.age-button').forEach(b=>b.classList.toggle('selected',b.dataset.age===age));
   document.querySelectorAll('.age-text').forEach(e=>e.textContent=age.toUpperCase());
   ['heroAge','visualAge','overlineAge'].forEach(id=>{const e=el(id);if(e)e.textContent=age.toUpperCase()});
-  el('coverageStatus').textContent=age==='u14'?'U14 · Partial verified results only':'U13 · Audited snapshot';
+  el('coverageStatus').textContent=age==='u14'?'U14 · Official results / provisional scorers':'U13 · Official results / provisional scorers';
   el('matchCount').textContent=db.matches.filter(m=>m.completed).length;
   el('clubCount').textContent=db.standings.length;
   el('goalCount').textContent=db.standings.reduce((s,t)=>s+t.gf,0);
@@ -25,19 +25,20 @@ function renderAge(){
   el('playerSearch').value='';el('top25').checked=true;
   drawStandings();drawScorers();drawResults();
   if(age==='u14'){
-    el('scorerRows').innerHTML='<tr><td colspan="4">U14 Golden Boot unavailable until individual scorer records are verified.</td></tr>';
+
     el('ab7Rows').innerHTML='<tr><td colspan="5">U14 individual scorers not yet verified.</td></tr>';
     el('spotlightBanner').style.display='none';
-    const msg='U14 PARTIAL DATA: These standings include only a verified subset of matches and are NOT the full conference table.';
+    const msg='U14 official match standings through Oct 16. Golden Boot entries are FootyAccess candidates, NOT verified Garden State-only goals.';
     el('standingsRows').insertAdjacentHTML('beforebegin', '<tr id="u14Warning"><td colspan="11" style="padding:14px;background:#fff0cf;color:#603b00;font-weight:700">'+msg+'</td></tr>');
   }else{el('spotlightBanner').style.display='';}
   if(age==='u13'){const warning=el('u14Warning');if(warning)warning.remove()}
+  const note=document.getElementById('scorerAuditNotice');if(note)note.textContent=age==='u14'?'U14: Candidate scorer totals are all-competition FootyAccess totals; they are NOT confirmed Garden State-only goals. List is incomplete below 4 goals.':'U13: Match-event scorer totals are provisional. Two goals remain unreconciled against official scores, and 24 goal events have uncertain club attribution.';
 }
 // The embedded snapshots guarantee that both age groups remain visible even if a JSON file is missing.
 const backup=window.GARDEN_STATE_DATA||{};
 async function loadSnapshot(ageGroup, file){
   try {
-    const response=await fetch(file+'?v=repair-20261018-3',{cache:'no-store'});
+    const response=await fetch(file+'?v=validated-20261018-4',{cache:'no-store'});
     if(!response.ok)throw new Error(file+' returned HTTP '+response.status);
     const data=await response.json();
     if(!data || !Array.isArray(data.matches))throw new Error(file+' has an unexpected format');

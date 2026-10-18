@@ -1,87 +1,43 @@
 {
-  "updated": "2026-10-17",
-  "coverage": "partial",
-  "source_note": "Verified subset of U14 Garden State results, not full conference coverage. Do not interpret standings as official or complete.",
+  "updated": "2026-10-16",
+  "coverage": "official completed-match results, full Garden State schedule snapshot",
+  "source_note": "Official MLS NEXT Academy Division Garden State schedule snapshot through October 16, 2026. Scorer lists are provisional and separately qualified.",
   "matches": [
+    {
+      "date": "2026-09-13",
+      "home": "Ironbound Soccer Club",
+      "away": "TSF Academy",
+      "hs": 4,
+      "as_": 1,
+      "completed": true,
+      "event_id": "5855106"
+    },
+    {
+      "date": "2026-09-13",
+      "home": "PDA SC Vistula",
+      "away": "Real Futbol Academy",
+      "hs": 8,
+      "as_": 1,
+      "completed": true,
+      "event_id": "5858056"
+    },
     {
       "date": "2026-09-13",
       "home": "Cedar Stars Academy Monmouth",
       "away": "The Football Academy",
       "hs": 1,
       "as_": 5,
-      "completed": true
-    },
-    {
-      "date": "2026-09-19",
-      "home": "The Football Academy",
-      "away": "AB7 Future Academy",
-      "hs": 1,
-      "as_": 1,
-      "completed": true
-    },
-    {
-      "date": "2026-09-20",
-      "home": "Jersey Football Club",
-      "away": "The Football Academy",
-      "hs": 4,
-      "as_": 0,
-      "completed": true
-    },
-    {
-      "date": "2026-09-27",
-      "home": "The Football Academy",
-      "away": "Cedar Stars Academy Bergen",
-      "hs": 1,
-      "as_": 4,
-      "completed": true
-    },
-    {
-      "date": "2026-10-03",
-      "home": "PDA Hibernian",
-      "away": "The Football Academy",
-      "hs": 2,
-      "as_": 2,
-      "completed": true
-    },
-    {
-      "date": "2026-10-04",
-      "home": "The Football Academy",
-      "away": "TSF Academy",
-      "hs": 3,
-      "as_": 0,
-      "completed": true
+      "completed": true,
+      "event_id": "5854597"
     },
     {
       "date": "2026-09-13",
-      "home": "Jersey Football Club",
-      "away": "Cedar Stars Academy Bergen",
-      "hs": 5,
-      "as_": 0,
-      "completed": true
-    },
-    {
-      "date": "2026-09-19",
-      "home": "Players Development Academy",
-      "away": "Jersey Football Club",
-      "hs": 1,
-      "as_": 6,
-      "completed": true
-    },
-    {
-      "date": "2026-10-03",
-      "home": "Jersey Football Club",
-      "away": "Cedar Stars Academy Newark",
-      "hs": 1,
-      "as_": 3,
-      "completed": true
-    },
-    {
-      "date": "2026-10-04",
-      "home": "Jersey Football Club",
-      "away": "Union County Football Club",
+      "home": "Union County Football Club",
+      "away": "Trenton City Soccer Club",
       "hs": 4,
-      "as_": 1,
-      "completed": true
+      "as_": 2,
+      "completed": true,
+      "event_id": "5857125"
     },
     {
       "date": "2026-09-13",
@@ -89,7 +45,107 @@
       "away": "Players Development Academy",
       "hs": 2,
       "as_": 2,
-      "completed": true
+      "completed": true,
+      "event_id": "5857071"
+    },
+    {
+      "date": "2026-09-13",
+      "home": "Jersey Football Club",
+      "away": "Cedar Stars Academy Bergen",
+      "hs": 5,
+      "as_": 0,
+      "completed": true,
+      "event_id": "5857354"
+    },
+    {
+      "date": "2026-09-19",
+      "home": "Players Development Academy",
+      "away": "Jersey Football Club",
+      "hs": 1,
+      "as_": 6,
+      "completed": true,
+      "event_id": "5855505"
+    },
+    {
+      "date": "2026-09-19",
+      "home": "Union County Football Club",
+      "away": "PDA SC Vistula",
+      "hs": 3,
+      "as_": 3,
+      "completed": true,
+      "event_id": "5857089"
+    },
+    {
+      "date": "2026-09-19",
+      "home": "Cedar Stars Academy Newark",
+      "away": "Real Futbol Academy",
+      "hs": 1,
+      "as_": 0,
+      "completed": true,
+      "event_id": "5857065"
+    },
+    {
+      "date": "2026-09-19",
+      "home": "Cedar Stars Academy Bergen",
+      "away": "Ironbound Soccer Club",
+      "hs": 6,
+      "as_": 1,
+      "completed": true,
+      "event_id": "5854447"
+    },
+    {
+      "date": "2026-09-19",
+      "home": "TSF Academy",
+      "away": "Cedar Stars Academy Monmouth",
+      "hs": 6,
+      "as_": 1,
+      "completed": true,
+      "event_id": "5855733"
+    },
+    {
+      "date": "2026-09-19",
+      "home": "The Football Academy",
+      "away": "AB7 Future Academy",
+      "hs": 1,
+      "as_": 1,
+      "completed": true,
+      "event_id": "5856671"
+    },
+    {
+      "date": "2026-09-20",
+      "home": "Cedar Stars Academy Monmouth",
+      "away": "Cedar Stars Academy Newark",
+      "hs": 1,
+      "as_": 6,
+      "completed": true,
+      "event_id": "5854603"
+    },
+    {
+      "date": "2026-09-20",
+      "home": "TSF Academy",
+      "away": "Union County Football Club",
+      "hs": 2,
+      "as_": 0,
+      "completed": true,
+      "event_id": "5855866"
+    },
+    {
+      "date": "2026-09-20",
+      "home": "Torpedoes SC",
+      "away": "Real Futbol Academy",
+      "hs": 3,
+      "as_": 0,
+      "completed": true,
+      "event_id": "5858319"
+    },
+    {
+      "date": "2026-09-20",
+      "home": "PDA SC Vistula",
+      "away": "Ironbound Soccer Club",
+      "hs": 4,
+      "as_": 1,
+      "completed": true,
+      "event_id": "5858062"
     },
     {
       "date": "2026-09-20",
@@ -97,7 +153,8 @@
       "away": "Players Development Academy",
       "hs": 1,
       "as_": 6,
-      "completed": true
+      "completed": true,
+      "event_id": "5854489"
     },
     {
       "date": "2026-09-20",
@@ -105,7 +162,71 @@
       "away": "PDA Hibernian",
       "hs": 0,
       "as_": 1,
-      "completed": true
+      "completed": true,
+      "event_id": "5858181"
+    },
+    {
+      "date": "2026-09-21",
+      "home": "Jersey Football Club",
+      "away": "The Football Academy",
+      "hs": 4,
+      "as_": 0,
+      "completed": true,
+      "event_id": "5857305"
+    },
+    {
+      "date": "2026-09-27",
+      "home": "PDA Hibernian",
+      "away": "PDA SC Vistula",
+      "hs": 2,
+      "as_": 4,
+      "completed": true,
+      "event_id": "5856623"
+    },
+    {
+      "date": "2026-09-27",
+      "home": "Real Futbol Academy",
+      "away": "TSF Academy",
+      "hs": 1,
+      "as_": 2,
+      "completed": true,
+      "event_id": "5855589"
+    },
+    {
+      "date": "2026-09-28",
+      "home": "The Football Academy",
+      "away": "Cedar Stars Academy Bergen",
+      "hs": 1,
+      "as_": 4,
+      "completed": true,
+      "event_id": "5856756"
+    },
+    {
+      "date": "2026-10-03",
+      "home": "Players Development Academy",
+      "away": "Ironbound Soccer Club",
+      "hs": 3,
+      "as_": 0,
+      "completed": true,
+      "event_id": "5855499"
+    },
+    {
+      "date": "2026-10-03",
+      "home": "PDA Hibernian",
+      "away": "The Football Academy",
+      "hs": 2,
+      "as_": 2,
+      "completed": true,
+      "event_id": "5856581"
+    },
+    {
+      "date": "2026-10-03",
+      "home": "Real Futbol Academy",
+      "away": "Union County Football Club",
+      "hs": 0,
+      "as_": 3,
+      "completed": true,
+      "event_id": "5855727"
     },
     {
       "date": "2026-10-03",
@@ -113,7 +234,62 @@
       "away": "AB7 Future Academy",
       "hs": 3,
       "as_": 2,
-      "completed": true
+      "completed": true,
+      "event_id": "5854633"
+    },
+    {
+      "date": "2026-10-03",
+      "home": "Torpedoes SC",
+      "away": "PDA SC Vistula",
+      "hs": 2,
+      "as_": 0,
+      "completed": true,
+      "event_id": "5858247"
+    },
+    {
+      "date": "2026-10-03",
+      "home": "Jersey Football Club",
+      "away": "Cedar Stars Academy Newark",
+      "hs": 1,
+      "as_": 3,
+      "completed": true,
+      "event_id": "5857293"
+    },
+    {
+      "date": "2026-10-04",
+      "home": "Players Development Academy",
+      "away": "PDA SC Vistula",
+      "hs": 2,
+      "as_": 0,
+      "completed": true,
+      "event_id": "5855517"
+    },
+    {
+      "date": "2026-10-04",
+      "home": "Torpedoes SC",
+      "away": "Trenton City Soccer Club",
+      "hs": 2,
+      "as_": 3,
+      "completed": true,
+      "event_id": "5858271"
+    },
+    {
+      "date": "2026-10-04",
+      "home": "Ironbound Soccer Club",
+      "away": "Cedar Stars Academy Monmouth",
+      "hs": 0,
+      "as_": 1,
+      "completed": true,
+      "event_id": "5855130"
+    },
+    {
+      "date": "2026-10-04",
+      "home": "Cedar Stars Academy Newark",
+      "away": "Cedar Stars Academy Bergen",
+      "hs": 3,
+      "as_": 1,
+      "completed": true,
+      "event_id": "5857077"
     },
     {
       "date": "2026-10-04",
@@ -121,10 +297,1447 @@
       "away": "AB7 Future Academy",
       "hs": 0,
       "as_": 1,
-      "completed": true
+      "completed": true,
+      "event_id": "5855703"
+    },
+    {
+      "date": "2026-10-04",
+      "home": "Jersey Football Club",
+      "away": "Union County Football Club",
+      "hs": 4,
+      "as_": 1,
+      "completed": true,
+      "event_id": "5857233"
+    },
+    {
+      "date": "2026-10-04",
+      "home": "The Football Academy",
+      "away": "TSF Academy",
+      "hs": 3,
+      "as_": 0,
+      "completed": true,
+      "event_id": "5856780"
+    },
+    {
+      "date": "2026-10-17",
+      "home": "PDA Hibernian",
+      "away": "Trenton City Soccer Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856575"
+    },
+    {
+      "date": "2026-10-18",
+      "home": "Cedar Stars Academy Bergen",
+      "away": "Torpedoes SC",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5854507"
+    },
+    {
+      "date": "2026-10-18",
+      "home": "Trenton City Soccer Club",
+      "away": "Real Futbol Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856919"
+    },
+    {
+      "date": "2026-10-18",
+      "home": "TSF Academy",
+      "away": "Jersey Football Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855872"
+    },
+    {
+      "date": "2026-10-18",
+      "home": "PDA SC Vistula",
+      "away": "Cedar Stars Academy Newark",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858031"
+    },
+    {
+      "date": "2026-10-18",
+      "home": "AB7 Future Academy",
+      "away": "Union County Football Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858235"
+    },
+    {
+      "date": "2026-10-18",
+      "home": "Cedar Stars Academy Monmouth",
+      "away": "PDA Hibernian",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5854591"
+    },
+    {
+      "date": "2026-10-19",
+      "home": "The Football Academy",
+      "away": "Players Development Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856792"
+    },
+    {
+      "date": "2026-10-24",
+      "home": "Cedar Stars Academy Monmouth",
+      "away": "Union County Football Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5854627"
+    },
+    {
+      "date": "2026-10-24",
+      "home": "Trenton City Soccer Club",
+      "away": "Ironbound Soccer Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856882"
+    },
+    {
+      "date": "2026-10-24",
+      "home": "PDA Hibernian",
+      "away": "Real Futbol Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856509"
+    },
+    {
+      "date": "2026-10-24",
+      "home": "Cedar Stars Academy Newark",
+      "away": "TSF Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857059"
+    },
+    {
+      "date": "2026-10-24",
+      "home": "Torpedoes SC",
+      "away": "The Football Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858277"
+    },
+    {
+      "date": "2026-10-24",
+      "home": "Cedar Stars Academy Bergen",
+      "away": "PDA SC Vistula",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5854495"
+    },
+    {
+      "date": "2026-10-24",
+      "home": "AB7 Future Academy",
+      "away": "Jersey Football Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858211"
+    },
+    {
+      "date": "2026-10-25",
+      "home": "Ironbound Soccer Club",
+      "away": "AB7 Future Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855046"
+    },
+    {
+      "date": "2026-10-25",
+      "home": "Players Development Academy",
+      "away": "PDA Hibernian",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855577"
+    },
+    {
+      "date": "2026-10-25",
+      "home": "PDA SC Vistula",
+      "away": "Jersey Football Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857964"
+    },
+    {
+      "date": "2026-10-25",
+      "home": "Union County Football Club",
+      "away": "Torpedoes SC",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857095"
+    },
+    {
+      "date": "2026-10-25",
+      "home": "Cedar Stars Academy Monmouth",
+      "away": "Trenton City Soccer Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5854585"
+    },
+    {
+      "date": "2026-10-25",
+      "home": "TSF Academy",
+      "away": "Cedar Stars Academy Bergen",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855739"
+    },
+    {
+      "date": "2026-10-25",
+      "home": "The Football Academy",
+      "away": "Real Futbol Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856786"
+    },
+    {
+      "date": "2026-11-01",
+      "home": "Trenton City Soccer Club",
+      "away": "TSF Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856913"
+    },
+    {
+      "date": "2026-11-01",
+      "home": "The Football Academy",
+      "away": "PDA SC Vistula",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856678"
+    },
+    {
+      "date": "2026-11-01",
+      "home": "Ironbound Soccer Club",
+      "away": "Torpedoes SC",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855052"
+    },
+    {
+      "date": "2026-11-01",
+      "home": "Players Development Academy",
+      "away": "Union County Football Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855511"
+    },
+    {
+      "date": "2026-11-01",
+      "home": "Real Futbol Academy",
+      "away": "Cedar Stars Academy Monmouth",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855625"
+    },
+    {
+      "date": "2026-11-01",
+      "home": "AB7 Future Academy",
+      "away": "Cedar Stars Academy Newark",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858157"
+    },
+    {
+      "date": "2026-11-01",
+      "home": "Jersey Football Club",
+      "away": "PDA Hibernian",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857299"
+    },
+    {
+      "date": "2026-11-08",
+      "home": "Cedar Stars Academy Newark",
+      "away": "Ironbound Soccer Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857083"
+    },
+    {
+      "date": "2026-11-08",
+      "home": "Cedar Stars Academy Bergen",
+      "away": "AB7 Future Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5854501"
+    },
+    {
+      "date": "2026-11-08",
+      "home": "Trenton City Soccer Club",
+      "away": "Jersey Football Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856834"
+    },
+    {
+      "date": "2026-11-08",
+      "home": "PDA Hibernian",
+      "away": "Cedar Stars Academy Newark",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856569"
+    },
+    {
+      "date": "2026-11-08",
+      "home": "Torpedoes SC",
+      "away": "TSF Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858325"
+    },
+    {
+      "date": "2026-11-08",
+      "home": "Union County Football Club",
+      "away": "Ironbound Soccer Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857155"
+    },
+    {
+      "date": "2026-11-08",
+      "home": "Real Futbol Academy",
+      "away": "Players Development Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855595"
+    },
+    {
+      "date": "2026-11-11",
+      "home": "PDA Hibernian",
+      "away": "Torpedoes SC",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856629"
+    },
+    {
+      "date": "2026-11-14",
+      "home": "Ironbound Soccer Club",
+      "away": "The Football Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855082"
+    },
+    {
+      "date": "2026-11-14",
+      "home": "Trenton City Soccer Club",
+      "away": "Cedar Stars Academy Bergen",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856906"
+    },
+    {
+      "date": "2026-11-15",
+      "home": "Trenton City Soccer Club",
+      "away": "AB7 Future Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856858"
+    },
+    {
+      "date": "2026-11-15",
+      "home": "Cedar Stars Academy Newark",
+      "away": "Torpedoes SC",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856943"
+    },
+    {
+      "date": "2026-11-15",
+      "home": "TSF Academy",
+      "away": "Players Development Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855782"
+    },
+    {
+      "date": "2026-11-15",
+      "home": "PDA SC Vistula",
+      "away": "Cedar Stars Academy Monmouth",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858069"
+    },
+    {
+      "date": "2026-11-15",
+      "home": "Real Futbol Academy",
+      "away": "Cedar Stars Academy Bergen",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855619"
+    },
+    {
+      "date": "2026-11-15",
+      "home": "Ironbound Soccer Club",
+      "away": "PDA Hibernian",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855076"
+    },
+    {
+      "date": "2026-11-15",
+      "home": "Union County Football Club",
+      "away": "The Football Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857149"
+    },
+    {
+      "date": "2026-11-21",
+      "home": "AB7 Future Academy",
+      "away": "Players Development Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858151"
+    },
+    {
+      "date": "2026-11-22",
+      "home": "Cedar Stars Academy Bergen",
+      "away": "Cedar Stars Academy Monmouth",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5854441"
+    },
+    {
+      "date": "2026-11-22",
+      "home": "PDA SC Vistula",
+      "away": "Trenton City Soccer Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858006"
+    },
+    {
+      "date": "2026-11-22",
+      "home": "Union County Football Club",
+      "away": "Cedar Stars Academy Newark",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857119"
+    },
+    {
+      "date": "2026-11-22",
+      "home": "Torpedoes SC",
+      "away": "Jersey Football Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858241"
+    },
+    {
+      "date": "2026-11-22",
+      "home": "TSF Academy",
+      "away": "PDA Hibernian",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855788"
+    },
+    {
+      "date": "2027-02-21",
+      "home": "Real Futbol Academy",
+      "away": "PDA SC Vistula",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855709"
+    },
+    {
+      "date": "2027-02-21",
+      "home": "TSF Academy",
+      "away": "Torpedoes SC",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855830"
+    },
+    {
+      "date": "2027-02-21",
+      "home": "PDA Hibernian",
+      "away": "Cedar Stars Academy Monmouth",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856551"
+    },
+    {
+      "date": "2027-02-21",
+      "home": "The Football Academy",
+      "away": "Union County Football Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856702"
+    },
+    {
+      "date": "2027-02-21",
+      "home": "Cedar Stars Academy Newark",
+      "away": "AB7 Future Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856949"
+    },
+    {
+      "date": "2027-02-21",
+      "home": "Jersey Football Club",
+      "away": "Ironbound Soccer Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857360"
+    },
+    {
+      "date": "2027-02-21",
+      "home": "Players Development Academy",
+      "away": "Cedar Stars Academy Bergen",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855481"
+    },
+    {
+      "date": "2027-02-28",
+      "home": "Cedar Stars Academy Bergen",
+      "away": "PDA Hibernian",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5854531"
+    },
+    {
+      "date": "2027-02-28",
+      "home": "Cedar Stars Academy Monmouth",
+      "away": "Players Development Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5854657"
+    },
+    {
+      "date": "2027-02-28",
+      "home": "TSF Academy",
+      "away": "Ironbound Soccer Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855745"
+    },
+    {
+      "date": "2027-02-28",
+      "home": "Cedar Stars Academy Newark",
+      "away": "Trenton City Soccer Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857040"
+    },
+    {
+      "date": "2027-02-28",
+      "home": "Union County Football Club",
+      "away": "Jersey Football Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857101"
+    },
+    {
+      "date": "2027-02-28",
+      "home": "PDA SC Vistula",
+      "away": "The Football Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857988"
+    },
+    {
+      "date": "2027-02-28",
+      "home": "AB7 Future Academy",
+      "away": "Real Futbol Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858132"
+    },
+    {
+      "date": "2027-03-07",
+      "home": "Real Futbol Academy",
+      "away": "Ironbound Soccer Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855601"
+    },
+    {
+      "date": "2027-03-07",
+      "home": "TSF Academy",
+      "away": "Cedar Stars Academy Newark",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855812"
+    },
+    {
+      "date": "2027-03-07",
+      "home": "The Football Academy",
+      "away": "Jersey Football Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856684"
+    },
+    {
+      "date": "2027-03-07",
+      "home": "Trenton City Soccer Club",
+      "away": "PDA SC Vistula",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856840"
+    },
+    {
+      "date": "2027-03-07",
+      "home": "Union County Football Club",
+      "away": "Cedar Stars Academy Monmouth",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857179"
+    },
+    {
+      "date": "2027-03-07",
+      "home": "Torpedoes SC",
+      "away": "Cedar Stars Academy Bergen",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858349"
+    },
+    {
+      "date": "2027-03-07",
+      "home": "Players Development Academy",
+      "away": "AB7 Future Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855523"
+    },
+    {
+      "date": "2027-03-13",
+      "home": "Cedar Stars Academy Monmouth",
+      "away": "Ironbound Soccer Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5854712"
+    },
+    {
+      "date": "2027-03-13",
+      "home": "Real Futbol Academy",
+      "away": "Cedar Stars Academy Newark",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855685"
+    },
+    {
+      "date": "2027-03-13",
+      "home": "TSF Academy",
+      "away": "The Football Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855794"
+    },
+    {
+      "date": "2027-03-13",
+      "home": "Union County Football Club",
+      "away": "PDA Hibernian",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857131"
+    },
+    {
+      "date": "2027-03-13",
+      "home": "Jersey Football Club",
+      "away": "PDA SC Vistula",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857275"
+    },
+    {
+      "date": "2027-03-13",
+      "home": "AB7 Future Academy",
+      "away": "Trenton City Soccer Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858163"
+    },
+    {
+      "date": "2027-03-13",
+      "home": "Torpedoes SC",
+      "away": "Players Development Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858301"
+    },
+    {
+      "date": "2027-03-14",
+      "home": "Ironbound Soccer Club",
+      "away": "PDA SC Vistula",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855028"
+    },
+    {
+      "date": "2027-03-14",
+      "home": "Players Development Academy",
+      "away": "TSF Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855443"
+    },
+    {
+      "date": "2027-03-14",
+      "home": "PDA Hibernian",
+      "away": "AB7 Future Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856605"
+    },
+    {
+      "date": "2027-03-14",
+      "home": "The Football Academy",
+      "away": "Torpedoes SC",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856653"
+    },
+    {
+      "date": "2027-03-14",
+      "home": "Trenton City Soccer Club",
+      "away": "Cedar Stars Academy Monmouth",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856888"
+    },
+    {
+      "date": "2027-03-14",
+      "home": "Union County Football Club",
+      "away": "Cedar Stars Academy Bergen",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857161"
+    },
+    {
+      "date": "2027-03-14",
+      "home": "Jersey Football Club",
+      "away": "Real Futbol Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857329"
+    },
+    {
+      "date": "2027-03-21",
+      "home": "Cedar Stars Academy Bergen",
+      "away": "The Football Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5854549"
+    },
+    {
+      "date": "2027-03-21",
+      "home": "Cedar Stars Academy Monmouth",
+      "away": "Jersey Football Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5854609"
+    },
+    {
+      "date": "2027-03-21",
+      "home": "Ironbound Soccer Club",
+      "away": "Trenton City Soccer Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855058"
+    },
+    {
+      "date": "2027-03-21",
+      "home": "Real Futbol Academy",
+      "away": "PDA Hibernian",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855667"
+    },
+    {
+      "date": "2027-03-21",
+      "home": "PDA SC Vistula",
+      "away": "Torpedoes SC",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857970"
+    },
+    {
+      "date": "2027-03-21",
+      "home": "AB7 Future Academy",
+      "away": "Union County Football Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858217"
+    },
+    {
+      "date": "2027-03-21",
+      "home": "Players Development Academy",
+      "away": "Cedar Stars Academy Newark",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855541"
+    },
+    {
+      "date": "2027-04-04",
+      "home": "TSF Academy",
+      "away": "Real Futbol Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855763"
+    },
+    {
+      "date": "2027-04-04",
+      "home": "PDA Hibernian",
+      "away": "Jersey Football Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856587"
+    },
+    {
+      "date": "2027-04-04",
+      "home": "Trenton City Soccer Club",
+      "away": "Union County Football Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856816"
+    },
+    {
+      "date": "2027-04-04",
+      "home": "AB7 Future Academy",
+      "away": "PDA SC Vistula",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858193"
+    },
+    {
+      "date": "2027-04-04",
+      "home": "Torpedoes SC",
+      "away": "Cedar Stars Academy Newark",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858283"
+    },
+    {
+      "date": "2027-04-04",
+      "home": "Players Development Academy",
+      "away": "The Football Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855559"
+    },
+    {
+      "date": "2027-04-04",
+      "home": "Ironbound Soccer Club",
+      "away": "Cedar Stars Academy Bergen",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855136"
+    },
+    {
+      "date": "2027-04-10",
+      "home": "Cedar Stars Academy Bergen",
+      "away": "Trenton City Soccer Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5854567"
+    },
+    {
+      "date": "2027-04-10",
+      "home": "Cedar Stars Academy Monmouth",
+      "away": "TSF Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5854694"
+    },
+    {
+      "date": "2027-04-10",
+      "home": "The Football Academy",
+      "away": "PDA Hibernian",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856738"
+    },
+    {
+      "date": "2027-04-10",
+      "home": "PDA SC Vistula",
+      "away": "Union County Football Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857946"
+    },
+    {
+      "date": "2027-04-10",
+      "home": "Torpedoes SC",
+      "away": "AB7 Future Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858253"
+    },
+    {
+      "date": "2027-04-10",
+      "home": "Players Development Academy",
+      "away": "Real Futbol Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855461"
+    },
+    {
+      "date": "2027-04-10",
+      "home": "Ironbound Soccer Club",
+      "away": "Cedar Stars Academy Newark",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855088"
+    },
+    {
+      "date": "2027-04-11",
+      "home": "Real Futbol Academy",
+      "away": "Trenton City Soccer Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855631"
+    },
+    {
+      "date": "2027-04-11",
+      "home": "PDA Hibernian",
+      "away": "Torpedoes SC",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856635"
+    },
+    {
+      "date": "2027-04-11",
+      "home": "The Football Academy",
+      "away": "Cedar Stars Academy Monmouth",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856762"
+    },
+    {
+      "date": "2027-04-11",
+      "home": "Cedar Stars Academy Newark",
+      "away": "Union County Football Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856967"
+    },
+    {
+      "date": "2027-04-11",
+      "home": "Jersey Football Club",
+      "away": "Players Development Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857311"
+    },
+    {
+      "date": "2027-04-11",
+      "home": "PDA SC Vistula",
+      "away": "TSF Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858037"
+    },
+    {
+      "date": "2027-04-11",
+      "home": "AB7 Future Academy",
+      "away": "Cedar Stars Academy Bergen",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858094"
+    },
+    {
+      "date": "2027-04-17",
+      "home": "Cedar Stars Academy Bergen",
+      "away": "Real Futbol Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5854471"
+    },
+    {
+      "date": "2027-04-17",
+      "home": "Cedar Stars Academy Monmouth",
+      "away": "PDA SC Vistula",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5854639"
+    },
+    {
+      "date": "2027-04-17",
+      "home": "Ironbound Soccer Club",
+      "away": "Union County Football Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855010"
+    },
+    {
+      "date": "2027-04-17",
+      "home": "PDA Hibernian",
+      "away": "TSF Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856515"
+    },
+    {
+      "date": "2027-04-17",
+      "home": "Trenton City Soccer Club",
+      "away": "Torpedoes SC",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856864"
+    },
+    {
+      "date": "2027-04-17",
+      "home": "Cedar Stars Academy Newark",
+      "away": "The Football Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857003"
+    },
+    {
+      "date": "2027-04-17",
+      "home": "Jersey Football Club",
+      "away": "AB7 Future Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857257"
+    },
+    {
+      "date": "2027-04-18",
+      "home": "Cedar Stars Academy Bergen",
+      "away": "Jersey Football Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5854513"
+    },
+    {
+      "date": "2027-04-18",
+      "home": "The Football Academy",
+      "away": "Trenton City Soccer Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856720"
+    },
+    {
+      "date": "2027-04-18",
+      "home": "Cedar Stars Academy Newark",
+      "away": "PDA Hibernian",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857021"
+    },
+    {
+      "date": "2027-04-18",
+      "home": "Union County Football Club",
+      "away": "TSF Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857197"
+    },
+    {
+      "date": "2027-04-18",
+      "home": "Torpedoes SC",
+      "away": "Cedar Stars Academy Monmouth",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858331"
+    },
+    {
+      "date": "2027-04-18",
+      "home": "Ironbound Soccer Club",
+      "away": "Players Development Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855112"
+    },
+    {
+      "date": "2027-04-25",
+      "home": "Cedar Stars Academy Bergen",
+      "away": "TSF Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5854453"
+    },
+    {
+      "date": "2027-04-25",
+      "home": "PDA Hibernian",
+      "away": "Ironbound Soccer Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856533"
+    },
+    {
+      "date": "2027-04-25",
+      "home": "Trenton City Soccer Club",
+      "away": "Players Development Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856925"
+    },
+    {
+      "date": "2027-04-25",
+      "home": "Jersey Football Club",
+      "away": "Torpedoes SC",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857239"
+    },
+    {
+      "date": "2027-05-02",
+      "home": "Real Futbol Academy",
+      "away": "The Football Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855649"
+    },
+    {
+      "date": "2027-05-02",
+      "home": "PDA SC Vistula",
+      "away": "Cedar Stars Academy Newark",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858013"
+    },
+    {
+      "date": "2027-05-02",
+      "home": "AB7 Future Academy",
+      "away": "Cedar Stars Academy Monmouth",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858113"
+    },
+    {
+      "date": "2027-05-09",
+      "home": "Cedar Stars Academy Monmouth",
+      "away": "Real Futbol Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5854675"
+    },
+    {
+      "date": "2027-05-09",
+      "home": "TSF Academy",
+      "away": "AB7 Future Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855848"
+    },
+    {
+      "date": "2027-05-09",
+      "home": "Trenton City Soccer Club",
+      "away": "PDA Hibernian",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856798"
+    },
+    {
+      "date": "2027-05-09",
+      "home": "Cedar Stars Academy Newark",
+      "away": "Jersey Football Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5856985"
+    },
+    {
+      "date": "2027-05-09",
+      "home": "Union County Football Club",
+      "away": "Players Development Academy",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857215"
+    },
+    {
+      "date": "2027-05-09",
+      "home": "PDA SC Vistula",
+      "away": "Cedar Stars Academy Bergen",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858075"
+    },
+    {
+      "date": "2027-05-09",
+      "home": "Torpedoes SC",
+      "away": "Ironbound Soccer Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858367"
+    },
+    {
+      "date": "2027-06-08",
+      "home": "Players Development Academy",
+      "away": "Trenton City Soccer Club",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5855583"
+    },
+    {
+      "date": "2027-06-08",
+      "home": "AB7 Future Academy",
+      "away": "Torpedoes SC",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5858187"
+    },
+    {
+      "date": "2027-06-08",
+      "home": "Jersey Football Club",
+      "away": "Cedar Stars Academy Monmouth",
+      "hs": null,
+      "as_": null,
+      "completed": false,
+      "event_id": "5857347"
     }
   ],
-  "scorers": [],
+  "scorers": [
+    {
+      "rank": 1,
+      "player": "Ayman Adamu",
+      "audit_club": "Jersey Football Club",
+      "goals": 10
+    },
+    {
+      "rank": 2,
+      "player": "Ashton Bisanzio",
+      "audit_club": "Trenton City Soccer Club",
+      "goals": 5
+    },
+    {
+      "rank": 3,
+      "player": "Brian Condron",
+      "audit_club": "Cedar Stars Academy Monmouth",
+      "goals": 5
+    },
+    {
+      "rank": 4,
+      "player": "Luke Patrick Farrell",
+      "audit_club": "Cedar Stars Academy Bergen",
+      "goals": 5
+    },
+    {
+      "rank": 5,
+      "player": "Benjamin Yang",
+      "audit_club": "The Football Academy",
+      "goals": 4
+    },
+    {
+      "rank": 6,
+      "player": "Carmelo Mosby",
+      "audit_club": "Jersey Football Club",
+      "goals": 4
+    },
+    {
+      "rank": 7,
+      "player": "James Olivo",
+      "audit_club": "PDA SC Vistula",
+      "goals": 4
+    },
+    {
+      "rank": 8,
+      "player": "Luciano Solano",
+      "audit_club": "Cedar Stars Academy Newark",
+      "goals": 4
+    },
+    {
+      "rank": 9,
+      "player": "Max Seligman",
+      "audit_club": "Players Development Academy",
+      "goals": 4
+    },
+    {
+      "rank": 10,
+      "player": "Myles Lewis",
+      "audit_club": "TSF Academy",
+      "goals": 4
+    },
+    {
+      "rank": 11,
+      "player": "Patrick Newman",
+      "audit_club": "Players Development Academy",
+      "goals": 4
+    }
+  ],
   "ab7": [],
-  "standings": []
+  "standings": [
+    {
+      "team": "AB7 Future Academy"
+    },
+    {
+      "team": "Cedar Stars Academy Bergen"
+    },
+    {
+      "team": "Cedar Stars Academy Monmouth"
+    },
+    {
+      "team": "Cedar Stars Academy Newark"
+    },
+    {
+      "team": "Ironbound Soccer Club"
+    },
+    {
+      "team": "Jersey Football Club"
+    },
+    {
+      "team": "PDA Hibernian"
+    },
+    {
+      "team": "PDA SC Vistula"
+    },
+    {
+      "team": "Players Development Academy"
+    },
+    {
+      "team": "Real Futbol Academy"
+    },
+    {
+      "team": "TSF Academy"
+    },
+    {
+      "team": "The Football Academy"
+    },
+    {
+      "team": "Torpedoes SC"
+    },
+    {
+      "team": "Trenton City Soccer Club"
+    },
+    {
+      "team": "Union County Football Club"
+    }
+  ]
 }

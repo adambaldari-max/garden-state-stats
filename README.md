@@ -36,3 +36,7 @@ Replace `data/stats.json` with a newly generated and audited snapshot, commit, a
 ## Disclaimer
 
 Independent, unofficial statistical coverage. Not affiliated with or endorsed by MLS NEXT or its clubs.
+
+## Standings ranking
+
+Teams are ranked by **points per match (PPM)** using 3 points for a win, 1 for a draw and 0 for a loss. PPM = (3 × W + D) / GP. Goal difference and goals for are used as display tie-breakers; these are not asserted to be official league tie-break rules.

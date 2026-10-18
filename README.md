@@ -1,9 +1,10 @@
-# Garden State Stats — Broadcast Edition
+# Garden State Stats — U13 + U14
 
-Website theme inspired by the user-provided navy, white and gold Top 25 poster. The poster is a visual reference only: the site continues using the audited October 16 snapshot rather than copying its potentially inaccurate player rows.
+Upload the contents of this folder to the GitHub Pages repository root. Preserve `data/stats.json` and `data/u14.json`.
 
-## Deploy to GitHub Pages
+## Coverage limitations
+U13 is the original audited snapshot (through October 16, 2026). U14 currently includes **15 verified results** gathered from public U14 Garden State club schedules, **not all conference matches**. The U14 standings are therefore explicitly marked partial, and U14 Golden Boot/individual player stats are withheld until scorer events can be audited. Do not describe the U14 standings as complete or official.
 
-Upload `index.html`, `style.css`, `app.js`, and the `data` directory into the root of `adambaldari-max/garden-state-stats`, replacing files with matching names. Commit to `main`. Refresh https://adambaldari-max.github.io/garden-state-stats/ after deployment.
+Sources: https://leaguetables.soccer/mls-next-academy-division/u14/garden-state/ab7-future-academy ; https://leaguetables.soccer/mls-next-academy-division/u14/garden-state/the-football-academy ; https://leaguetables.soccer/mls-next-academy-division/u14/garden-state/jersey-football-club ; https://leaguetables.soccer/mls-next-academy-division/u14/garden-state/players-development-academy
 
-No external image assets or unverified team crests are used. Standings are calculated from completed matches, ranked by PPM (3-1-0). Player statistics remain provisional.
+Next step: ingest the complete U14 official schedule and independently audited scorer events.

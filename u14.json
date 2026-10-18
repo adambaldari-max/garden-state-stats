@@ -1,0 +1,130 @@
+{
+  "updated": "2026-10-17",
+  "coverage": "partial",
+  "source_note": "Verified subset of U14 Garden State results, not full conference coverage. Do not interpret standings as official or complete.",
+  "matches": [
+    {
+      "date": "2026-09-13",
+      "home": "Cedar Stars Academy Monmouth",
+      "away": "The Football Academy",
+      "hs": 1,
+      "as_": 5,
+      "completed": true
+    },
+    {
+      "date": "2026-09-19",
+      "home": "The Football Academy",
+      "away": "AB7 Future Academy",
+      "hs": 1,
+      "as_": 1,
+      "completed": true
+    },
+    {
+      "date": "2026-09-20",
+      "home": "Jersey Football Club",
+      "away": "The Football Academy",
+      "hs": 4,
+      "as_": 0,
+      "completed": true
+    },
+    {
+      "date": "2026-09-27",
+      "home": "The Football Academy",
+      "away": "Cedar Stars Academy Bergen",
+      "hs": 1,
+      "as_": 4,
+      "completed": true
+    },
+    {
+      "date": "2026-10-03",
+      "home": "PDA Hibernian",
+      "away": "The Football Academy",
+      "hs": 2,
+      "as_": 2,
+      "completed": true
+    },
+    {
+      "date": "2026-10-04",
+      "home": "The Football Academy",
+      "away": "TSF Academy",
+      "hs": 3,
+      "as_": 0,
+      "completed": true
+    },
+    {
+      "date": "2026-09-13",
+      "home": "Jersey Football Club",
+      "away": "Cedar Stars Academy Bergen",
+      "hs": 5,
+      "as_": 0,
+      "completed": true
+    },
+    {
+      "date": "2026-09-19",
+      "home": "Players Development Academy",
+      "away": "Jersey Football Club",
+      "hs": 1,
+      "as_": 6,
+      "completed": true
+    },
+    {
+      "date": "2026-10-03",
+      "home": "Jersey Football Club",
+      "away": "Cedar Stars Academy Newark",
+      "hs": 1,
+      "as_": 3,
+      "completed": true
+    },
+    {
+      "date": "2026-10-04",
+      "home": "Jersey Football Club",
+      "away": "Union County Football Club",
+      "hs": 4,
+      "as_": 1,
+      "completed": true
+    },
+    {
+      "date": "2026-09-13",
+      "home": "Cedar Stars Academy Newark",
+      "away": "Players Development Academy",
+      "hs": 2,
+      "as_": 2,
+      "completed": true
+    },
+    {
+      "date": "2026-09-20",
+      "home": "Cedar Stars Academy Bergen",
+      "away": "Players Development Academy",
+      "hs": 1,
+      "as_": 6,
+      "completed": true
+    },
+    {
+      "date": "2026-09-20",
+      "home": "AB7 Future Academy",
+      "away": "PDA Hibernian",
+      "hs": 0,
+      "as_": 1,
+      "completed": true
+    },
+    {
+      "date": "2026-10-03",
+      "home": "Cedar Stars Academy Monmouth",
+      "away": "AB7 Future Academy",
+      "hs": 3,
+      "as_": 2,
+      "completed": true
+    },
+    {
+      "date": "2026-10-04",
+      "home": "Real Futbol Academy",
+      "away": "AB7 Future Academy",
+      "hs": 0,
+      "as_": 1,
+      "completed": true
+    }
+  ],
+  "scorers": [],
+  "ab7": [],
+  "standings": []
+}

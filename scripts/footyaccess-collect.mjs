@@ -23,7 +23,8 @@ const payload=await response.json();const d=payload.data;
 if(!payload.success||!d||!Array.isArray(d.players))throw Error('Unexpected API response on page '+n);
 if(d.page!==n)throw Error('API page mismatch: expected '+n+', got '+d.page);
 if(expected===null)expected=d.totalPlayers;
-if(!d.players.length){stoppedOnEmpty=true;console.warn(age+' page '+n+' is empty, despite expected '+expected+'; keeping collected records for review');break;}\nplayers.push(...d.players);
+if(!d.players.length){stoppedOnEmpty=true;console.warn(age+' page '+n+' is empty, despite expected '+expected+'; keeping collected records for review');break;}
+players.push(...d.players);
 console.log(age+' page '+n+': '+d.players.length+' records, total '+players.length+'/'+expected);
 if(players.length>=expected){completed=true;break;} // Do not trust hasMore: API can stop one page early
 

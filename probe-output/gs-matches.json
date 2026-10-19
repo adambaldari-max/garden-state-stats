@@ -1,0 +1,4919 @@
+{
+ "collected": "2026-10-19T17:23:58.281Z",
+ "count": 144,
+ "matches": [
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856753",
+    "date": "2027-06-08T21:45:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Kantor Park - Turf Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856753-home",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856753-away",
+     "name": "Cedar Stars Academy Bergen",
+     "logo": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5858184",
+    "date": "2027-06-08T20:45:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Owl Hollow Soccer Field - #3"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5858184-home",
+     "name": "AB7 Future Academy",
+     "logo": "https://kitman.imgix.net/ab7futureacademy/AB7.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5858184-away",
+     "name": "Torpedoes SC",
+     "logo": "https://kitman.imgix.net/torpedoessc/wyckoff_torpedoes_soccer_club_logo.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857344",
+    "date": "2027-06-08T20:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "All Season Sports Turf Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857344-home",
+     "name": "Jersey Football Club",
+     "logo": "https://kitman.imgix.net/jerseyfootballclub/largelogo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857344-away",
+     "name": "Cedar Stars Academy Monmouth",
+     "logo": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857080",
+    "date": "2027-06-08T19:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Overpeck County Park"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857080-home",
+     "name": "Cedar Stars Academy Newark",
+     "logo": "https://kitman.imgix.net/cedarstarsacademynewark/Cedar%20Stars%20Academy%20Newark_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857080-away",
+     "name": "Ironbound Soccer Club",
+     "logo": "https://kitman.imgix.net/ironboundsc/Ironbound%20Soccer%20Club.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855580",
+    "date": "2027-06-08T18:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "PDA Soccer Complex - Field 5 Turf"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855580-home",
+     "name": "Players Development Academy",
+     "logo": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855580-away",
+     "name": "Trenton City Soccer Club",
+     "logo": "https://kitman.imgix.net/centraljersey/Trenton%20FC_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5737447",
+    "date": "2027-06-08T16:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "DePaul Catholic High School - Stadium Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5737447-home",
+     "name": "TSF Academy",
+     "logo": "https://kitman.imgix.net/tsfacademy/cropped-tsf-academy-logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5737447-away",
+     "name": "Cedar Stars Academy Bergen",
+     "logo": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "League",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856626",
+    "date": "2026-11-11T00:30:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Notre Dame High School - ND Football Stadium"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856626-home",
+     "name": "PDA Hibernian",
+     "logo": "https://kitman.imgix.net/pdahibernian/PDA%20Hibernian_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856626-away",
+     "name": "Torpedoes SC",
+     "logo": "https://kitman.imgix.net/torpedoessc/wyckoff_torpedoes_soccer_club_logo.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855736",
+    "date": "2026-10-26T00:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "DePaul Catholic High School - Stadium Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855736-home",
+     "name": "TSF Academy",
+     "logo": "https://kitman.imgix.net/tsfacademy/cropped-tsf-academy-logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855736-away",
+     "name": "Cedar Stars Academy Bergen",
+     "logo": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5888401",
+    "date": "2026-10-25T22:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Bob Bende Soccer Complex - Payer Matrix Turf (Near Woods)"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5888401-home",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5888401-away",
+     "name": "Cedar Stars Academy Monmouth",
+     "logo": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "League",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856783",
+    "date": "2026-10-25T21:45:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Kantor Park - Turf Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856783-home",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856783-away",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857961",
+    "date": "2026-10-25T20:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Garfield High School - Stadium"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857961-home",
+     "name": "PDA SC Vistula",
+     "logo": "https://kitman.imgix.net/pdascvistula/PDA%20Vistula.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857961-away",
+     "name": "Jersey Football Club",
+     "logo": "https://kitman.imgix.net/jerseyfootballclub/largelogo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5854582",
+    "date": "2026-10-25T20:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Capelli Sport Complex - Field #1"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5854582-home",
+     "name": "Cedar Stars Academy Monmouth",
+     "logo": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5854582-away",
+     "name": "Trenton City Soccer Club",
+     "logo": "https://kitman.imgix.net/centraljersey/Trenton%20FC_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857092",
+    "date": "2026-10-25T18:15:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Wardlaw Hartridge School - Varsity Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857092-home",
+     "name": "Union County Football Club",
+     "logo": "https://kitman.imgix.net/unioncountyfc/Union%20County.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857092-away",
+     "name": "Torpedoes SC",
+     "logo": "https://kitman.imgix.net/torpedoessc/wyckoff_torpedoes_soccer_club_logo.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855574",
+    "date": "2026-10-25T16:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "PDA Soccer Complex - Field 5 Turf"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855574-home",
+     "name": "Players Development Academy",
+     "logo": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855574-away",
+     "name": "PDA Hibernian",
+     "logo": "https://kitman.imgix.net/pdahibernian/PDA%20Hibernian_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855043",
+    "date": "2026-10-25T15:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Riverfront Park - Riverfront Park 1 Brill St Newark, NJ 07105"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855043-home",
+     "name": "Ironbound Soccer Club",
+     "logo": "https://kitman.imgix.net/ironboundsc/Ironbound%20Soccer%20Club.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855043-away",
+     "name": "AB7 Future Academy",
+     "logo": "https://kitman.imgix.net/ab7futureacademy/AB7.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5854492",
+    "date": "2026-10-24T23:15:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Overpeck County Park"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5854492-home",
+     "name": "Cedar Stars Academy Bergen",
+     "logo": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5854492-away",
+     "name": "PDA SC Vistula",
+     "logo": "https://kitman.imgix.net/pdascvistula/PDA%20Vistula.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857056",
+    "date": "2026-10-24T19:45:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Overpeck County Park"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857056-home",
+     "name": "Cedar Stars Academy Newark",
+     "logo": "https://kitman.imgix.net/cedarstarsacademynewark/Cedar%20Stars%20Academy%20Newark_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857056-away",
+     "name": "TSF Academy",
+     "logo": "https://kitman.imgix.net/tsfacademy/cropped-tsf-academy-logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5858208",
+    "date": "2026-10-24T19:15:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Owl Hollow Soccer Field - #3"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5858208-home",
+     "name": "AB7 Future Academy",
+     "logo": "https://kitman.imgix.net/ab7futureacademy/AB7.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5858208-away",
+     "name": "Jersey Football Club",
+     "logo": "https://kitman.imgix.net/jerseyfootballclub/largelogo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856506",
+    "date": "2026-10-24T19:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "PDA Stadium Field at Notre Dame High School - PDA Stadium Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856506-home",
+     "name": "PDA Hibernian",
+     "logo": "https://kitman.imgix.net/pdahibernian/PDA%20Hibernian_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856506-away",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5858274",
+    "date": "2026-10-24T18:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Pulis Turf Complex - Pulis A"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5858274-home",
+     "name": "Torpedoes SC",
+     "logo": "https://kitman.imgix.net/torpedoessc/wyckoff_torpedoes_soccer_club_logo.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5858274-away",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5854624",
+    "date": "2026-10-24T14:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Capelli Sport Complex - Field #1"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5854624-home",
+     "name": "Cedar Stars Academy Monmouth",
+     "logo": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5854624-away",
+     "name": "Union County Football Club",
+     "logo": "https://kitman.imgix.net/unioncountyfc/Union%20County.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856879",
+    "date": "2026-10-24T06:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Borderntown Regional High School"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856879-home",
+     "name": "Trenton City Soccer Club",
+     "logo": "https://kitman.imgix.net/centraljersey/Trenton%20FC_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856879-away",
+     "name": "Ironbound Soccer Club",
+     "logo": "https://kitman.imgix.net/ironboundsc/Ironbound%20Soccer%20Club.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856789",
+    "date": "2026-10-18T22:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Kantor Park - Turf Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856789-home",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856789-away",
+     "name": "Players Development Academy",
+     "logo": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 0,
+    "away": 3
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5854588",
+    "date": "2026-10-18T20:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Capelli Sport Complex - Field #1"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5854588-home",
+     "name": "Cedar Stars Academy Monmouth",
+     "logo": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5854588-away",
+     "name": "PDA Hibernian",
+     "logo": "https://kitman.imgix.net/pdahibernian/PDA%20Hibernian_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 0,
+    "away": 7
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5858232",
+    "date": "2026-10-18T18:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Owl Hollow Soccer Field - #3"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5858232-home",
+     "name": "AB7 Future Academy",
+     "logo": "https://kitman.imgix.net/ab7futureacademy/AB7.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5858232-away",
+     "name": "Union County Football Club",
+     "logo": "https://kitman.imgix.net/unioncountyfc/Union%20County.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 6,
+    "away": 1
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5888069",
+    "date": "2026-10-18T18:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "PDA Soccer Complex - Field 3 Turf"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5888069-home",
+     "name": "Players Development Academy",
+     "logo": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5888069-away",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 0,
+    "away": 6
+   },
+   "ageGroup": "U13",
+   "competition": "League",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5758289",
+    "date": "2026-10-18T17:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Ironbound Stadium"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5758289-home",
+     "name": "Ironbound Soccer Club",
+     "logo": "https://kitman.imgix.net/ironboundsc/Ironbound%20Soccer%20Club.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5758289-away",
+     "name": "Cedar Stars Academy Bergen",
+     "logo": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 3
+   },
+   "ageGroup": "U13",
+   "competition": "League",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856916",
+    "date": "2026-10-18T15:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Borderntown Regional High School"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856916-home",
+     "name": "Trenton City Soccer Club",
+     "logo": "https://kitman.imgix.net/centraljersey/Trenton%20FC_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856916-away",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 2,
+    "away": 0
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5854504",
+    "date": "2026-10-18T14:45:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Overpeck County Park"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5854504-home",
+     "name": "Cedar Stars Academy Bergen",
+     "logo": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5854504-away",
+     "name": "Torpedoes SC",
+     "logo": "https://kitman.imgix.net/torpedoessc/wyckoff_torpedoes_soccer_club_logo.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 4,
+    "away": 6
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5858028",
+    "date": "2026-10-18T14:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Garfield High School - Stadium"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5858028-home",
+     "name": "PDA SC Vistula",
+     "logo": "https://kitman.imgix.net/pdascvistula/PDA%20Vistula.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5858028-away",
+     "name": "Cedar Stars Academy Newark",
+     "logo": "https://kitman.imgix.net/cedarstarsacademynewark/Cedar%20Stars%20Academy%20Newark_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 5
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855869",
+    "date": "2026-10-18T14:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "William Paterson University"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855869-home",
+     "name": "TSF Academy",
+     "logo": "https://kitman.imgix.net/tsfacademy/cropped-tsf-academy-logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855869-away",
+     "name": "Jersey Football Club",
+     "logo": "https://kitman.imgix.net/jerseyfootballclub/largelogo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 0,
+    "away": 2
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856572",
+    "date": "2026-10-17T20:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "PDA Stadium Field at Notre Dame High School - PDA Stadium Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856572-home",
+     "name": "PDA Hibernian",
+     "logo": "https://kitman.imgix.net/pdahibernian/PDA%20Hibernian_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856572-away",
+     "name": "Trenton City Soccer Club",
+     "logo": "https://kitman.imgix.net/centraljersey/Trenton%20FC_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857074",
+    "date": "2026-10-04T22:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Overpeck County Park"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857074-home",
+     "name": "Cedar Stars Academy Newark",
+     "logo": "https://kitman.imgix.net/cedarstarsacademynewark/Cedar%20Stars%20Academy%20Newark_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857074-away",
+     "name": "Cedar Stars Academy Bergen",
+     "logo": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 0,
+    "away": 1
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856777",
+    "date": "2026-10-04T21:45:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Kantor Park - Turf Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856777-home",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856777-away",
+     "name": "TSF Academy",
+     "logo": "https://kitman.imgix.net/tsfacademy/cropped-tsf-academy-logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 4
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857230",
+    "date": "2026-10-04T20:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "All Season Sports Turf Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857230-home",
+     "name": "Jersey Football Club",
+     "logo": "https://kitman.imgix.net/jerseyfootballclub/largelogo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857230-away",
+     "name": "Union County Football Club",
+     "logo": "https://kitman.imgix.net/unioncountyfc/Union%20County.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 3,
+    "away": 3
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855700",
+    "date": "2026-10-04T19:30:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Westampton Sports Complex - Field 2"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855700-home",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855700-away",
+     "name": "AB7 Future Academy",
+     "logo": "https://kitman.imgix.net/ab7futureacademy/AB7.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 2,
+    "away": 3
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855127",
+    "date": "2026-10-04T17:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Riverfront Park - Riverfront Park 1 Brill St Newark, NJ 07105"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855127-home",
+     "name": "Ironbound Soccer Club",
+     "logo": "https://kitman.imgix.net/ironboundsc/Ironbound%20Soccer%20Club.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855127-away",
+     "name": "Cedar Stars Academy Monmouth",
+     "logo": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 2,
+    "away": 0
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5858268",
+    "date": "2026-10-04T16:30:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Pulis Turf Complex - Pulis B"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5858268-home",
+     "name": "Torpedoes SC",
+     "logo": "https://kitman.imgix.net/torpedoessc/wyckoff_torpedoes_soccer_club_logo.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5858268-away",
+     "name": "Trenton City Soccer Club",
+     "logo": "https://kitman.imgix.net/centraljersey/Trenton%20FC_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 1
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855514",
+    "date": "2026-10-04T14:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "PDA Soccer Complex - Field 5 Turf"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855514-home",
+     "name": "Players Development Academy",
+     "logo": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855514-away",
+     "name": "PDA SC Vistula",
+     "logo": "https://kitman.imgix.net/pdascvistula/PDA%20Vistula.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 5,
+    "away": 1
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857290",
+    "date": "2026-10-03T20:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "All Season Sports Turf Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857290-home",
+     "name": "Jersey Football Club",
+     "logo": "https://kitman.imgix.net/jerseyfootballclub/largelogo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857290-away",
+     "name": "Cedar Stars Academy Newark",
+     "logo": "https://kitman.imgix.net/cedarstarsacademynewark/Cedar%20Stars%20Academy%20Newark_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856578",
+    "date": "2026-10-03T19:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "PDA Stadium Field at Notre Dame High School - PDA Stadium Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856578-home",
+     "name": "PDA Hibernian",
+     "logo": "https://kitman.imgix.net/pdahibernian/PDA%20Hibernian_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856578-away",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 5,
+    "away": 5
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5858244",
+    "date": "2026-10-03T17:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Pulis Turf Complex - Pulis A"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5858244-home",
+     "name": "Torpedoes SC",
+     "logo": "https://kitman.imgix.net/torpedoessc/wyckoff_torpedoes_soccer_club_logo.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5858244-away",
+     "name": "PDA SC Vistula",
+     "logo": "https://kitman.imgix.net/pdascvistula/PDA%20Vistula.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 1
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5854630",
+    "date": "2026-10-03T17:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Capelli Sport Complex - Field #1"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5854630-home",
+     "name": "Cedar Stars Academy Monmouth",
+     "logo": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5854630-away",
+     "name": "AB7 Future Academy",
+     "logo": "https://kitman.imgix.net/ab7futureacademy/AB7.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 0,
+    "away": 8
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855724",
+    "date": "2026-10-03T16:30:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Bob Bende Soccer Complex - Payer Matrix Turf (Near Woods)"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855724-home",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855724-away",
+     "name": "Union County Football Club",
+     "logo": "https://kitman.imgix.net/unioncountyfc/Union%20County.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 3,
+    "away": 1
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855496",
+    "date": "2026-10-03T14:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "PDA Soccer Complex - Field #1 Turf"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855496-home",
+     "name": "Players Development Academy",
+     "logo": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855496-away",
+     "name": "Ironbound Soccer Club",
+     "logo": "https://kitman.imgix.net/ironboundsc/Ironbound%20Soccer%20Club.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 5,
+    "away": 0
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856620",
+    "date": "2026-09-27T16:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "PDA Stadium Field at Notre Dame High School - PDA Stadium Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856620-home",
+     "name": "PDA Hibernian",
+     "logo": "https://kitman.imgix.net/pdahibernian/PDA%20Hibernian_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856620-away",
+     "name": "PDA SC Vistula",
+     "logo": "https://kitman.imgix.net/pdascvistula/PDA%20Vistula.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 6,
+    "away": 2
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855586",
+    "date": "2026-09-27T15:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Bob Bende Soccer Complex - Payer Matrix Turf (Near Woods)"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855586-home",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855586-away",
+     "name": "TSF Academy",
+     "logo": "https://kitman.imgix.net/tsfacademy/cropped-tsf-academy-logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 0
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5742989",
+    "date": "2026-09-27T13:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Capelli Sport Complex - Hudson Valley"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5742989-home",
+     "name": "Cedar Stars Academy Bergen",
+     "logo": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5742989-away",
+     "name": "Ironbound Soccer Club",
+     "logo": "https://kitman.imgix.net/ironboundsc/Ironbound%20Soccer%20Club.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 4,
+    "away": 0
+   },
+   "ageGroup": "U13",
+   "competition": "League",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5885939",
+    "date": "2026-09-26T13:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Florham Park Sports Dome - Turf"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5885939-home",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5885939-away",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 3,
+    "away": 2
+   },
+   "ageGroup": "U13",
+   "competition": "League",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5854486",
+    "date": "2026-09-20T23:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Overpeck County Park"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5854486-home",
+     "name": "Cedar Stars Academy Bergen",
+     "logo": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5854486-away",
+     "name": "Players Development Academy",
+     "logo": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 1
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857302",
+    "date": "2026-09-20T22:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "All Season Sports Turf Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857302-home",
+     "name": "Jersey Football Club",
+     "logo": "https://kitman.imgix.net/jerseyfootballclub/largelogo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857302-away",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 3,
+    "away": 6
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5858178",
+    "date": "2026-09-20T19:15:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Owl Hollow Soccer Field - #3"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5858178-home",
+     "name": "AB7 Future Academy",
+     "logo": "https://kitman.imgix.net/ab7futureacademy/AB7.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5858178-away",
+     "name": "PDA Hibernian",
+     "logo": "https://kitman.imgix.net/pdahibernian/PDA%20Hibernian_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 3,
+    "away": 1
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5858059",
+    "date": "2026-09-20T18:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Garfield High School - Stadium"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5858059-home",
+     "name": "PDA SC Vistula",
+     "logo": "https://kitman.imgix.net/pdascvistula/PDA%20Vistula.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5858059-away",
+     "name": "Ironbound Soccer Club",
+     "logo": "https://kitman.imgix.net/ironboundsc/Ironbound%20Soccer%20Club.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 11,
+    "away": 0
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5858316",
+    "date": "2026-09-20T16:30:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Pulis Turf Complex - Pulis B"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5858316-home",
+     "name": "Torpedoes SC",
+     "logo": "https://kitman.imgix.net/torpedoessc/wyckoff_torpedoes_soccer_club_logo.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5858316-away",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 2,
+    "away": 1
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855863",
+    "date": "2026-09-20T14:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "DePaul Catholic High School - Stadium Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855863-home",
+     "name": "TSF Academy",
+     "logo": "https://kitman.imgix.net/tsfacademy/cropped-tsf-academy-logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855863-away",
+     "name": "Union County Football Club",
+     "logo": "https://kitman.imgix.net/unioncountyfc/Union%20County.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 2,
+    "away": 0
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5854600",
+    "date": "2026-09-20T14:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Capelli Sport Complex - Field #1"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5854600-home",
+     "name": "Cedar Stars Academy Monmouth",
+     "logo": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5854600-away",
+     "name": "Cedar Stars Academy Newark",
+     "logo": "https://kitman.imgix.net/cedarstarsacademynewark/Cedar%20Stars%20Academy%20Newark_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 4
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": "2026-10-19T03:06:43.275Z",
+   "fixture": {
+    "id": "kitman_5743031",
+    "date": "2026-09-20T10:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "TBD"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5743031-home",
+     "name": "Cedar Stars Academy Monmouth",
+     "logo": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5743031-away",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "League",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5854444",
+    "date": "2026-09-19T21:45:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Overpeck County Park"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5854444-home",
+     "name": "Cedar Stars Academy Bergen",
+     "logo": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5854444-away",
+     "name": "Ironbound Soccer Club",
+     "logo": "https://kitman.imgix.net/ironboundsc/Ironbound%20Soccer%20Club.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 2,
+    "away": 0
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855730",
+    "date": "2026-09-19T20:30:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Passaic Valley High School"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855730-home",
+     "name": "TSF Academy",
+     "logo": "https://kitman.imgix.net/tsfacademy/cropped-tsf-academy-logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855730-away",
+     "name": "Cedar Stars Academy Monmouth",
+     "logo": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 8,
+    "away": 0
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856668",
+    "date": "2026-09-19T20:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Kantor Park - Turf Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856668-home",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856668-away",
+     "name": "AB7 Future Academy",
+     "logo": "https://kitman.imgix.net/ab7futureacademy/AB7.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 3,
+    "away": 5
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857062",
+    "date": "2026-09-19T16:30:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Overpeck County Park"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857062-home",
+     "name": "Cedar Stars Academy Newark",
+     "logo": "https://kitman.imgix.net/cedarstarsacademynewark/Cedar%20Stars%20Academy%20Newark_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857062-away",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 2,
+    "away": 3
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857086",
+    "date": "2026-09-19T15:30:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Wardlaw Hartridge School - Varsity Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857086-home",
+     "name": "Union County Football Club",
+     "logo": "https://kitman.imgix.net/unioncountyfc/Union%20County.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857086-away",
+     "name": "PDA SC Vistula",
+     "logo": "https://kitman.imgix.net/pdascvistula/PDA%20Vistula.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 5,
+    "away": 1
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855502",
+    "date": "2026-09-19T14:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "PDA Soccer Complex - Field 5 Turf"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855502-home",
+     "name": "Players Development Academy",
+     "logo": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855502-away",
+     "name": "Jersey Football Club",
+     "logo": "https://kitman.imgix.net/jerseyfootballclub/largelogo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 5,
+    "away": 1
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857068",
+    "date": "2026-09-13T23:45:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "FDU Soccer Field - Teaneck"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857068-home",
+     "name": "Cedar Stars Academy Newark",
+     "logo": "https://kitman.imgix.net/cedarstarsacademynewark/Cedar%20Stars%20Academy%20Newark_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857068-away",
+     "name": "Players Development Academy",
+     "logo": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 3
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857350",
+    "date": "2026-09-13T21:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "All Season Sports Turf Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857350-home",
+     "name": "Jersey Football Club",
+     "logo": "https://kitman.imgix.net/jerseyfootballclub/largelogo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857350-away",
+     "name": "Cedar Stars Academy Bergen",
+     "logo": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 5,
+    "away": 3
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857122",
+    "date": "2026-09-13T19:30:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Wardlaw Hartridge School - Varsity Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857122-home",
+     "name": "Union County Football Club",
+     "logo": "https://kitman.imgix.net/unioncountyfc/Union%20County.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857122-away",
+     "name": "Trenton City Soccer Club",
+     "logo": "https://kitman.imgix.net/centraljersey/Trenton%20FC_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 3,
+    "away": 4
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5854594",
+    "date": "2026-09-13T18:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Capelli Sport Complex - Field #6"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5854594-home",
+     "name": "Cedar Stars Academy Monmouth",
+     "logo": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5854594-away",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 0,
+    "away": 10
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5858052",
+    "date": "2026-09-13T17:30:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Garfield High School - Stadium"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5858052-home",
+     "name": "PDA SC Vistula",
+     "logo": "https://kitman.imgix.net/pdascvistula/PDA%20Vistula.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5858052-away",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 5
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855103",
+    "date": "2026-09-13T15:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Riverfront Park - Riverfront Park 1 Brill St Newark, NJ 07105"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855103-home",
+     "name": "Ironbound Soccer Club",
+     "logo": "https://kitman.imgix.net/ironboundsc/Ironbound%20Soccer%20Club.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855103-away",
+     "name": "TSF Academy",
+     "logo": "https://kitman.imgix.net/tsfacademy/cropped-tsf-academy-logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 3
+   },
+   "ageGroup": "U13",
+   "competition": "Academy Division",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": "2026-10-18T03:04:44.665Z",
+   "fixture": {
+    "id": "kitman_5737911",
+    "date": "2026-09-13T10:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "TBD"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5737911-home",
+     "name": "Players Development Academy",
+     "logo": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5737911-away",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "League",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5885963",
+    "date": "2026-09-06T14:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Pingry Driveway - Turf Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5885963-home",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5885963-away",
+     "name": "Players Development Academy",
+     "logo": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 3,
+    "away": 0
+   },
+   "ageGroup": "U13",
+   "competition": "League",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": "2026-10-17T23:05:40.129Z",
+   "fixture": {
+    "id": "kitman_5738343",
+    "date": "2026-09-05T10:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "TBD"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5738343-home",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5738343-away",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U13",
+   "competition": "League",
+   "_age": "U13"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857347",
+    "date": "2027-06-08T22:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "All Season Sports Turf Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857347-home",
+     "name": "Jersey Football Club",
+     "logo": "https://kitman.imgix.net/jerseyfootballclub/largelogo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857347-away",
+     "name": "Cedar Stars Academy Monmouth",
+     "logo": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857083",
+    "date": "2027-06-08T20:45:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Overpeck County Park"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857083-home",
+     "name": "Cedar Stars Academy Newark",
+     "logo": "https://kitman.imgix.net/cedarstarsacademynewark/Cedar%20Stars%20Academy%20Newark_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857083-away",
+     "name": "Ironbound Soccer Club",
+     "logo": "https://kitman.imgix.net/ironboundsc/Ironbound%20Soccer%20Club.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5858187",
+    "date": "2027-06-08T19:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Owl Hollow Soccer Field - #3"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5858187-home",
+     "name": "AB7 Future Academy",
+     "logo": "https://kitman.imgix.net/ab7futureacademy/AB7.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5858187-away",
+     "name": "Torpedoes SC",
+     "logo": "https://kitman.imgix.net/torpedoessc/wyckoff_torpedoes_soccer_club_logo.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855583",
+    "date": "2027-06-08T16:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "PDA Soccer Complex - Field 5 Turf"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855583-home",
+     "name": "Players Development Academy",
+     "logo": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855583-away",
+     "name": "Trenton City Soccer Club",
+     "logo": "https://kitman.imgix.net/centraljersey/Trenton%20FC_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5737453",
+    "date": "2027-06-08T14:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "DePaul Catholic High School - Stadium Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5737453-home",
+     "name": "TSF Academy",
+     "logo": "https://kitman.imgix.net/tsfacademy/cropped-tsf-academy-logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5737453-away",
+     "name": "Cedar Stars Academy Bergen",
+     "logo": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "League",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856629",
+    "date": "2026-11-11T00:30:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "PDA Stadium Field at Notre Dame High School - PDA Stadium Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856629-home",
+     "name": "PDA Hibernian",
+     "logo": "https://kitman.imgix.net/pdahibernian/PDA%20Hibernian_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856629-away",
+     "name": "Torpedoes SC",
+     "logo": "https://kitman.imgix.net/torpedoessc/wyckoff_torpedoes_soccer_club_logo.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856786",
+    "date": "2026-10-25T23:45:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Kantor Park - Turf Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856786-home",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856786-away",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855739",
+    "date": "2026-10-25T22:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "DePaul Catholic High School - Stadium Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855739-home",
+     "name": "TSF Academy",
+     "logo": "https://kitman.imgix.net/tsfacademy/cropped-tsf-academy-logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855739-away",
+     "name": "Cedar Stars Academy Bergen",
+     "logo": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5854585",
+    "date": "2026-10-25T22:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Capelli Sport Complex - Field #1"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5854585-home",
+     "name": "Cedar Stars Academy Monmouth",
+     "logo": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5854585-away",
+     "name": "Trenton City Soccer Club",
+     "logo": "https://kitman.imgix.net/centraljersey/Trenton%20FC_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5888404",
+    "date": "2026-10-25T20:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Bob Bende Soccer Complex - Payer Matrix Turf (Near Woods)"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5888404-home",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5888404-away",
+     "name": "Cedar Stars Academy Monmouth",
+     "logo": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "League",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857095",
+    "date": "2026-10-25T20:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Wardlaw Hartridge School - Varsity Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857095-home",
+     "name": "Union County Football Club",
+     "logo": "https://kitman.imgix.net/unioncountyfc/Union%20County.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857095-away",
+     "name": "Torpedoes SC",
+     "logo": "https://kitman.imgix.net/torpedoessc/wyckoff_torpedoes_soccer_club_logo.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857964",
+    "date": "2026-10-25T18:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Garfield High School - Stadium"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857964-home",
+     "name": "PDA SC Vistula",
+     "logo": "https://kitman.imgix.net/pdascvistula/PDA%20Vistula.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857964-away",
+     "name": "Jersey Football Club",
+     "logo": "https://kitman.imgix.net/jerseyfootballclub/largelogo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855577",
+    "date": "2026-10-25T18:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "PDA Soccer Complex - Field 5 Turf"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855577-home",
+     "name": "Players Development Academy",
+     "logo": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855577-away",
+     "name": "PDA Hibernian",
+     "logo": "https://kitman.imgix.net/pdahibernian/PDA%20Hibernian_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855046",
+    "date": "2026-10-25T13:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Riverfront Park - Riverfront Park 1 Brill St Newark, NJ 07105"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855046-home",
+     "name": "Ironbound Soccer Club",
+     "logo": "https://kitman.imgix.net/ironboundsc/Ironbound%20Soccer%20Club.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855046-away",
+     "name": "AB7 Future Academy",
+     "logo": "https://kitman.imgix.net/ab7futureacademy/AB7.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5858211",
+    "date": "2026-10-24T21:15:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Owl Hollow Soccer Field - #3"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5858211-home",
+     "name": "AB7 Future Academy",
+     "logo": "https://kitman.imgix.net/ab7futureacademy/AB7.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5858211-away",
+     "name": "Jersey Football Club",
+     "logo": "https://kitman.imgix.net/jerseyfootballclub/largelogo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5854495",
+    "date": "2026-10-24T21:15:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Overpeck County Park"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5854495-home",
+     "name": "Cedar Stars Academy Bergen",
+     "logo": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5854495-away",
+     "name": "PDA SC Vistula",
+     "logo": "https://kitman.imgix.net/pdascvistula/PDA%20Vistula.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5858277",
+    "date": "2026-10-24T20:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Pulis Turf Complex - Pulis A"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5858277-home",
+     "name": "Torpedoes SC",
+     "logo": "https://kitman.imgix.net/torpedoessc/wyckoff_torpedoes_soccer_club_logo.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5858277-away",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857059",
+    "date": "2026-10-24T18:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Overpeck County Park"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857059-home",
+     "name": "Cedar Stars Academy Newark",
+     "logo": "https://kitman.imgix.net/cedarstarsacademynewark/Cedar%20Stars%20Academy%20Newark_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857059-away",
+     "name": "TSF Academy",
+     "logo": "https://kitman.imgix.net/tsfacademy/cropped-tsf-academy-logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856509",
+    "date": "2026-10-24T17:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "PDA Stadium Field at Notre Dame High School - PDA Stadium Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856509-home",
+     "name": "PDA Hibernian",
+     "logo": "https://kitman.imgix.net/pdahibernian/PDA%20Hibernian_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856509-away",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856882",
+    "date": "2026-10-24T16:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Borderntown Regional High School"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856882-home",
+     "name": "Trenton City Soccer Club",
+     "logo": "https://kitman.imgix.net/centraljersey/Trenton%20FC_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856882-away",
+     "name": "Ironbound Soccer Club",
+     "logo": "https://kitman.imgix.net/ironboundsc/Ironbound%20Soccer%20Club.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5854627",
+    "date": "2026-10-24T16:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Capelli Sport Complex - Field #1"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5854627-home",
+     "name": "Cedar Stars Academy Monmouth",
+     "logo": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5854627-away",
+     "name": "Union County Football Club",
+     "logo": "https://kitman.imgix.net/unioncountyfc/Union%20County.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856792",
+    "date": "2026-10-19T00:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Kantor Park - Turf Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856792-home",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856792-away",
+     "name": "Players Development Academy",
+     "logo": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 1
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5854591",
+    "date": "2026-10-18T22:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Capelli Sport Complex - Field #1"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5854591-home",
+     "name": "Cedar Stars Academy Monmouth",
+     "logo": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5854591-away",
+     "name": "PDA Hibernian",
+     "logo": "https://kitman.imgix.net/pdahibernian/PDA%20Hibernian_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 2
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5758292",
+    "date": "2026-10-18T21:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Ironbound Stadium"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5758292-home",
+     "name": "Ironbound Soccer Club",
+     "logo": "https://kitman.imgix.net/ironboundsc/Ironbound%20Soccer%20Club.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5758292-away",
+     "name": "Cedar Stars Academy Bergen",
+     "logo": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 5
+   },
+   "ageGroup": "U14",
+   "competition": "League",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5858235",
+    "date": "2026-10-18T20:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Owl Hollow Soccer Field - #3"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5858235-home",
+     "name": "AB7 Future Academy",
+     "logo": "https://kitman.imgix.net/ab7futureacademy/AB7.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5858235-away",
+     "name": "Union County Football Club",
+     "logo": "https://kitman.imgix.net/unioncountyfc/Union%20County.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5888066",
+    "date": "2026-10-18T16:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "PDA Soccer Complex - Field 3 Turf"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5888066-home",
+     "name": "Players Development Academy",
+     "logo": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5888066-away",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 3
+   },
+   "ageGroup": "U14",
+   "competition": "League",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5858031",
+    "date": "2026-10-18T16:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Garfield High School - Stadium"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5858031-home",
+     "name": "PDA SC Vistula",
+     "logo": "https://kitman.imgix.net/pdascvistula/PDA%20Vistula.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5858031-away",
+     "name": "Cedar Stars Academy Newark",
+     "logo": "https://kitman.imgix.net/cedarstarsacademynewark/Cedar%20Stars%20Academy%20Newark_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 3
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855872",
+    "date": "2026-10-18T16:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "William Paterson University"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855872-home",
+     "name": "TSF Academy",
+     "logo": "https://kitman.imgix.net/tsfacademy/cropped-tsf-academy-logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855872-away",
+     "name": "Jersey Football Club",
+     "logo": "https://kitman.imgix.net/jerseyfootballclub/largelogo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 2,
+    "away": 5
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856919",
+    "date": "2026-10-18T13:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Borderntown Regional High School"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856919-home",
+     "name": "Trenton City Soccer Club",
+     "logo": "https://kitman.imgix.net/centraljersey/Trenton%20FC_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856919-away",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 3,
+    "away": 3
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5854507",
+    "date": "2026-10-18T13:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Overpeck County Park"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5854507-home",
+     "name": "Cedar Stars Academy Bergen",
+     "logo": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5854507-away",
+     "name": "Torpedoes SC",
+     "logo": "https://kitman.imgix.net/torpedoessc/wyckoff_torpedoes_soccer_club_logo.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856575",
+    "date": "2026-10-17T18:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "PDA Stadium Field at Notre Dame High School - PDA Stadium Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856575-home",
+     "name": "PDA Hibernian",
+     "logo": "https://kitman.imgix.net/pdahibernian/PDA%20Hibernian_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856575-away",
+     "name": "Trenton City Soccer Club",
+     "logo": "https://kitman.imgix.net/centraljersey/Trenton%20FC_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 7,
+    "away": 1
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856780",
+    "date": "2026-10-04T23:45:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Kantor Park - Turf Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856780-home",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856780-away",
+     "name": "TSF Academy",
+     "logo": "https://kitman.imgix.net/tsfacademy/cropped-tsf-academy-logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 3,
+    "away": 0
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857233",
+    "date": "2026-10-04T22:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "All Season Sports Turf Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857233-home",
+     "name": "Jersey Football Club",
+     "logo": "https://kitman.imgix.net/jerseyfootballclub/largelogo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857233-away",
+     "name": "Union County Football Club",
+     "logo": "https://kitman.imgix.net/unioncountyfc/Union%20County.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 4,
+    "away": 1
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855703",
+    "date": "2026-10-04T21:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Westampton Sports Complex - Field 2"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855703-home",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855703-away",
+     "name": "AB7 Future Academy",
+     "logo": "https://kitman.imgix.net/ab7futureacademy/AB7.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 0,
+    "away": 1
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857077",
+    "date": "2026-10-04T20:15:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Overpeck County Park"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857077-home",
+     "name": "Cedar Stars Academy Newark",
+     "logo": "https://kitman.imgix.net/cedarstarsacademynewark/Cedar%20Stars%20Academy%20Newark_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857077-away",
+     "name": "Cedar Stars Academy Bergen",
+     "logo": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 3,
+    "away": 1
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855130",
+    "date": "2026-10-04T19:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Riverfront Park - Riverfront Park 1 Brill St Newark, NJ 07105"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855130-home",
+     "name": "Ironbound Soccer Club",
+     "logo": "https://kitman.imgix.net/ironboundsc/Ironbound%20Soccer%20Club.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855130-away",
+     "name": "Cedar Stars Academy Monmouth",
+     "logo": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 0,
+    "away": 1
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5858271",
+    "date": "2026-10-04T18:30:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Pulis Turf Complex - Pulis B"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5858271-home",
+     "name": "Torpedoes SC",
+     "logo": "https://kitman.imgix.net/torpedoessc/wyckoff_torpedoes_soccer_club_logo.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5858271-away",
+     "name": "Trenton City Soccer Club",
+     "logo": "https://kitman.imgix.net/centraljersey/Trenton%20FC_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 2,
+    "away": 3
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855517",
+    "date": "2026-10-04T16:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "PDA Soccer Complex - Field 5 Turf"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855517-home",
+     "name": "Players Development Academy",
+     "logo": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855517-away",
+     "name": "PDA SC Vistula",
+     "logo": "https://kitman.imgix.net/pdascvistula/PDA%20Vistula.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 2,
+    "away": 0
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857293",
+    "date": "2026-10-03T22:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "All Season Sports Turf Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857293-home",
+     "name": "Jersey Football Club",
+     "logo": "https://kitman.imgix.net/jerseyfootballclub/largelogo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857293-away",
+     "name": "Cedar Stars Academy Newark",
+     "logo": "https://kitman.imgix.net/cedarstarsacademynewark/Cedar%20Stars%20Academy%20Newark_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 3
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5858247",
+    "date": "2026-10-03T19:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Pulis Turf Complex - Pulis A"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5858247-home",
+     "name": "Torpedoes SC",
+     "logo": "https://kitman.imgix.net/torpedoessc/wyckoff_torpedoes_soccer_club_logo.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5858247-away",
+     "name": "PDA SC Vistula",
+     "logo": "https://kitman.imgix.net/pdascvistula/PDA%20Vistula.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 2,
+    "away": 0
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5854633",
+    "date": "2026-10-03T19:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Capelli Sport Complex - Field #1"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5854633-home",
+     "name": "Cedar Stars Academy Monmouth",
+     "logo": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5854633-away",
+     "name": "AB7 Future Academy",
+     "logo": "https://kitman.imgix.net/ab7futureacademy/AB7.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 3,
+    "away": 2
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855727",
+    "date": "2026-10-03T18:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Bob Bende Soccer Complex - Payer Matrix Turf (Near Woods)"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855727-home",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855727-away",
+     "name": "Union County Football Club",
+     "logo": "https://kitman.imgix.net/unioncountyfc/Union%20County.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 0,
+    "away": 3
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856581",
+    "date": "2026-10-03T17:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "PDA Stadium Field at Notre Dame High School - PDA Stadium Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856581-home",
+     "name": "PDA Hibernian",
+     "logo": "https://kitman.imgix.net/pdahibernian/PDA%20Hibernian_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856581-away",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 2,
+    "away": 2
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855499",
+    "date": "2026-10-03T16:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "PDA Soccer Complex - Field #1 Turf"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855499-home",
+     "name": "Players Development Academy",
+     "logo": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855499-away",
+     "name": "Ironbound Soccer Club",
+     "logo": "https://kitman.imgix.net/ironboundsc/Ironbound%20Soccer%20Club.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 3,
+    "away": 0
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856756",
+    "date": "2026-09-28T00:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Florham Park Sports Dome - Turf"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856756-home",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856756-away",
+     "name": "Cedar Stars Academy Bergen",
+     "logo": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 4
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855589",
+    "date": "2026-09-27T16:30:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Bob Bende Soccer Complex - Payer Matrix Turf (Near Woods)"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855589-home",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855589-away",
+     "name": "TSF Academy",
+     "logo": "https://kitman.imgix.net/tsfacademy/cropped-tsf-academy-logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 2
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5742992",
+    "date": "2026-09-27T15:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Capelli Sport Complex - Hudson Valley"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5742992-home",
+     "name": "Cedar Stars Academy Bergen",
+     "logo": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5742992-away",
+     "name": "Ironbound Soccer Club",
+     "logo": "https://kitman.imgix.net/ironboundsc/Ironbound%20Soccer%20Club.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 3,
+    "away": 0
+   },
+   "ageGroup": "U14",
+   "competition": "League",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856623",
+    "date": "2026-09-27T14:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "PDA Stadium Field at Notre Dame High School - PDA Stadium Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856623-home",
+     "name": "PDA Hibernian",
+     "logo": "https://kitman.imgix.net/pdahibernian/PDA%20Hibernian_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856623-away",
+     "name": "PDA SC Vistula",
+     "logo": "https://kitman.imgix.net/pdascvistula/PDA%20Vistula.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 2,
+    "away": 4
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5885942",
+    "date": "2026-09-26T15:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Florham Park Sports Dome - Turf"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5885942-home",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5885942-away",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 3,
+    "away": 1
+   },
+   "ageGroup": "U14",
+   "competition": "League",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857305",
+    "date": "2026-09-21T00:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "All Season Sports Turf Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857305-home",
+     "name": "Jersey Football Club",
+     "logo": "https://kitman.imgix.net/jerseyfootballclub/largelogo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857305-away",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 4,
+    "away": 0
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5858181",
+    "date": "2026-09-20T21:15:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Owl Hollow Soccer Field - #3"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5858181-home",
+     "name": "AB7 Future Academy",
+     "logo": "https://kitman.imgix.net/ab7futureacademy/AB7.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5858181-away",
+     "name": "PDA Hibernian",
+     "logo": "https://kitman.imgix.net/pdahibernian/PDA%20Hibernian_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 0,
+    "away": 1
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5854489",
+    "date": "2026-09-20T21:15:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Overpeck County Park"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5854489-home",
+     "name": "Cedar Stars Academy Bergen",
+     "logo": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5854489-away",
+     "name": "Players Development Academy",
+     "logo": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 6
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5858062",
+    "date": "2026-09-20T20:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Garfield High School - Stadium"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5858062-home",
+     "name": "PDA SC Vistula",
+     "logo": "https://kitman.imgix.net/pdascvistula/PDA%20Vistula.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5858062-away",
+     "name": "Ironbound Soccer Club",
+     "logo": "https://kitman.imgix.net/ironboundsc/Ironbound%20Soccer%20Club.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 4,
+    "away": 1
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5858319",
+    "date": "2026-09-20T18:30:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Pulis Turf Complex - Pulis B"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5858319-home",
+     "name": "Torpedoes SC",
+     "logo": "https://kitman.imgix.net/torpedoessc/wyckoff_torpedoes_soccer_club_logo.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5858319-away",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 3,
+    "away": 0
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855866",
+    "date": "2026-09-20T16:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "DePaul Catholic High School - Stadium Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855866-home",
+     "name": "TSF Academy",
+     "logo": "https://kitman.imgix.net/tsfacademy/cropped-tsf-academy-logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855866-away",
+     "name": "Union County Football Club",
+     "logo": "https://kitman.imgix.net/unioncountyfc/Union%20County.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 2,
+    "away": 0
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5854603",
+    "date": "2026-09-20T16:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Capelli Sport Complex - Field #1"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5854603-home",
+     "name": "Cedar Stars Academy Monmouth",
+     "logo": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5854603-away",
+     "name": "Cedar Stars Academy Newark",
+     "logo": "https://kitman.imgix.net/cedarstarsacademynewark/Cedar%20Stars%20Academy%20Newark_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 6
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": "2026-10-19T03:06:43.275Z",
+   "fixture": {
+    "id": "kitman_5743034",
+    "date": "2026-09-20T10:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "TBD"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5743034-home",
+     "name": "Cedar Stars Academy Monmouth",
+     "logo": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5743034-away",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "League",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5856671",
+    "date": "2026-09-19T22:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Kantor Park - Turf Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5856671-home",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5856671-away",
+     "name": "AB7 Future Academy",
+     "logo": "https://kitman.imgix.net/ab7futureacademy/AB7.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 1
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855733",
+    "date": "2026-09-19T22:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Passaic Valley High School"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855733-home",
+     "name": "TSF Academy",
+     "logo": "https://kitman.imgix.net/tsfacademy/cropped-tsf-academy-logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855733-away",
+     "name": "Cedar Stars Academy Monmouth",
+     "logo": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 6,
+    "away": 1
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5854447",
+    "date": "2026-09-19T20:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Overpeck County Park"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5854447-home",
+     "name": "Cedar Stars Academy Bergen",
+     "logo": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5854447-away",
+     "name": "Ironbound Soccer Club",
+     "logo": "https://kitman.imgix.net/ironboundsc/Ironbound%20Soccer%20Club.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 6,
+    "away": 1
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857065",
+    "date": "2026-09-19T18:15:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Overpeck County Park"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857065-home",
+     "name": "Cedar Stars Academy Newark",
+     "logo": "https://kitman.imgix.net/cedarstarsacademynewark/Cedar%20Stars%20Academy%20Newark_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857065-away",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 0
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857089",
+    "date": "2026-09-19T17:15:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Wardlaw Hartridge School - Varsity Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857089-home",
+     "name": "Union County Football Club",
+     "logo": "https://kitman.imgix.net/unioncountyfc/Union%20County.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857089-away",
+     "name": "PDA SC Vistula",
+     "logo": "https://kitman.imgix.net/pdascvistula/PDA%20Vistula.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 3,
+    "away": 3
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855505",
+    "date": "2026-09-19T16:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "PDA Soccer Complex - Field 5 Turf"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855505-home",
+     "name": "Players Development Academy",
+     "logo": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855505-away",
+     "name": "Jersey Football Club",
+     "logo": "https://kitman.imgix.net/jerseyfootballclub/largelogo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 6
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857354",
+    "date": "2026-09-13T23:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "All Season Sports Turf Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857354-home",
+     "name": "Jersey Football Club",
+     "logo": "https://kitman.imgix.net/jerseyfootballclub/largelogo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857354-away",
+     "name": "Cedar Stars Academy Bergen",
+     "logo": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 5,
+    "away": 0
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857071",
+    "date": "2026-09-13T22:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "FDU Soccer Field - Teaneck"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857071-home",
+     "name": "Cedar Stars Academy Newark",
+     "logo": "https://kitman.imgix.net/cedarstarsacademynewark/Cedar%20Stars%20Academy%20Newark_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857071-away",
+     "name": "Players Development Academy",
+     "logo": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 2,
+    "away": 2
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5857125",
+    "date": "2026-09-13T21:15:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Wardlaw Hartridge School - Varsity Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5857125-home",
+     "name": "Union County Football Club",
+     "logo": "https://kitman.imgix.net/unioncountyfc/Union%20County.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5857125-away",
+     "name": "Trenton City Soccer Club",
+     "logo": "https://kitman.imgix.net/centraljersey/Trenton%20FC_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 4,
+    "away": 2
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5854597",
+    "date": "2026-09-13T20:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Capelli Sport Complex - Field #6"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5854597-home",
+     "name": "Cedar Stars Academy Monmouth",
+     "logo": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5854597-away",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 1,
+    "away": 5
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5858056",
+    "date": "2026-09-13T19:30:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Garfield High School - Stadium"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5858056-home",
+     "name": "PDA SC Vistula",
+     "logo": "https://kitman.imgix.net/pdascvistula/PDA%20Vistula.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5858056-away",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 8,
+    "away": 1
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5855106",
+    "date": "2026-09-13T13:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Riverfront Park - Riverfront Park 1 Brill St Newark, NJ 07105"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5855106-home",
+     "name": "Ironbound Soccer Club",
+     "logo": "https://kitman.imgix.net/ironboundsc/Ironbound%20Soccer%20Club.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5855106-away",
+     "name": "TSF Academy",
+     "logo": "https://kitman.imgix.net/tsfacademy/cropped-tsf-academy-logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 4,
+    "away": 1
+   },
+   "ageGroup": "U14",
+   "competition": "Academy Division",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": "2026-10-18T03:04:44.665Z",
+   "fixture": {
+    "id": "kitman_5737914",
+    "date": "2026-09-13T10:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "TBD"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5737914-home",
+     "name": "Players Development Academy",
+     "logo": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5737914-away",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "League",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": null,
+   "fixture": {
+    "id": "kitman_5885974",
+    "date": "2026-09-06T14:00:00.000Z",
+    "status": {
+     "short": "FT",
+     "long": "FT",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "Pingry Babbitt - Turf Field"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5885974-home",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5885974-away",
+     "name": "Players Development Academy",
+     "logo": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": 3,
+    "away": 0
+   },
+   "ageGroup": "U14",
+   "competition": "League",
+   "_age": "U14"
+  },
+  {
+   "scheduleSourceUnavailableAt": "2026-10-17T23:05:40.129Z",
+   "fixture": {
+    "id": "kitman_5738346",
+    "date": "2026-09-05T10:00:00.000Z",
+    "status": {
+     "short": "Scheduled",
+     "long": "Scheduled",
+     "elapsed": null
+    },
+    "venue": {
+     "name": "TBD"
+    }
+   },
+   "teams": {
+    "home": {
+     "id": "kitman_5738346-home",
+     "name": "The Football Academy",
+     "logo": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    },
+    "away": {
+     "id": "kitman_5738346-away",
+     "name": "Real Futbol Academy",
+     "logo": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+    }
+   },
+   "goals": {
+    "home": null,
+    "away": null
+   },
+   "ageGroup": "U14",
+   "competition": "League",
+   "_age": "U14"
+  }
+ ],
+ "logos": {
+  "AB7 Future Academy": "https://kitman.imgix.net/ab7futureacademy/AB7.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100",
+  "Cedar Stars Academy Bergen": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100",
+  "Cedar Stars Academy Monmouth": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100",
+  "Cedar Stars Academy Newark": "https://kitman.imgix.net/cedarstarsacademynewark/Cedar%20Stars%20Academy%20Newark_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100",
+  "Ironbound Soccer Club": "https://kitman.imgix.net/ironboundsc/Ironbound%20Soccer%20Club.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100",
+  "Jersey Football Club": "https://kitman.imgix.net/jerseyfootballclub/largelogo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100",
+  "PDA Hibernian": "https://kitman.imgix.net/pdahibernian/PDA%20Hibernian_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100",
+  "PDA SC Vistula": "https://kitman.imgix.net/pdascvistula/PDA%20Vistula.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100",
+  "Players Development Academy": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100",
+  "Real Futbol Academy": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100",
+  "The Football Academy": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100",
+  "Torpedoes SC": "https://kitman.imgix.net/torpedoessc/wyckoff_torpedoes_soccer_club_logo.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100",
+  "Trenton City Soccer Club": "https://kitman.imgix.net/centraljersey/Trenton%20FC_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100",
+  "TSF Academy": "https://kitman.imgix.net/tsfacademy/cropped-tsf-academy-logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100",
+  "Union County Football Club": "https://kitman.imgix.net/unioncountyfc/Union%20County.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+ }
+}

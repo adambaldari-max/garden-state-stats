@@ -1,0 +1,1472 @@
+Age Group
+Conference
+U13 Carolinas
+Rank
+Team
+Quality of Play
+Att Score
+Def Score
+1
+Carolina Core FC
+-
+-
+-
+2
+Carolina Velocity FC
+-
+-
+-
+3
+Charleston SC
+-
+-
+-
+4
+Charlotte Eagles
+-
+-
+-
+5
+Charlotte Independence Soccer Club
+-
+-
+-
+6
+Fox Soccer Academy Carolinas
+-
+-
+-
+7
+Lowcountry United
+-
+-
+-
+8
+Queen City Mutiny FC
+-
+-
+-
+9
+Triangle United Soccer Association
+-
+-
+-
+10
+Wake FC
+-
+-
+-
+U13 Desert
+Rank
+Team
+Quality of Play
+Att Score
+Def Score
+1
+Albion SC Las Vegas
+-
+-
+-
+2
+Celtic Storm
+-
+-
+-
+3
+City SC Utah
+-
+-
+-
+4
+Downtown Las Vegas Soccer Club
+-
+-
+-
+5
+FC Tucson Youth Soccer Club
+-
+-
+-
+6
+Las Vegas Sports Academy
+-
+-
+-
+7
+Monarchs AZ
+-
+-
+-
+8
+Phoenix Premier FC
+-
+-
+-
+9
+Phoenix Rising FC
+-
+-
+-
+10
+Players SC
+-
+-
+-
+11
+RSL Arizona
+-
+-
+-
+12
+RSL Arizona Mesa
+-
+-
+-
+13
+SC Del Sol
+-
+-
+-
+14
+Sparta United Soccer Club
+-
+-
+-
+15
+Wasatch SC
+-
+-
+-
+U13 Garden State
+Rank
+Team
+Quality of Play
+Att Score
+Def Score
+1
+AB7 Future Academy
+-
+-
+-
+2
+Cedar Stars Academy Bergen
+-
+-
+-
+3
+Cedar Stars Academy Monmouth
+-
+-
+-
+4
+Cedar Stars Academy Newark
+-
+-
+-
+5
+Ironbound Soccer Club
+-
+-
+-
+6
+Jersey Football Club
+-
+-
+-
+7
+PDA SC Vistula
+-
+-
+-
+8
+Players Development Academy
+-
+-
+-
+9
+PDA Hibernian
+-
+-
+-
+10
+Real Futbol Academy
+-
+-
+-
+11
+TSF Academy
+-
+-
+-
+12
+The Football Academy
+-
+-
+-
+13
+Torpedoes SC
+-
+-
+-
+14
+Trenton City Soccer Club
+-
+-
+-
+15
+Union County Football Club
+-
+-
+-
+U13 Great Lakes North
+Rank
+Team
+Quality of Play
+Att Score
+Def Score
+1
+Fort Wayne United FC
+-
+-
+-
+2
+Michigan Stars Elite
+-
+-
+-
+3
+Michigan Bucks Academy
+-
+-
+-
+4
+AC Grand Rapids
+-
+-
+-
+5
+Michigan Jaguars United FC
+-
+-
+-
+6
+Michigan Jaguars
+-
+-
+-
+7
+Michigan Tigers FC
+-
+-
+-
+8
+Michigan Wolves
+-
+-
+-
+9
+Midwest United FC
+-
+-
+-
+10
+Millennium Soccer Academy
+-
+-
+-
+11
+Vardar Soccer Club
+-
+-
+-
+U13 Great Lakes South
+Rank
+Team
+Quality of Play
+Att Score
+Def Score
+1
+Beadling SC
+-
+-
+-
+2
+Central Illinois United
+-
+-
+-
+3
+Cincinnati United Soccer Club
+-
+-
+-
+4
+Club Ohio
+-
+-
+-
+5
+Hoosier FC
+-
+-
+-
+6
+Indy Eleven
+-
+-
+-
+7
+Indy Premier
+-
+-
+-
+8
+Javanon FC
+-
+-
+-
+9
+Kings Hammer Cincinnati
+-
+-
+-
+10
+Sporting Columbus United
+-
+-
+-
+11
+St. Louis Scott Gallagher
+-
+-
+-
+U13 Heartland
+Rank
+Team
+Quality of Play
+Att Score
+Def Score
+1
+Eastern Iowa United
+-
+-
+-
+2
+Lou Fusz Athletic
+-
+-
+-
+3
+Lou Fusz Athletic 2
+-
+-
+-
+4
+Omaha Evolution Soccer Club
+-
+-
+-
+5
+Rozeboom Futbol Academy
+-
+-
+-
+6
+Sporting Blue Valley
+-
+-
+-
+7
+Sporting City
+-
+-
+-
+8
+Sporting Kaw Valley
+-
+-
+-
+9
+Sporting Springfield
+-
+-
+-
+10
+Sporting Wichita
+-
+-
+-
+11
+St. Louis Development Academy
+-
+-
+-
+12
+St. Louis Scott Gallagher Illinois
+-
+-
+-
+13
+St. Louis Scott Gallagher St. Charles
+-
+-
+-
+14
+Sting Nebraska
+-
+-
+-
+U13 Mid-Atlantic
+Rank
+Team
+Quality of Play
+Att Score
+Def Score
+1
+Baltimore Armour
+-
+-
+-
+2
+Bethesda SC
+-
+-
+-
+3
+Coppermine SC
+-
+-
+-
+4
+FC DELCO
+-
+-
+-
+5
+Keystone FC
+-
+-
+-
+6
+PA Classics
+-
+-
+-
+7
+PA Classics Harrisburg
+-
+-
+-
+8
+Penn Rising XI
+-
+-
+-
+9
+The Player Progression Academy
+-
+-
+-
+10
+Reading Rage Surf
+-
+-
+-
+11
+Sporting Athletic Club
+-
+-
+-
+U13 Mountain
+Rank
+Team
+Quality of Play
+Att Score
+Def Score
+1
+Albion SC Boulder County
+-
+-
+-
+2
+ALBION SC Denver
+-
+-
+-
+3
+Broomfield Soccer Club
+-
+-
+-
+4
+Classic FC
+-
+-
+-
+5
+Colorado United SC
+-
+-
+-
+6
+Grand Junction Soccer Club
+-
+-
+-
+7
+New Mexico Soccer Academy
+-
+-
+-
+8
+Skyline Soccer Association
+-
+-
+-
+U13 New England
+Rank
+Team
+Quality of Play
+Att Score
+Def Score
+1
+Bayside FC
+-
+-
+-
+2
+FC Greater Boston Bolts
+-
+-
+-
+3
+FC Greater Boston Bolts Metro North
+-
+-
+-
+4
+FC North
+-
+-
+-
+5
+Ginga FC
+-
+-
+-
+6
+IFA West
+-
+-
+-
+7
+Intercontinental Football Academy of New England
+-
+-
+-
+8
+NEFC
+-
+-
+-
+9
+NEFC South
+-
+-
+-
+10
+New York Rush
+-
+-
+-
+11
+New England Force
+-
+-
+-
+12
+New England Surf SC
+-
+-
+-
+13
+New York Elite Alleycats FC
+-
+-
+-
+14
+Rhode Island Surf SC
+-
+-
+-
+15
+Seacoast United Bedford
+-
+-
+-
+16
+Seacoast United Mass
+-
+-
+-
+17
+Syracuse Development Academy
+-
+-
+-
+18
+Vale Rush United
+-
+-
+-
+19
+Valeo Futbol Club
+-
+-
+-
+U13 North
+Rank
+Team
+Quality of Play
+Att Score
+Def Score
+1
+Bavarian United SC
+-
+-
+-
+2
+Chicago FC United
+-
+-
+-
+3
+Chicago Fire Youth SC
+-
+-
+-
+4
+Elmbrook United
+-
+-
+-
+5
+Evolution Soccer Club
+-
+-
+-
+6
+Forward Madison FC
+-
+-
+-
+7
+Galaxy Soccer Club
+-
+-
+-
+8
+Lakeville SC
+-
+-
+-
+9
+Manitou F.C.
+-
+-
+-
+10
+Minneapolis United SC
+-
+-
+-
+11
+SC Wave
+-
+-
+-
+12
+Saint Paul Blackhawks
+-
+-
+-
+13
+Sockers FC Chicago
+-
+-
+-
+14
+Tonka Fusion Elite
+-
+-
+-
+15
+Wisconsin United FC
+-
+-
+-
+U13 Northeast
+Rank
+Team
+Quality of Play
+Att Score
+Def Score
+1
+Albertson Soccer Club
+-
+-
+-
+2
+Atlantic United
+-
+-
+-
+3
+Beachside of Connecticut
+-
+-
+-
+4
+Blau Weiss Gottschee
+-
+-
+-
+5
+Brooklyn United Academy
+-
+-
+-
+6
+Cedar Stars Academy Hudson Valley
+-
+-
+-
+7
+Downtown United Soccer Club
+-
+-
+-
+8
+FA Euro New York
+-
+-
+-
+9
+FC Harlem
+-
+-
+-
+10
+FC Hudson Valley
+-
+-
+-
+11
+FC Westchester
+-
+-
+-
+12
+Metropolitan Oval
+-
+-
+-
+13
+New York SC
+-
+-
+-
+14
+The Island FC East
+-
+-
+-
+15
+The Island FC West
+-
+-
+-
+U13 Northern California Coast
+Rank
+Team
+Quality of Play
+Att Score
+Def Score
+1
+Force
+-
+-
+-
+2
+Modesto Ajax United
+-
+-
+-
+3
+San Francisco Glens SC
+-
+-
+-
+4
+The Town FC Academy
+-
+-
+-
+5
+Woodside Soccer Club Crush
+-
+-
+-
+6
+Almaden FC
+-
+-
+-
+7
+FC Bay Area Surf
+-
+-
+-
+8
+Burlingame Soccer Club
+-
+-
+-
+9
+Elk Grove Soccer
+-
+-
+-
+10
+Palo Alto Soccer Club
+-
+-
+-
+U13 Northern California Redwood
+Rank
+Team
+Quality of Play
+Att Score
+Def Score
+1
+Eastshore Alliance Fútbol Club
+-
+-
+-
+2
+North Bay Glens FC
+-
+-
+-
+3
+OV Toros
+-
+-
+-
+4
+Roseville Soccer Club
+-
+-
+-
+5
+San Francisco Seals
+-
+-
+-
+6
+ALBION SC Merced
+-
+-
+-
+7
+Atletico Santa Rosa
+-
+-
+-
+8
+Ballistic United
+-
+-
+-
+9
+Lamorinda Soccer Club
+-
+-
+-
+10
+Sacramento United
+-
+-
+-
+U13 Pacific Northwest
+Rank
+Team
+Quality of Play
+Att Score
+Def Score
+1
+Atletico FC
+-
+-
+-
+2
+Atletico Azul
+-
+-
+-
+3
+Hillsboro Rush
+-
+-
+-
+4
+Mt. Rainier Futbol Club
+-
+-
+-
+5
+Oregon Surf SC
+-
+-
+-
+6
+Saints Academy
+-
+-
+-
+7
+Seattle Celtic
+-
+-
+-
+8
+Seattle Celtic Green
+-
+-
+-
+9
+Soccer Chance Academy
+-
+-
+-
+10
+Sound FC
+-
+-
+-
+11
+Sozo FC
+-
+-
+-
+12
+Washington East Surf SC
+-
+-
+-
+13
+Washington Rush
+-
+-
+-
+14
+Western Washington Surf SC
+-
+-
+-
+15
+Westside Metros FC
+-
+-
+-
+16
+Westside Metros FC South
+-
+-
+-
+U13 Pioneer
+Rank
+Team
+Quality of Play
+Att Score
+Def Score
+1
+210 FC
+-
+-
+-
+2
+956 United
+-
+-
+-
+3
+AC River
+-
+-
+-
+4
+Aspire FC
+-
+-
+-
+5
+Capital City North
+-
+-
+-
+6
+Capital City South
+-
+-
+-
+7
+Dallas Hornets East
+-
+-
+-
+8
+Dallas Hornets North
+-
+-
+-
+9
+Dallas Surf
+-
+-
+-
+10
+GFI Academy South
+-
+-
+-
+11
+GFI Academy North
+-
+-
+-
+12
+Houston Futsal Club (HFA)
+-
+-
+-
+13
+Houston Rangers
+-
+-
+-
+14
+Houston Select
+-
+-
+-
+15
+Ozark United FC Academy
+-
+-
+-
+16
+Pearland Soccer
+-
+-
+-
+17
+SA United SC
+-
+-
+-
+18
+SGA
+-
+-
+-
+19
+Sporting Oklahoma
+-
+-
+-
+20
+Texas Lightning
+-
+-
+-
+21
+Tulsa Greenwood SC
+-
+-
+-
+U13 South
+Rank
+Team
+Quality of Play
+Att Score
+Def Score
+1
+AFC Lightning
+-
+-
+-
+2
+ASG
+-
+-
+-
+3
+ALBION SC Atlanta
+-
+-
+-
+4
+Covered Bridge
+-
+-
+-
+5
+Georgia Impact
+-
+-
+-
+6
+Hoover-Vestavia Soccer
+-
+-
+-
+7
+Inter Atlanta FC
+-
+-
+-
+8
+KSA
+-
+-
+-
+9
+Kings Hammer Nashville
+-
+-
+-
+10
+Lanier Soccer Association
+-
+-
+-
+11
+One Knoxville SC
+-
+-
+-
+12
+Roswell Soccer Club
+-
+-
+-
+13
+Southern Soccer Academy
+-
+-
+-
+14
+Vero
+-
+-
+-
+U13 Southern California
+Rank
+Team
+Quality of Play
+Att Score
+Def Score
+1
+Albion SC Los Angeles
+-
+-
+-
+2
+ALBION SC Riverside
+-
+-
+-
+3
+ALBION SC San Diego
+-
+-
+-
+4
+California Athletic Soccer Club
+-
+-
+-
+5
+Chula Vista FC
+-
+-
+-
+6
+City SC - San Diego
+-
+-
+-
+7
+City SC Southwest
+-
+-
+-
+8
+FC Golden State Force
+-
+-
+-
+9
+LA Surf Soccer Club
+-
+-
+-
+10
+LA Youth
+-
+-
+-
+11
+Laguna United FC
+-
+-
+-
+12
+Los Angeles Bulls Soccer Club
+-
+-
+-
+13
+Los Angeles Sports Club
+-
+-
+-
+14
+Oaks FC
+-
+-
+-
+15
+SoCal Reds FC
+-
+-
+-
+16
+Sporting San Diego
+-
+-
+-
+17
+Strikers FC
+-
+-
+-
+18
+Strikers FC Orange County
+-
+-
+-
+19
+Total Futbol Academy
+-
+-
+-
+20
+Ventura County Fusion
+-
+-
+-
+U13 Sunshine North
+Rank
+Team
+Quality of Play
+Att Score
+Def Score
+1
+Chargers Soccer Club
+-
+-
+-
+2
+DME Academy Sarasota
+-
+-
+-
+3
+IMG
+-
+-
+-
+4
+IdeaSport SA
+-
+-
+-
+5
+Jacksonville FC
+-
+-
+-
+6
+NONA Soccer Academy
+-
+-
+-
+7
+Orlando City Lake Nona
+-
+-
+-
+8
+Orlando City Soccer School South
+-
+-
+-
+9
+Seminole United
+-
+-
+-
+10
+Sol SC Florida
+-
+-
+-
+11
+Tampa Bay United
+-
+-
+-
+12
+United Soccer Alliance
+-
+-
+-
+13
+West Florida Flames
+-
+-
+-
+U13 Sunshine South
+Rank
+Team
+Quality of Play
+Att Score
+Def Score
+1
+Athletum FC Academy
+-
+-
+-
+2
+Azzurri Storm Soccer Club
+-
+-
+-
+3
+FC Florida Prep
+-
+-
+-
+4
+Galacticos Soccer Academy
+-
+-
+-
+5
+Key Biscayne SC
+-
+-
+-
+6
+Miami Futbol Academy Rush
+-
+-
+-
+7
+One FC
+-
+-
+-
+8
+Plantation FC Rush
+-
+-
+-
+9
+South Florida Football Academy
+-
+-
+-
+10
+Springs Soccer Club
+-
+-
+-
+11
+Weston FC
+-
+-
+-
+U13 Virginia
+Rank
+Team
+Quality of Play
+Att Score
+Def Score
+1
+Alexandria SA
+-
+-
+-
+2
+DC Soccer Club
+-
+-
+-
+3
+FC Richmond
+-
+-
+-
+4
+Loudoun Soccer Club
+-
+-
+-
+5
+McLean Youth Soccer
+-
+-
+-
+6
+Northern Virginia United
+-
+-
+-
+7
+Springfield SYC
+-
+-
+-
+8
+The St. James
+-
+-
+-
+9
+Virginia Rush
+-
+-
+-
+10
+Virginia Revolution SC
+-
+-
+-
+11
+Virginia Velocity
+-
+-
+-

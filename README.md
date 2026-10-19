@@ -23,7 +23,28 @@ Not affiliated with, sponsored by, or endorsed by MLS NEXT or Major League Socce
   from FootyAccess fixtures. They are only filled when the FootyAccess date matches the
   schedule date; otherwise the site shows "Time TBA".
 
+## All conferences
+
+A **Conference** dropdown next to U13/U14 switches between all 20 MLS NEXT
+Academy Division conferences. Garden State is the default and keeps its
+hand-checked Golden Boot; other conferences show standings, results, team
+profiles, Best Defense and Club View (no Golden Boot). A conference can be
+linked directly, e.g. `?conference=northeast`.
+
+Their data lives in `data/academy-u13.json` and `data/academy-u14.json`, loaded
+only when someone picks another conference.
+
 ## Automation
+
+`.github/workflows/official-update.yml` runs every night (about 4:15 AM Eastern)
+and on Saturday/Sunday evenings. `scripts/official-update.mjs` downloads the
+official MLS NEXT Academy Division schedule and standings feeds (the data behind
+mlssoccer.com/mlsnext/standings/academy_division/), rewrites the two
+`data/academy-*.json` files and refreshes the Garden State matches embedded in
+`index.html` (scores, dates, kickoff times, fields). Player/Golden Boot data is
+never touched. If the feed looks incomplete the script stops without writing.
+Run it on demand from **Actions → Nightly official MLS NEXT update → Run workflow**.
+
 
 `.github/workflows/footyaccess-collect.yml` runs Tuesday and Wednesday at
 4:30 AM Eastern. It collects FootyAccess player statistics and, only if every

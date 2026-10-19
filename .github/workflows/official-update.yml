@@ -1,0 +1,46 @@
+name: Nightly official MLS NEXT update
+# Refreshes results, kickoff times and fields for every U13/U14 Academy Division
+# conference from the official MLS NEXT feed. Commits only when something changed.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 8 * * *'   # every night, about 4:15 AM Eastern (3:15 AM in winter)
+    - cron: '0 0 * * 0,1'  # Saturday and Sunday evenings, about 8 PM Eastern, to catch weekend results sooner
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: garden-state-site-update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Pull official MLS NEXT schedule and standings
+        run: node scripts/official-update.mjs
+      - name: Commit changes
+        shell: bash
+        run: |
+          if git diff --quiet -- index.html data/; then
+            echo "No changes since the last update."
+            exit 0
+          fi
+          git config user.name "garden-state-stats-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html data/
+          git commit -m "Nightly official MLS NEXT data update"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+        id: commit
+      - name: Republish the site
+        if: steps.commit.outputs.changed == 'true'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds" || echo "Pages rebuild request not accepted; the push will still publish on the next build."

@@ -1,22 +1,23 @@
-// Read-only: find how FootyAccess loads per-match goal events (scorer + minute).
+// Read-only: open a Garden State result on FootyAccess and record the API call that returns its goal events.
 import { chromium } from 'playwright';
 import fs from 'node:fs';
 const out='probe-output';fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});
-const log=[];
+const log=[];let phase='load';
 const browser=await chromium.launch({headless:true});
-const ctx=await browser.newContext({userAgent:'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36',viewport:{width:1366,height:900}});
-ctx.on('response',async r=>{const u=r.url();if(!/onrender|footyaccess\.com\/api/.test(u))return;let t='';try{t=await r.text()}catch(e){}log.push({u,s:r.status(),len:t.length,hasGoal:/goal|scorer|event/i.test(t.slice(0,20000))});if(/event|incident|timeline|match/i.test(u)&&t.length<3000000)fs.writeFileSync(`${out}/api-${log.length}.json`,JSON.stringify({u,body:t.slice(0,400000)}))});
+const ctx=await browser.newContext({userAgent:'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36',viewport:{width:1366,height:1000}});
+ctx.on('request',r=>{const u=r.url();if(/onrender\.com\/api|footyaccess\.com\/api/.test(u))log.push({phase,req:u,method:r.method()})});
+ctx.on('response',async r=>{const u=r.url();if(!/onrender\.com\/api|footyaccess\.com\/api/.test(u)||/matches\?season|overview|tournaments/.test(u))return;let t='';try{t=await r.text()}catch(e){}fs.writeFileSync(`${out}/resp-${phase}-${log.length}.json`,JSON.stringify({u,status:r.status(),body:t.slice(0,300000)}))});
 const p=await ctx.newPage();
-await p.goto('https://www.footyaccess.com/leagues/mls-next?ageGroups=U13',{waitUntil:'load',timeout:90000});await p.waitForTimeout(6000);
-try{await p.getByRole('tab',{name:/Matches/i}).first().click({timeout:8000})}catch(e){try{await p.getByText('Matches',{exact:true}).first().click({timeout:8000})}catch(e2){log.push({clickErr:String(e2).slice(0,200)})}}
-await p.waitForTimeout(6000);
-const links=await p.$$eval('a[href]',as=>[...new Set(as.map(a=>a.href))].filter(h=>/match|fixture|game/i.test(h)).slice(0,40));
-log.push({links});
-fs.writeFileSync(out+'/matches-tab.txt',(await p.innerText('body')).slice(0,40000));
-// open a match page: prefer a Garden State one if visible
-let target=links.find(h=>/5856789|5855872/.test(h))||links[0];
-if(target){await p.goto(target,{waitUntil:'load',timeout:90000});await p.waitForTimeout(8000);fs.writeFileSync(out+'/match-page.txt',(await p.innerText('body')).slice(0,40000));log.push({opened:target,url:p.url()})}
-// try direct match URL patterns
-for(const u of ['https://www.footyaccess.com/matches/kitman_5856789','https://www.footyaccess.com/leagues/mls-next/matches/kitman_5856789','https://www.footyaccess.com/match/kitman_5856789']){const q=await ctx.newPage();try{const r=await q.goto(u,{waitUntil:'load',timeout:60000});await q.waitForTimeout(6000);log.push({try:u,status:r?.status(),final:q.url(),text:(await q.innerText('body')).slice(0,600)})}catch(e){log.push({try:u,err:String(e).slice(0,150)})}await q.close()}
+await p.goto('https://www.footyaccess.com/leagues/mls-next?ageGroups=U13',{waitUntil:'load',timeout:90000});await p.waitForTimeout(5000);
+const click=async(loc,label)=>{try{await loc.first().click({timeout:8000});await p.waitForTimeout(3500);log.push({clicked:label})}catch(e){log.push({clickFail:label,err:String(e).slice(0,150)})}};
+await click(p.getByText('MATCHES',{exact:true}),'MATCHES');
+await click(p.getByText('Results',{exact:true}),'Results');
+fs.writeFileSync(out+'/results.txt',(await p.innerText('body')).slice(0,30000));
+await click(p.getByText(/Oct 18/),'Oct 18');
+fs.writeFileSync(out+'/oct18.txt',(await p.innerText('body')).slice(0,60000));
+phase='card';
+const card=p.locator('article, li, [role=button], button, a, div').filter({hasText:'Trenton City Soccer Club'}).filter({hasText:'Real Futbol Academy'});
+const n=await card.count();log.push({cards:n});
+if(n){const els=await card.all();await els[els.length-1].click({timeout:8000}).catch(e=>log.push({cardErr:String(e).slice(0,150)}));await p.waitForTimeout(7000);log.push({after:p.url()});fs.writeFileSync(out+'/after-card.txt',(await p.innerText('body')).slice(0,40000));await p.screenshot({path:out+'/after-card.png'})}
 await browser.close();
 fs.writeFileSync(out+'/log.json',JSON.stringify(log,null,1));

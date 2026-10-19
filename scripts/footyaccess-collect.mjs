@@ -50,12 +50,17 @@ const added=matched.filter(p=>!oldMap.has(key(p))).map(p=>({player:p.player,club
 
 const missingLookup=[];
 for(const p of missing){
- const q=encodeURIComponent(p.player);
- try{
-  const lookup=await context.request.get('https://footy-access-dev.onrender.com/api/mls-next/stats/dashboard?season=2027&ageGroup='+age+'&metric=goals&page=1&q='+q,{timeout:30000});
-  const payload=await lookup.json();
-  missingLookup.push({player:p.player,club:p.club,http:lookup.status(),totalPlayers:payload.data?.totalPlayers,hasMore:payload.data?.hasMore,results:(payload.data?.players||[]).slice(0,15).map(x=>({name:x.name,team:x.team,goals:x.stats?.goals,ageGroup:x.ageGroup}))});
- }catch(e){missingLookup.push({player:p.player,error:String(e)});}
+ const searches=[{kind:'full-name',q:p.player},{kind:'surname',q:p.player.trim().split(/\\s+/).at(-1)},{kind:'club',q:p.club}];
+ const attempts=[];
+ for(const item of searches){
+  try{
+   const url='https://footy-access-dev.onrender.com/api/mls-next/stats/dashboard?season=2027&ageGroup='+age+'&metric=goals&page=1&q='+encodeURIComponent(item.q);
+   const lookup=await context.request.get(url,{timeout:30000});
+   const payload=await lookup.json();
+   attempts.push({kind:item.kind,query:item.q,http:lookup.status(),totalPlayers:payload.data?.totalPlayers,hasMore:payload.data?.hasMore,results:(payload.data?.players||[]).slice(0,50).map(x=>({name:x.name,team:x.team,goals:x.stats?.goals,ageGroup:x.ageGroup}))});
+  }catch(e){attempts.push({kind:item.kind,error:String(e)});}
+ }
+ missingLookup.push({player:p.player,club:p.club,attempts});
 }
 fs.writeFileSync(out+'/'+age.toLowerCase()+'-missing-lookups.json',JSON.stringify(missingLookup,null,2));
 

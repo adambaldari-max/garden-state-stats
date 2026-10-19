@@ -1,14 +1,20 @@
-// Read-only: national U13/U14 Academy Division matches and team list from FootyAccess.
+// Read-only: record every data request the official MLS NEXT Academy Division standings page makes.
+import { chromium } from 'playwright';
 import fs from 'node:fs';
 const out='probe-output';fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});
-const UA={'user-agent':'Mozilla/5.0'};
-const res={collected:new Date().toISOString(),ages:{}};
-for(const age of ['U13','U14']){
- const r=await fetch(`https://footy-access-dev.onrender.com/api/mls-next/matches?season=2027&ageGroup=${age}&limit=20000`,{headers:UA});const j=await r.json();
- const all=j.data.matches;const comp={};for(const m of all)comp[m.competition]=(comp[m.competition]||0)+1;
- const ad=all.filter(m=>m.competition==='Academy Division').map(m=>({id:m.fixture.id.replace('kitman_',''),t:m.fixture.date,st:m.fixture.status.short,v:m.fixture.venue?.name||null,h:m.teams.home.name,a:m.teams.away.name,hs:m.goals.home,as:m.goals.away}));
- const t=await (await fetch(`https://footy-access-dev.onrender.com/api/mls-next/teams?season=2027&ageGroup=${age}`,{headers:UA})).json();
- res.ages[age]={total:all.length,competitions:comp,matches:ad,teams:t.data.teams.map(x=>({n:x.name,l:x.logo}))};
+const log=[];
+const browser=await chromium.launch({headless:true});
+const ctx=await browser.newContext({userAgent:'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36',viewport:{width:1366,height:900}});
+ctx.on('response',async r=>{const u=r.url();const ct=r.headers()['content-type']||'';if(/\.(css|png|jpe?g|svg|gif|woff2?|ico|webp)(\?|$)/i.test(u))return;let len=0,hit=false,body='';try{if(/json|text\/plain|javascript/.test(ct)&&!/\.js(\?|$)/.test(u)){body=await r.text();len=body.length;hit=/Garden State|Trenton City|Ironbound/.test(body)}}catch(e){}log.push({u,s:r.status(),ct,len,hit});if(hit)fs.writeFileSync(`${out}/hit-${log.length}.json`,JSON.stringify({url:u,body:body.slice(0,2500000)}))});
+for(const url of ['https://www.mlssoccer.com/mlsnext/standings/academy_division/','https://www.mlssoccer.com/mlsnext/standings/u13/','https://www.mlssoccer.com/mlsnext/standings/u14/']){
+ const p=await ctx.newPage();
+ try{await p.goto(url,{waitUntil:'load',timeout:90000});await p.waitForTimeout(20000);
+  const frames=p.frames().map(f=>f.url());log.push({page:url,frames});
+  for(const f of p.frames()){try{const t=await f.locator('body').innerText({timeout:5000});if(/Garden State|Trenton/.test(t))fs.writeFileSync(`${out}/text-${url.split('/').filter(Boolean).pop()}-${f.url().replace(/[^a-z0-9]+/gi,'_').slice(0,60)}.txt`,t.slice(0,200000))}catch(e){}}
+  await p.screenshot({path:`${out}/shot-${url.split('/').filter(Boolean).pop()}.png`,fullPage:false});
+ }catch(e){log.push({page:url,error:String(e).slice(0,300)})}
+ await p.close();
 }
-fs.writeFileSync(out+'/national.json',JSON.stringify(res));
-console.log(Object.entries(res.ages).map(([a,v])=>a+' '+v.total+' '+JSON.stringify(v.competitions)+' teams '+v.teams.length).join('\n'));
+await browser.close();
+fs.writeFileSync(out+'/log.json',JSON.stringify(log,null,1));
+console.log(log.filter(x=>x.hit||x.frames).map(x=>JSON.stringify(x)).join('\n'));

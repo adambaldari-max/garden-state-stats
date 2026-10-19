@@ -10,10 +10,10 @@ ctx.on('response',async r=>{const u=r.url();if(!/onrender\.com\/api|footyaccess\
 const p=await ctx.newPage();
 await p.goto('https://www.footyaccess.com/leagues/mls-next?ageGroups=U13',{waitUntil:'load',timeout:90000});await p.waitForTimeout(5000);
 const click=async(loc,label)=>{try{await loc.first().click({timeout:8000});await p.waitForTimeout(3500);log.push({clicked:label})}catch(e){log.push({clickFail:label,err:String(e).slice(0,150)})}};
-await click(p.getByText('MATCHES',{exact:true}),'MATCHES');
-await click(p.getByText('Results',{exact:true}),'Results');
-fs.writeFileSync(out+'/results.txt',(await p.innerText('body')).slice(0,30000));
-await click(p.getByText(/Oct 18/),'Oct 18');
+await click(p.getByRole('tab',{name:/^\s*matches\s*$/i}).or(p.getByText(/^\s*matches\s*$/i)),'MATCHES');
+await click(p.getByRole('tab',{name:/^\s*results\s*$/i}).or(p.getByRole('button',{name:/^\s*results\s*$/i})).or(p.getByText(/^\s*results\s*$/i)),'Results');
+log.push({tabs:await p.$$eval('[role=tab],button',b=>b.map(x=>x.innerText.trim()).filter(Boolean).slice(0,60))});fs.writeFileSync(out+'/results.txt',(await p.innerText('body')).slice(0,30000));
+await click(p.getByRole('button',{name:/oct\s*18/i}).or(p.getByText(/oct\s*18/i)),'Oct 18');
 fs.writeFileSync(out+'/oct18.txt',(await p.innerText('body')).slice(0,60000));
 phase='card';
 const card=p.locator('article, li, [role=button], button, a, div').filter({hasText:'Trenton City Soccer Club'}).filter({hasText:'Real Futbol Academy'});

@@ -50,7 +50,7 @@ const added=matched.filter(p=>!oldMap.has(key(p))).map(p=>({player:p.player,club
 
 const missingLookup=[];
 for(const p of missing){
- const searches=[{kind:'full-name',q:p.player},{kind:'surname',q:p.player.trim().split(/\\s+/).at(-1)},{kind:'club',q:p.club}];
+ const searches=[{kind:'full-name',q:p.player},{kind:'surname',q:p.player.trim().split(/\s+/).at(-1)},{kind:'club',q:p.club}];
  const attempts=[];
  for(const item of searches){
   try{

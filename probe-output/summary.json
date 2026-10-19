@@ -1,0 +1,22 @@
+{
+ "schedule_status": 200,
+ "ct": "application/json",
+ "len": 12944914,
+ "top": [
+  "events",
+  "linked_competition_seasons",
+  "synced_at"
+ ],
+ "synced_at": "2026-10-19T17:50:08Z",
+ "count": 13705,
+ "ages": {
+  "U16 AD": 2013,
+  "U17 AD": 2014,
+  "U19 AD": 1999,
+  "U15 AD": 2027,
+  "U13 AD": 2823,
+  "U14 AD": 2822,
+  "U16 AD*": 1,
+  "U19 AD**": 6
+ }
+}

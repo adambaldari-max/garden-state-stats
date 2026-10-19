@@ -17,6 +17,11 @@ Not affiliated with, sponsored by, or endorsed by MLS NEXT or Major League Socce
   The `goals` field holds MLS NEXT-wide totals and is never displayed as a
   conference count.
 - `og-image.png` and `favicon.svg` are the link-preview image and browser icon.
+- `logos/` holds the 15 club crests (128×128 PNG, from the FootyAccess/Kitman team feed),
+  named by club, e.g. `logos/tsf-academy.png`.
+- Match objects may carry `kickoff` (Eastern local time, `YYYY-MM-DDTHH:MM`) and `venue`
+  from FootyAccess fixtures. They are only filled when the FootyAccess date matches the
+  schedule date; otherwise the site shows "Time TBA".
 
 ## Automation
 

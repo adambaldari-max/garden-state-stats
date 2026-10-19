@@ -1,0 +1,51 @@
+{
+ "endpoints": [],
+ "samples": {
+  "/api/mls-next/matches?season=2027&ageGroup=U13": {
+   "status": 200,
+   "len": 701658,
+   "head": "{\"success\":true,\"data\":{\"matches\":[{\"scheduleSourceUnavailableAt\":null,\"fixture\":{\"id\":\"kitman_5742765\",\"date\":\"2027-06-08T22:00:00.000Z\",\"status\":{\"short\":\"Scheduled\",\"long\":\"Scheduled\",\"elapsed\":null},\"venue\":{\"name\":\"The National Training Center - NTC 2\"}},\"teams\":{\"home\":{\"id\":\"kitman_5742765-home\",\"name\":\"Sol SC Florida\",\"logo\":\"https://kitman.imgix.net/floridarush/thumbnail_SOL-SC-Crest-FULL-COLOR.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100\"},\"away\":{\"id\":\"kitman_5742765-away\",\"name\":\"IdeaSport SA\",\"logo\":\"https://kitman.imgix.net/ideasportsa/cropped-IdeaSport-Favicon-1.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100\"}},\"goals\":{\"home\":null,\"away\":null},\"ageGroup\":\"U13\",\"competition\":\"League\"},{\"scheduleSourceUnavailableAt\":null,\"fixture\":{\"id\":\"kitman_5856753\",\"date\":\"2027-06-08T21:45:00.000Z\",\"status\":{\"short\":\"Scheduled\",\"long\":\"Scheduled\",\"elapsed\":null},\"venue\":{\"name\":\"Kantor Park - Turf Field\"}},\"teams\":{\"home\":{\"id\":\"kitman_5856753-home\",\"name\":\"The Football Academy\",\"logo\":\"https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100\"},\"away\":{\"id\":\"kitman_5856753-away\",\"name\":\"Cedar Stars Academy Bergen\",\"logo\":\"https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100\"}},\"goals\":{\"home\":null,\"away\":null},\"ageGroup\":\"U13\",\"competition\":\"Academy Division\"},{\"scheduleSourc"
+  },
+  "/api/mls-next/matches?season=2027&ageGroup=U13&team=Trenton%20City%20Soccer%20Club": {
+   "status": 200,
+   "len": 701658,
+   "head": "{\"success\":true,\"data\":{\"matches\":[{\"scheduleSourceUnavailableAt\":null,\"fixture\":{\"id\":\"kitman_5742765\",\"date\":\"2027-06-08T22:00:00.000Z\",\"status\":{\"short\":\"Scheduled\",\"long\":\"Scheduled\",\"elapsed\":null},\"venue\":{\"name\":\"The National Training Center - NTC 2\"}},\"teams\":{\"home\":{\"id\":\"kitman_5742765-home\",\"name\":\"Sol SC Florida\",\"logo\":\"https://kitman.imgix.net/floridarush/thumbnail_SOL-SC-Crest-FULL-COLOR.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100\"},\"away\":{\"id\":\"kitman_5742765-away\",\"name\":\"IdeaSport SA\",\"logo\":\"https://kitman.imgix.net/ideasportsa/cropped-IdeaSport-Favicon-1.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100\"}},\"goals\":{\"home\":null,\"away\":null},\"ageGroup\":\"U13\",\"competition\":\"League\"},{\"scheduleSourceUnavailableAt\":null,\"fixture\":{\"id\":\"kitman_5856753\",\"date\":\"2027-06-08T21:45:00.000Z\",\"status\":{\"short\":\"Scheduled\",\"long\":\"Scheduled\",\"elapsed\":null},\"venue\":{\"name\":\"Kantor Park - Turf Field\"}},\"teams\":{\"home\":{\"id\":\"kitman_5856753-home\",\"name\":\"The Football Academy\",\"logo\":\"https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100\"},\"away\":{\"id\":\"kitman_5856753-away\",\"name\":\"Cedar Stars Academy Bergen\",\"logo\":\"https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100\"}},\"goals\":{\"home\":null,\"away\":null},\"ageGroup\":\"U13\",\"competition\":\"Academy Division\"},{\"scheduleSourc"
+  },
+  "/api/mls-next/fixtures?season=2027&ageGroup=U13": {
+   "status": 404,
+   "len": 160,
+   "head": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/mls-next/fixtures</pre>\n</body>\n</html>\n"
+  },
+  "/api/mls-next/schedule?season=2027&ageGroup=U13": {
+   "status": 404,
+   "len": 160,
+   "head": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/mls-next/schedule</pre>\n</body>\n</html>\n"
+  },
+  "/api/mls-next/results?season=2027&ageGroup=U13": {
+   "status": 404,
+   "len": 159,
+   "head": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/mls-next/results</pre>\n</body>\n</html>\n"
+  },
+  "/api/mls-next/teams?season=2027&ageGroup=U13": {
+   "status": 200,
+   "len": 53442,
+   "head": "{\"success\":true,\"data\":{\"teams\":[{\"name\":\"210 FC\",\"logo\":\"https://kitman.imgix.net/210fc/San%20Antonion%20logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100\",\"ageGroups\":[\"U13\"]},{\"name\":\"AB7 Future Academy\",\"logo\":\"https://kitman.imgix.net/ab7futureacademy/AB7.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100\",\"ageGroups\":[\"U13\"]},{\"name\":\"AC Grand Rapids\",\"logo\":\"https://kitman.imgix.net/michiganfutbolacademy/Screenshot%202026-04-29%20at%2011.18.12%E2%80%AFAM.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100\",\"ageGroups\":[\"U13\"]},{\"name\":\"AC River\",\"logo\":\"https://kitman.imgix.net/acriver/AC%20River.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100\",\"ageGroups\":[\"U13\"]},{\"name\":\"Achilles FC\",\"logo\":\"https://kitman.imgix.net/achillesfc/Achilles_2985.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100\",\"ageGroups\":[\"U13\"]},{\"name\":\"AFC Lightning\",\"logo\":\"https://kitman.imgix.net/afclightning/AFC%20Badge.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100\",\"ageGroups\":[\"U13\"]},{\"name\":\"Albertson Soccer Club\",\"logo\":\"https://kitman.imgix.net/albertsonsoccerclub/Albertson.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100\",\"ageGroups\":[\"U13\"]},{\"name\":\"ALBION SC Atlanta\",\"logo\":\"https://kitman.imgix.net/albionatl/Albion%20Atlanta.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100\",\"ageGroups\":[\"U13\"]},{\"name\":\"ALBION SC Colorado\",\"logo\":\"https://kitman.imgix.net/albionsc"
+  },
+  "/api/mls-next/matches/kitman_5856879": {
+   "status": 404,
+   "len": 174,
+   "head": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/mls-next/matches/kitman_5856879</pre>\n</body>\n</html>\n"
+  },
+  "/api/mls-next/match/kitman_5856879": {
+   "status": 404,
+   "len": 172,
+   "head": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/mls-next/match/kitman_5856879</pre>\n</body>\n</html>\n"
+  },
+  "/api/matches/kitman_5856879": {
+   "status": 404,
+   "len": 165,
+   "head": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/matches/kitman_5856879</pre>\n</body>\n</html>\n"
+  }
+ },
+ "chunks": 29
+}

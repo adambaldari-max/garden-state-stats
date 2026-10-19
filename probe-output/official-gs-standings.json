@@ -1,0 +1,1036 @@
+{
+ "tiebreakers": [
+  {
+   "key": "points_penalty_shootout",
+   "name": "Points",
+   "abbr": "PTS"
+  },
+  {
+   "key": "points_per_match_penalty_shootout",
+   "name": "Points Per Match",
+   "abbr": "PPM"
+  },
+  {
+   "key": "matches_played",
+   "name": "Matches Played",
+   "abbr": "MP"
+  },
+  {
+   "key": "won_penalty_shootout",
+   "name": "Won",
+   "abbr": "W"
+  },
+  {
+   "key": "loss_penalty_shootout",
+   "name": "Loss",
+   "abbr": "L"
+  },
+  {
+   "key": "tie_penalty_shootout",
+   "name": "Tie",
+   "abbr": "T"
+  },
+  {
+   "key": "goal_differential_per_match",
+   "name": "Goal Differential Per Match",
+   "abbr": "GD/M"
+  },
+  {
+   "key": "goals_for_per_match",
+   "name": "Goals For Per Match",
+   "abbr": "GF/M"
+  },
+  {
+   "key": "goals_against_per_match",
+   "name": "Goals Against Per Match",
+   "abbr": "GA/M"
+  }
+ ],
+ "brackets": [
+  {
+   "id": 86,
+   "name": "Mid-Atlantic",
+   "age_group": {
+    "id": 42,
+    "name": "U13"
+   },
+   "gender": "male",
+   "competitions": [],
+   "tiebreakers": [
+    {
+     "key": "taka_quality_of_play",
+     "name": "Quality of Play",
+     "abbr": "Quality of Play"
+    },
+    {
+     "key": "taka_att_score",
+     "name": "Att Score",
+     "abbr": "Att Score"
+    },
+    {
+     "key": "taka_def_score",
+     "name": "Def Score",
+     "abbr": "Def Score"
+    }
+   ],
+   "standings": [
+    {
+     "position": 1,
+     "team": {
+      "organisation_id": 1358,
+      "squad_id": 6268,
+      "name": "Achilles FC",
+      "logo_url": "https://kitman.imgix.net/achillesfc/Achilles_2985.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 2,
+     "team": {
+      "organisation_id": 1366,
+      "squad_id": 6079,
+      "name": "Alexandria SA",
+      "logo_url": "https://kitman.imgix.net/alexandriasa/ASA_HighRes-897x1024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 3,
+     "team": {
+      "organisation_id": 1379,
+      "squad_id": 6234,
+      "name": "Baltimore Armour",
+      "logo_url": "https://kitman.imgix.net/baltimorearmour/t_1548847-removebg-preview.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 4,
+     "team": {
+      "organisation_id": 1369,
+      "squad_id": 6109,
+      "name": "Beadling SC",
+      "logo_url": "https://kitman.imgix.net/beadlingsc/11159003_feef469dc70348ffaa6c4f6b5a6f6c3d.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 5,
+     "team": {
+      "organisation_id": 1370,
+      "squad_id": 6182,
+      "name": "Bethesda SC",
+      "logo_url": "https://kitman.imgix.net/bethesdasc/BSC-Logo-for-print.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 6,
+     "team": {
+      "organisation_id": 1455,
+      "squad_id": 5876,
+      "name": "Cedar Stars Academy Monmouth",
+      "logo_url": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 7,
+     "team": {
+      "organisation_id": 1751,
+      "squad_id": 10479,
+      "name": "Coppermine SC",
+      "logo_url": "https://kitman.imgix.net/copperminesc/Coppermine%20SC_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 8,
+     "team": {
+      "organisation_id": 1334,
+      "squad_id": 5676,
+      "name": "FC DELCO",
+      "logo_url": "https://kitman.imgix.net/fcdelco/FC%20Delco%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 9,
+     "team": {
+      "organisation_id": 1618,
+      "squad_id": 7168,
+      "name": "Keystone FC",
+      "logo_url": "https://kitman.imgix.net/keystonefc/Keystone%20FC.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 10,
+     "team": {
+      "organisation_id": 1834,
+      "squad_id": 9669,
+      "name": "Northern Virginia Alliance",
+      "logo_url": "https://kitman.imgix.net/loudounsoccerclub/Northern%20Virginia%20Alliance.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 11,
+     "team": {
+      "organisation_id": 1429,
+      "squad_id": 5887,
+      "name": "PA Classics",
+      "logo_url": "https://kitman.imgix.net/paclassics/dfc87a510d4db93169c04e1056689ae023b091312fc75353fcdb76cabb24d229.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 12,
+     "team": {
+      "organisation_id": 1934,
+      "squad_id": 10461,
+      "name": "Penn Rising XI",
+      "logo_url": "https://kitman.imgix.net/pennrisingxi/2026_PennRisingXI_Logo.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 13,
+     "team": {
+      "organisation_id": 1448,
+      "squad_id": 5882,
+      "name": "Philadelphia Union",
+      "logo_url": "https://kitman.imgix.net/philadelphiaunion/Crest_Philadelphia%20Union.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 14,
+     "team": {
+      "organisation_id": 1431,
+      "squad_id": 6142,
+      "name": "Players Development Academy",
+      "logo_url": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 15,
+     "team": {
+      "organisation_id": 1388,
+      "squad_id": 5661,
+      "name": "Real Futbol Academy",
+      "logo_url": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 16,
+     "team": {
+      "organisation_id": 1347,
+      "squad_id": 6086,
+      "name": "Sporting Athletic Club",
+      "logo_url": "https://kitman.imgix.net/sportingac/Picture1.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 17,
+     "team": {
+      "organisation_id": 1405,
+      "squad_id": 6158,
+      "name": "Springfield SYC",
+      "logo_url": "https://kitman.imgix.net/springfieldsyc/c_11158.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 18,
+     "team": {
+      "organisation_id": 1772,
+      "squad_id": 9645,
+      "name": "The Football Academy",
+      "logo_url": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    }
+   ]
+  },
+  {
+   "id": 87,
+   "name": "Mid-Atlantic",
+   "age_group": {
+    "id": 43,
+    "name": "U14"
+   },
+   "gender": "male",
+   "competitions": [],
+   "tiebreakers": [
+    {
+     "key": "taka_quality_of_play",
+     "name": "Quality of Play",
+     "abbr": "Quality of Play"
+    },
+    {
+     "key": "taka_att_score",
+     "name": "Att Score",
+     "abbr": "Att Score"
+    },
+    {
+     "key": "taka_def_score",
+     "name": "Def Score",
+     "abbr": "Def Score"
+    }
+   ],
+   "standings": [
+    {
+     "position": 1,
+     "team": {
+      "organisation_id": 1358,
+      "squad_id": 6269,
+      "name": "Achilles FC",
+      "logo_url": "https://kitman.imgix.net/achillesfc/Achilles_2985.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 2,
+     "team": {
+      "organisation_id": 1366,
+      "squad_id": 6080,
+      "name": "Alexandria SA",
+      "logo_url": "https://kitman.imgix.net/alexandriasa/ASA_HighRes-897x1024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 3,
+     "team": {
+      "organisation_id": 1379,
+      "squad_id": 6235,
+      "name": "Baltimore Armour",
+      "logo_url": "https://kitman.imgix.net/baltimorearmour/t_1548847-removebg-preview.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 4,
+     "team": {
+      "organisation_id": 1369,
+      "squad_id": 6110,
+      "name": "Beadling SC",
+      "logo_url": "https://kitman.imgix.net/beadlingsc/11159003_feef469dc70348ffaa6c4f6b5a6f6c3d.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 5,
+     "team": {
+      "organisation_id": 1370,
+      "squad_id": 6181,
+      "name": "Bethesda SC",
+      "logo_url": "https://kitman.imgix.net/bethesdasc/BSC-Logo-for-print.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 6,
+     "team": {
+      "organisation_id": 1455,
+      "squad_id": 5877,
+      "name": "Cedar Stars Academy Monmouth",
+      "logo_url": "https://kitman.imgix.net/cedarstarsm/CSA%20LOGO%20VECTOR%20ART.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 7,
+     "team": {
+      "organisation_id": 1751,
+      "squad_id": 10487,
+      "name": "Coppermine SC",
+      "logo_url": "https://kitman.imgix.net/copperminesc/Coppermine%20SC_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 8,
+     "team": {
+      "organisation_id": 1334,
+      "squad_id": 5677,
+      "name": "FC DELCO",
+      "logo_url": "https://kitman.imgix.net/fcdelco/FC%20Delco%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 9,
+     "team": {
+      "organisation_id": 1618,
+      "squad_id": 7169,
+      "name": "Keystone FC",
+      "logo_url": "https://kitman.imgix.net/keystonefc/Keystone%20FC.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 10,
+     "team": {
+      "organisation_id": 1834,
+      "squad_id": 9670,
+      "name": "Northern Virginia Alliance",
+      "logo_url": "https://kitman.imgix.net/loudounsoccerclub/Northern%20Virginia%20Alliance.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 11,
+     "team": {
+      "organisation_id": 1429,
+      "squad_id": 5888,
+      "name": "PA Classics",
+      "logo_url": "https://kitman.imgix.net/paclassics/dfc87a510d4db93169c04e1056689ae023b091312fc75353fcdb76cabb24d229.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 12,
+     "team": {
+      "organisation_id": 1934,
+      "squad_id": 10462,
+      "name": "Penn Rising XI",
+      "logo_url": "https://kitman.imgix.net/pennrisingxi/2026_PennRisingXI_Logo.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 13,
+     "team": {
+      "organisation_id": 1448,
+      "squad_id": 5883,
+      "name": "Philadelphia Union",
+      "logo_url": "https://kitman.imgix.net/philadelphiaunion/Crest_Philadelphia%20Union.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 14,
+     "team": {
+      "organisation_id": 1431,
+      "squad_id": 6141,
+      "name": "Players Development Academy",
+      "logo_url": "https://kitman.imgix.net/playersda/PDA%20Meridex%20Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 15,
+     "team": {
+      "organisation_id": 1388,
+      "squad_id": 5662,
+      "name": "Real Futbol Academy",
+      "logo_url": "https://kitman.imgix.net/realjerseyfc/RealFutbolAcademy-NJ_Crest-Final-March2024.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 16,
+     "team": {
+      "organisation_id": 1347,
+      "squad_id": 6087,
+      "name": "Sporting Athletic Club",
+      "logo_url": "https://kitman.imgix.net/sportingac/Picture1.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 17,
+     "team": {
+      "organisation_id": 1405,
+      "squad_id": 6159,
+      "name": "Springfield SYC",
+      "logo_url": "https://kitman.imgix.net/springfieldsyc/c_11158.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 18,
+     "team": {
+      "organisation_id": 1772,
+      "squad_id": 9646,
+      "name": "The Football Academy",
+      "logo_url": "https://kitman.imgix.net/thefootballacademy/The%20Football%20Academy_CREST.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    }
+   ]
+  },
+  {
+   "id": 92,
+   "name": "Northeast",
+   "age_group": {
+    "id": 42,
+    "name": "U13"
+   },
+   "gender": "male",
+   "competitions": [],
+   "tiebreakers": [
+    {
+     "key": "taka_quality_of_play",
+     "name": "Quality of Play",
+     "abbr": "Quality of Play"
+    },
+    {
+     "key": "taka_att_score",
+     "name": "Att Score",
+     "abbr": "Att Score"
+    },
+    {
+     "key": "taka_def_score",
+     "name": "Def Score",
+     "abbr": "Def Score"
+    }
+   ],
+   "standings": [
+    {
+     "position": 1,
+     "team": {
+      "organisation_id": 1356,
+      "squad_id": 5738,
+      "name": "Bayside FC",
+      "logo_url": "https://kitman.imgix.net/baysidefc/FINAL-Bayside%20FC_03-2025-01.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 2,
+     "team": {
+      "organisation_id": 1361,
+      "squad_id": 6184,
+      "name": "Beachside of Connecticut",
+      "logo_url": "https://kitman.imgix.net/beachsideoc/beachside.jpeg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 3,
+     "team": {
+      "organisation_id": 1374,
+      "squad_id": 5709,
+      "name": "Blau Weiss Gottschee",
+      "logo_url": "https://kitman.imgix.net/blauweiss/largest-logo.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 4,
+     "team": {
+      "organisation_id": 1442,
+      "squad_id": 6066,
+      "name": "Cedar Stars Academy Bergen",
+      "logo_url": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 5,
+     "team": {
+      "organisation_id": 1615,
+      "squad_id": 10508,
+      "name": "Connecticut United FC",
+      "logo_url": "https://kitman.imgix.net/connecticutunitedfc/CT%20United%20Logo%20Update.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 6,
+     "team": {
+      "organisation_id": 1616,
+      "squad_id": 7160,
+      "name": "Downtown United Soccer Club",
+      "logo_url": "https://kitman.imgix.net/downtownunitedsc/Downtown%20United%20Soccer%20Club.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 7,
+     "team": {
+      "organisation_id": 1328,
+      "squad_id": 6289,
+      "name": "FA Euro New York",
+      "logo_url": "https://kitman.imgix.net/faeurony/FAEURONEWYORK.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 8,
+     "team": {
+      "organisation_id": 1342,
+      "squad_id": 5760,
+      "name": "FC Greater Boston Bolts",
+      "logo_url": "https://kitman.imgix.net/fcgbb/Bolts-Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 9,
+     "team": {
+      "organisation_id": 1343,
+      "squad_id": 5655,
+      "name": "FC Westchester",
+      "logo_url": "https://kitman.imgix.net/fcwestchester/New%20Logo%20png%20file.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 10,
+     "team": {
+      "organisation_id": 1351,
+      "squad_id": 5909,
+      "name": "Intercontinental Football Academy of New England",
+      "logo_url": "https://kitman.imgix.net/ifane/17844361_80fc5cf419a54c3babc2fc1f480d30be.jpeg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 11,
+     "team": {
+      "organisation_id": 1353,
+      "squad_id": 6190,
+      "name": "Ironbound Soccer Club",
+      "logo_url": "https://kitman.imgix.net/ironboundsc/Ironbound%20Soccer%20Club.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 12,
+     "team": {
+      "organisation_id": 1457,
+      "squad_id": 5821,
+      "name": "Metropolitan Oval",
+      "logo_url": "https://kitman.imgix.net/metropolitanoval/Met-Oval-Logo2k-1-300x300.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 13,
+     "team": {
+      "organisation_id": 1337,
+      "squad_id": 6028,
+      "name": "NEFC",
+      "logo_url": "https://kitman.imgix.net/nefc/NEFC_Crest_FINAL.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 14,
+     "team": {
+      "organisation_id": 1440,
+      "squad_id": 5912,
+      "name": "New England Revolution",
+      "logo_url": "https://kitman.imgix.net/revolutionsoccer/NE.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 15,
+     "team": {
+      "organisation_id": 1446,
+      "squad_id": 5645,
+      "name": "New York City FC",
+      "logo_url": "https://kitman.imgix.net/newyorkcityfc/NYC_Logo_PRI_FC_RGB.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 16,
+     "team": {
+      "organisation_id": 1394,
+      "squad_id": 5939,
+      "name": "New York SC",
+      "logo_url": "https://kitman.imgix.net/newyorksc/NYSC_LOGO-True-Font-Small2-01.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 17,
+     "team": {
+      "organisation_id": 1447,
+      "squad_id": 5729,
+      "name": "Red Bull New York",
+      "logo_url": "https://kitman.imgix.net/newyorkredbulls/RBNY.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 18,
+     "team": {
+      "organisation_id": 1462,
+      "squad_id": 6018,
+      "name": "Seacoast United",
+      "logo_url": "https://kitman.imgix.net/seacoastunited/seacoastunited-transparent%20%281%29%20%281%29%5B78%5D.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 19,
+     "team": {
+      "organisation_id": 1336,
+      "squad_id": 6102,
+      "name": "TSF Academy",
+      "logo_url": "https://kitman.imgix.net/tsfacademy/cropped-tsf-academy-logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 20,
+     "team": {
+      "organisation_id": 1935,
+      "squad_id": 10467,
+      "name": "The Island FC East",
+      "logo_url": "https://kitman.imgix.net/theislandfc/TIFC_dark_east.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 21,
+     "team": {
+      "organisation_id": 1619,
+      "squad_id": 7171,
+      "name": "The Island FC West",
+      "logo_url": "https://kitman.imgix.net/longislandsc/TIFC_dark_west.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 22,
+     "team": {
+      "organisation_id": 1338,
+      "squad_id": 5935,
+      "name": "Valeo Futbol Club",
+      "logo_url": "https://kitman.imgix.net/valeofc/cropped-Valeo_logo_png.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    }
+   ]
+  },
+  {
+   "id": 93,
+   "name": "Northeast",
+   "age_group": {
+    "id": 43,
+    "name": "U14"
+   },
+   "gender": "male",
+   "competitions": [],
+   "tiebreakers": [
+    {
+     "key": "taka_quality_of_play",
+     "name": "Quality of Play",
+     "abbr": "Quality of Play"
+    },
+    {
+     "key": "taka_att_score",
+     "name": "Att Score",
+     "abbr": "Att Score"
+    },
+    {
+     "key": "taka_def_score",
+     "name": "Def Score",
+     "abbr": "Def Score"
+    }
+   ],
+   "standings": [
+    {
+     "position": 1,
+     "team": {
+      "organisation_id": 1356,
+      "squad_id": 5741,
+      "name": "Bayside FC",
+      "logo_url": "https://kitman.imgix.net/baysidefc/FINAL-Bayside%20FC_03-2025-01.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 2,
+     "team": {
+      "organisation_id": 1361,
+      "squad_id": 6185,
+      "name": "Beachside of Connecticut",
+      "logo_url": "https://kitman.imgix.net/beachsideoc/beachside.jpeg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 3,
+     "team": {
+      "organisation_id": 1374,
+      "squad_id": 5708,
+      "name": "Blau Weiss Gottschee",
+      "logo_url": "https://kitman.imgix.net/blauweiss/largest-logo.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 4,
+     "team": {
+      "organisation_id": 1442,
+      "squad_id": 6067,
+      "name": "Cedar Stars Academy Bergen",
+      "logo_url": "https://kitman.imgix.net/cedarstarsb/CSA%20LOGO%20VECTOR%20ART%20%281%29.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 5,
+     "team": {
+      "organisation_id": 1615,
+      "squad_id": 7158,
+      "name": "Connecticut United FC",
+      "logo_url": "https://kitman.imgix.net/connecticutunitedfc/CT%20United%20Logo%20Update.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 6,
+     "team": {
+      "organisation_id": 1616,
+      "squad_id": 7161,
+      "name": "Downtown United Soccer Club",
+      "logo_url": "https://kitman.imgix.net/downtownunitedsc/Downtown%20United%20Soccer%20Club.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 7,
+     "team": {
+      "organisation_id": 1328,
+      "squad_id": 6290,
+      "name": "FA Euro New York",
+      "logo_url": "https://kitman.imgix.net/faeurony/FAEURONEWYORK.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 8,
+     "team": {
+      "organisation_id": 1342,
+      "squad_id": 5761,
+      "name": "FC Greater Boston Bolts",
+      "logo_url": "https://kitman.imgix.net/fcgbb/Bolts-Logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 9,
+     "team": {
+      "organisation_id": 1343,
+      "squad_id": 5656,
+      "name": "FC Westchester",
+      "logo_url": "https://kitman.imgix.net/fcwestchester/New%20Logo%20png%20file.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 10,
+     "team": {
+      "organisation_id": 1351,
+      "squad_id": 6025,
+      "name": "Intercontinental Football Academy of New England",
+      "logo_url": "https://kitman.imgix.net/ifane/17844361_80fc5cf419a54c3babc2fc1f480d30be.jpeg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 11,
+     "team": {
+      "organisation_id": 1353,
+      "squad_id": 6191,
+      "name": "Ironbound Soccer Club",
+      "logo_url": "https://kitman.imgix.net/ironboundsc/Ironbound%20Soccer%20Club.jpg?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 12,
+     "team": {
+      "organisation_id": 1457,
+      "squad_id": 5822,
+      "name": "Metropolitan Oval",
+      "logo_url": "https://kitman.imgix.net/metropolitanoval/Met-Oval-Logo2k-1-300x300.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 13,
+     "team": {
+      "organisation_id": 1337,
+      "squad_id": 6029,
+      "name": "NEFC",
+      "logo_url": "https://kitman.imgix.net/nefc/NEFC_Crest_FINAL.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 14,
+     "team": {
+      "organisation_id": 1440,
+      "squad_id": 5915,
+      "name": "New England Revolution",
+      "logo_url": "https://kitman.imgix.net/revolutionsoccer/NE.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 15,
+     "team": {
+      "organisation_id": 1446,
+      "squad_id": 5644,
+      "name": "New York City FC",
+      "logo_url": "https://kitman.imgix.net/newyorkcityfc/NYC_Logo_PRI_FC_RGB.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 16,
+     "team": {
+      "organisation_id": 1394,
+      "squad_id": 5940,
+      "name": "New York SC",
+      "logo_url": "https://kitman.imgix.net/newyorksc/NYSC_LOGO-True-Font-Small2-01.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 17,
+     "team": {
+      "organisation_id": 1462,
+      "squad_id": 6019,
+      "name": "Seacoast United",
+      "logo_url": "https://kitman.imgix.net/seacoastunited/seacoastunited-transparent%20%281%29%20%281%29%5B78%5D.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 18,
+     "team": {
+      "organisation_id": 1336,
+      "squad_id": 6103,
+      "name": "TSF Academy",
+      "logo_url": "https://kitman.imgix.net/tsfacademy/cropped-tsf-academy-logo.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 19,
+     "team": {
+      "organisation_id": 1935,
+      "squad_id": 10468,
+      "name": "The Island FC East",
+      "logo_url": "https://kitman.imgix.net/theislandfc/TIFC_dark_east.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 20,
+     "team": {
+      "organisation_id": 1619,
+      "squad_id": 7172,
+      "name": "The Island FC West",
+      "logo_url": "https://kitman.imgix.net/longislandsc/TIFC_dark_west.png?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    },
+    {
+     "position": 21,
+     "team": {
+      "organisation_id": 1338,
+      "squad_id": 5936,
+      "name": "Valeo Futbol Club",
+      "logo_url": "https://kitman.imgix.net/valeofc/cropped-Valeo_logo_png.webp?ixlib=rails-4.2.0&fit=fill&trim=off&bg=00FFFFFF&w=100&h=100"
+     },
+     "labels": [],
+     "tiebreaker_values": {}
+    }
+   ]
+  }
+ ]
+}

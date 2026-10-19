@@ -46,7 +46,8 @@ const found=[...new Set(matched.map(p=>p.audit_club))];
 const valid=paginationComplete&&found.length===15&&missing.length===0&&matched.every(p=>Number.isFinite(p.goals));
 report.ages[age]={totalPlayers:expected,collectedPlayers:players.length,paginationComplete,stoppedOnEmpty,matchedPlayers:matched.length,baselinePlayers:old.length,clubsFound:found.length,missingClubs:clubs.filter(c=>!found.includes(c)),changed,missing,added,valid};
 fs.writeFileSync(out+'/'+age.toLowerCase()+'-garden-state.json',JSON.stringify(matched,null,2));
-if(!paginationComplete)report.warnings.push(age+': API count mismatch ('+players.length+'/'+expected+'); comparison is provisional; no publishing');\nif(!valid)report.warnings.push(age+' comparison requires review; no publishing');
+if(!paginationComplete)report.warnings.push(age+': API count mismatch ('+players.length+'/'+expected+'); comparison is provisional; no publishing');
+if(!valid)report.warnings.push(age+' comparison requires review; no publishing');
 console.log(age+' complete: '+expected+' total, '+matched.length+' Garden State, '+found.length+' clubs, '+changed.length+' changed, '+missing.length+' missing, '+added.length+' added');
 }catch(e){report.ages[age]={error:String(e)};report.warnings.push(age+': '+String(e));console.error(age+': '+String(e));}
 }

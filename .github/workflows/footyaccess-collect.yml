@@ -14,6 +14,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Check collector JavaScript syntax
+        run: node --check scripts/footyaccess-collect.mjs
       - name: Install browser runner
         run: |
           npm install --no-save playwright

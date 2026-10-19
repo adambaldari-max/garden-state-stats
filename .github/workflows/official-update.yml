@@ -6,11 +6,9 @@ on:
   schedule:
     - cron: '15 8 * * *'   # every night, about 4:15 AM Eastern (3:15 AM in winter)
     - cron: '0 0 * * 0,1'  # Saturday and Sunday evenings, about 8 PM Eastern, to catch weekend results sooner
-  push:
-    branches: [claude/all-conferences]
-    paths: [scripts/official-update.mjs, .github/workflows/official-update.yml]
 permissions:
   contents: write
+  pages: write
 concurrency:
   group: garden-state-site-update
   cancel-in-progress: false
@@ -38,3 +36,11 @@ jobs:
           git commit -m "Nightly official MLS NEXT data update"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+        id: commit
+      - name: Republish the site
+        if: steps.commit.outputs.changed == 'true'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds" || echo "Pages rebuild request not accepted; the push will still publish on the next build."

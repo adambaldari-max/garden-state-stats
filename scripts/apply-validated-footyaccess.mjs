@@ -34,7 +34,8 @@ for(const age of ['U13','U14']){
  let rank=0,previous=null;
  data.scorers.forEach((p,i)=>{if(p.goals!==previous)rank=i+1;p.rank=rank;previous=p.goals;});
  const ab7=data.scorers.filter(p=>norm(p.audit_club)===norm('AB7 Future Academy'));
- data.ab7=ab7.map(p=>({player:p.player,jersey:p.jersey||'',roster_age:age,goals:p.goals,rank:p.rank}));
+ let ab7Rank=0,ab7Previous=null;
+ data.ab7=ab7.map((p,i)=>{if(p.goals!==ab7Previous)ab7Rank=i+1;ab7Previous=p.goals;return {player:p.player,jersey:p.jersey||'',roster_age:age,goals:p.goals,rank:ab7Rank};});
  data.scorer_note='FootyAccess MLS NEXT-wide player goals; updated '+new Date().toISOString().slice(0,10);
  data.updated=new Date().toISOString().slice(0,10);
  html=html.slice(0,start)+JSON.stringify(data)+html.slice(end);

@@ -1,0 +1,127 @@
+{
+  "approved": true,
+  "snapshot_date": "2026-10-19",
+  "source_note": "MLS NEXT Academy Division official schedule feed snapshot 2026-10-19T00:20:05Z; U13/U14 Garden State. Fixture dates require timezone validation before publication.",
+  "ages": {
+    "U13": {
+      "matches": [
+        {
+          "event_id": "5855869",
+          "hs": 0,
+          "as_": 2,
+          "completed": true,
+          "verified": true,
+          "source_url": "https://www.mlssoccer.com/mlsnext/schedule/academy_division/"
+        },
+        {
+          "event_id": "5858028",
+          "hs": 1,
+          "as_": 5,
+          "completed": true,
+          "verified": true,
+          "source_url": "https://www.mlssoccer.com/mlsnext/schedule/academy_division/"
+        },
+        {
+          "event_id": "5854504",
+          "hs": 4,
+          "as_": 6,
+          "completed": true,
+          "verified": true,
+          "source_url": "https://www.mlssoccer.com/mlsnext/schedule/academy_division/"
+        },
+        {
+          "event_id": "5856916",
+          "hs": 2,
+          "as_": 0,
+          "completed": true,
+          "verified": true,
+          "source_url": "https://www.mlssoccer.com/mlsnext/schedule/academy_division/"
+        },
+        {
+          "event_id": "5856789",
+          "hs": 0,
+          "as_": 3,
+          "completed": true,
+          "verified": true,
+          "source_url": "https://www.mlssoccer.com/mlsnext/schedule/academy_division/"
+        },
+        {
+          "event_id": "5855736",
+          "date": "2026-10-25",
+          "verified": true,
+          "source_url": "https://www.mlssoccer.com/mlsnext/schedule/academy_division/"
+        },
+        {
+          "event_id": "5856753",
+          "date": "2026-11-07",
+          "verified": true,
+          "source_url": "https://www.mlssoccer.com/mlsnext/schedule/academy_division/"
+        },
+        {
+          "event_id": "5856626",
+          "date": "2026-11-10",
+          "verified": true,
+          "source_url": "https://www.mlssoccer.com/mlsnext/schedule/academy_division/"
+        }
+      ]
+    },
+    "U14": {
+      "matches": [
+        {
+          "event_id": "5856575",
+          "hs": 7,
+          "as_": 1,
+          "completed": true,
+          "verified": true,
+          "source_url": "https://www.mlssoccer.com/mlsnext/schedule/academy_division/"
+        },
+        {
+          "event_id": "5856919",
+          "hs": 3,
+          "as_": 3,
+          "completed": true,
+          "verified": true,
+          "source_url": "https://www.mlssoccer.com/mlsnext/schedule/academy_division/"
+        },
+        {
+          "event_id": "5858031",
+          "hs": 1,
+          "as_": 3,
+          "completed": true,
+          "verified": true,
+          "source_url": "https://www.mlssoccer.com/mlsnext/schedule/academy_division/"
+        },
+        {
+          "event_id": "5857305",
+          "date": "2026-09-20",
+          "verified": true,
+          "source_url": "https://www.mlssoccer.com/mlsnext/schedule/academy_division/"
+        },
+        {
+          "event_id": "5856756",
+          "date": "2026-09-27",
+          "verified": true,
+          "source_url": "https://www.mlssoccer.com/mlsnext/schedule/academy_division/"
+        },
+        {
+          "event_id": "5856792",
+          "date": "2026-10-18",
+          "verified": true,
+          "source_url": "https://www.mlssoccer.com/mlsnext/schedule/academy_division/"
+        },
+        {
+          "event_id": "5857083",
+          "date": "2026-11-07",
+          "verified": true,
+          "source_url": "https://www.mlssoccer.com/mlsnext/schedule/academy_division/"
+        },
+        {
+          "event_id": "5856629",
+          "date": "2026-11-10",
+          "verified": true,
+          "source_url": "https://www.mlssoccer.com/mlsnext/schedule/academy_division/"
+        }
+      ]
+    }
+  }
+}

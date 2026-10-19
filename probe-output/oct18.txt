@@ -55,50 +55,1377 @@ Academy Division
 ·
 Knoch Park Turf
 
-1,495 SEASON FIXTURES
+MLS NEXT · 2026–27
 
-1 SELECTED AGE CHANNELS
+MATCH SCHEDULE
+Schedule
+Results
+SAT
+Sep 5
+SUN
+Sep 6
+SAT
+Sep 12
+SUN
+Sep 13
+WED
+Sep 16
+SAT
+Sep 19
+SUN
+Sep 20
+WED
+Sep 23
+SAT
+Sep 26
+SUN
+Sep 27
+FRI
+Oct 2
+SAT
+Oct 3
+SUN
+Oct 4
+WED
+Oct 7
+SAT
+Oct 10
+SUN
+Oct 11
+WED
+Oct 14
+SAT
+Oct 17
+SUN
+Oct 18
+Choose a matchday
 
-ONE COMMAND ROW PER CHANNEL
+RESULTS
 
-UPCOMING BY AGE
-Full schedule
+Sunday, October 18
+
+132 matches
+
+8:00 AM
 U13
-Galaxy Soccer Club vs Evolution Soccer Club
-THU, OCT 22 · 9:30 PM ET
-
-FROM THE LOADED SCHEDULE
-
-ACADEMY DIRECTORY
-View directory
-Galaxy Soccer Club
-Evolution Soccer Club
-Trenton City Soccer Club
-Ironbound Soccer Club
-The Island FC East
-Valeo Futbol Club
-Metropolitan Oval
-Seacoast United
-
-REPORTED LEADERS
-
-TOP SCORERS
-Open Stats
-1
-Aiden Santillan
-RSL Arizona · U13
-17
-GOALS
-2
-Angel Macias
-Dallas Surf · U13
-15
-GOALS
+FINAL
+Intercontinental Football Academy of New England
 3
-Gavin Rudloff
-Phoenix Rising FC · U13
-14
-GOALS
+Rhode Island Surf SC
+1
+Academy Division
+·
+Catholic Memorial High School
+9:00 AM
+U13
+FINAL
+Penn Rising XI
+3
+FC DELCO
+1
+League
+·
+J Birney Crum - Stadium Field
+9:00 AM
+U13
+FINAL
+Chicago Fire Youth SC
+2
+Sockers FC Chicago
+1
+Academy Division
+·
+Foster Turf Field #1
+9:00 AM
+U13
+FINAL
+Syracuse Development Academy
+1
+FC Greater Boston Bolts Metro North
+2
+Academy Division
+·
+Carrier Park Turf Fields #1
+9:00 AM
+U13
+FINAL
+Ginga FC
+4
+Seacoast United Mass
+6
+Academy Division
+·
+Celentano Field (Albertus Magnus College)
+9:00 AM
+U13
+FINAL
+Michigan Wolves
+1
+Michigan Jaguars United FC
+0
+Academy Division
+·
+Schoolcraft College - Schoolcraft College Outdoor Turf
+9:00 AM
+U13
+FINAL
+Springs Soccer Club
+4
+Plantation FC Rush
+1
+Academy Division
+·
+Cypress Park - Field #5
+9:00 AM
+U13
+FINAL
+Weston FC
+2
+Athletum FC Academy
+0
+Academy Division
+·
+Vista Park - Vista #4
+9:00 AM
+U13
+FINAL
+Carolina Core FC
+1
+Charleston SC
+0
+Academy Division
+·
+Phillips Park Soccer Complex Field #1
+9:00 AM
+U13
+FINAL
+Triangle United Soccer Association
+1
+Lowcountry United
+5
+Academy Division
+·
+Southern Community Park - Field 1
+9:00 AM
+U13
+FINAL
+Inter Atlanta FC
+10
+Hoover-Vestavia Soccer
+0
+Academy Division
+·
+Arizona Avenue Soccer Fields - AZ 1
+9:00 AM
+U13
+FINAL
+Northern Virginia Alliance
+1
+Northern Virginia United
+1
+Academy Division
+·
+Loudoun Soccer Park - Field 1
+9:00 AM
+U13
+FINAL
+Houston Rangers
+4
+GFI Academy South
+2
+Academy Division
+·
+Union Rayados Park Field 2
+9:00 AM
+U13
+FINAL
+Connecticut United FC
+2
+Intercontinental Football Academy of New England
+10
+League
+·
+Immaculate High School - Stadium Field
+9:00 AM
+U13
+FINAL
+Inter Miami CF
+5
+South Florida Football Academy
+0
+League
+·
+Florida Blue Training Center - Field 3
+9:00 AM
+U13
+FINAL
+FA Euro New York
+1
+The Island FC East
+6
+League
+·
+John Dewey High School
+9:00 AM
+U13
+FINAL
+NEFC
+2
+Metropolitan Oval
+3
+League
+·
+NEFC Park - Field 2
+9:00 AM
+U13
+FINAL
+FC Greater Boston Bolts
+2
+Downtown United Soccer Club
+0
+League
+·
+UMass Mount Ida - Stadium
+9:00 AM
+U13
+FINAL
+Vardar Soccer Club
+3
+Indy Eleven
+1
+League
+·
+Oakland University - Stadium Track
+9:30 AM
+U13
+FINAL
+Elmbrook United
+2
+Saint Paul Blackhawks
+1
+Academy Division
+·
+Voigt Soccer Park SunAnt
+10:00 AM
+U13
+FINAL
+AC River
+2
+Tulsa Greenwood SC
+4
+Academy Division
+·
+Soccer Central - Field #2
+10:00 AM
+U13
+FINAL
+Alexandria SA
+1
+Northern Virginia Alliance
+2
+League
+·
+Ben Brenman Park
+10:00 AM
+U13
+FINAL
+Beadling SC
+2
+Springfield SYC
+4
+League
+·
+Kiski Area Prep High School - Football Stadium
+10:00 AM
+U13
+FINAL
+Huntsville City FC
+1
+Inter Atlanta FC
+4
+League
+·
+Wick Family Field - Stadium
+10:00 AM
+U13
+FINAL
+New York Rush
+0
+Seacoast United
+0
+Academy Division
+·
+Accelerate Sports Complex - Field 2
+10:00 AM
+U13
+FINAL
+Cincinnati United Soccer Club
+4
+Kings Hammer Cincinnati
+3
+Academy Division
+·
+Purcell Marion High School
+10:00 AM
+U13
+FINAL
+Sporting Columbus United
+2
+St. Louis Scott Gallagher
+3
+Academy Division
+·
+Kilbourne Run Sports Turf #5
+10:00 AM
+U13
+FINAL
+Michigan Tigers FC
+4
+Michigan Jaguars
+1
+Academy Division
+·
+Wideworld Sports Complex - East
+10:00 AM
+U13
+FINAL
+Galacticos Soccer Academy
+4
+South Florida Football Academy
+1
+Academy Division
+·
+Big Corkscrew Island Regional Park #1
+10:00 AM
+U13
+FINAL
+AFC Lightning
+0
+One Knoxville SC
+4
+Academy Division
+·
+McCurry Park South - Field 24
+10:00 AM
+U13
+FINAL
+Virginia Velocity
+2
+Springfield SYC
+3
+Academy Division
+·
+Sofive Richmond - Field 3
+10:00 AM
+U13
+FINAL
+PDA SC Vistula
+1
+Cedar Stars Academy Newark
+5
+Academy Division
+·
+Garfield High School - Stadium
+10:00 AM
+U13
+FINAL
+Albertson Soccer Club
+4
+FA Euro New York
+0
+Academy Division
+·
+Kellenberg Memorial HS - Field #2
+10:00 AM
+U13
+FINAL
+TSF Academy
+0
+Jersey Football Club
+2
+Academy Division
+·
+William Paterson University
+10:00 AM
+U13
+FINAL
+Beachside of Connecticut
+3
+FC Westchester
+0
+Academy Division
+·
+Harding High School - Turf Field
+10:00 AM
+U13
+FINAL
+Sporting Blue Valley
+2
+St. Louis Development Academy
+0
+Academy Division
+·
+Scheels Overland Park Soccer Complex - Field 2
+10:00 AM
+U13
+FINAL
+Bavarian United SC
+2
+Michigan Jaguars
+4
+League
+·
+Bavarian United Soccer Club - Ramon
+10:00 AM
+U13
+FINAL
+Midwest United FC
+0
+Club Ohio
+3
+League
+·
+Midwest United FC Complex - North Field
+10:00 AM
+U13
+FINAL
+Houston Rangers
+2
+Tulsa Greenwood SC
+3
+League
+·
+Paul D Rushing Park - Field 2
+10:00 AM
+U13
+FINAL
+Global Football Innovation Academy
+2
+Real Salt Lake
+2
+League
+·
+Lenze Rd - Field 1
+10:30 AM
+U13
+FINAL
+New England Force
+4
+New England Surf SC
+4
+Academy Division
+·
+Lovell Field - #2
+10:30 AM
+U13
+FINAL
+Javanon FC
+5
+Club Ohio
+1
+Academy Division
+·
+Collegiate Fields Turf Stadium
+10:30 AM
+U13
+FINAL
+Seacoast United
+1
+FC Westchester
+1
+League
+·
+Seacoast United Epping Outdoor Complex - Field 4
+10:45 AM
+U13
+FINAL
+Cedar Stars Academy Bergen
+4
+Torpedoes SC
+6
+Academy Division
+·
+Overpeck County Park
+11:00 AM
+U13
+FINAL
+Monarchs AZ
+0
+Sparta United Soccer Club
+3
+Academy Division
+·
+Winston Reynolds - Manzanita Park Field 6
+11:00 AM
+U13
+FINAL
+Real Futbol Academy
+2
+Bethesda SC
+1
+League
+·
+Bob Bende Soccer Complex - Capelli Turf (Near Road)
+11:00 AM
+U13
+FINAL
+Queen City Mutiny FC
+3
+Triangle United Soccer Association
+1
+League
+·
+Elon Park - Field 1
+11:00 AM
+U13
+FINAL
+Nashville United Soccer Academy (NUSA Next)
+0
+Atlanta United
+3
+League
+·
+Richard Siegel Soccer Complex - 6
+11:00 AM
+U13
+FINAL
+Southern Soccer Academy
+3
+Wake FC
+2
+League
+·
+Marathon Park - Field 1
+11:00 AM
+U13
+FINAL
+New York Elite Alleycats FC
+7
+Valeo Futbol Club
+0
+Academy Division
+·
+Afrims Sports Park Field 4
+11:00 AM
+U13
+FINAL
+Wisconsin United FC
+2
+Minneapolis United SC
+1
+Academy Division
+·
+Nouryon Sports Complex - Field 3
+11:00 AM
+U13
+FINAL
+West Florida Flames
+0
+Orlando City Lake Nona
+6
+Academy Division
+·
+JC Handly Sport Complex - Park #2
+11:00 AM
+U13
+FINAL
+Tampa Bay United
+1
+Sol SC Florida
+1
+Academy Division
+·
+Ed Radice Sports Complex - Field 3
+11:00 AM
+U13
+FINAL
+Charlotte Independence Soccer Club
+1
+Wake FC
+3
+Academy Division
+·
+Richard Barry Memorial Park - Field 2
+11:00 AM
+U13
+FINAL
+Reading Rage Surf
+6
+Keystone FC
+0
+Academy Division
+·
+Exeter High School - Stadium
+11:00 AM
+U13
+FINAL
+Sporting Athletic Club
+0
+PA Classics Harrisburg
+0
+Academy Division
+·
+Kirkwood Sports Complex - Field 14
+11:00 AM
+U13
+FINAL
+Trenton City Soccer Club
+2
+Real Futbol Academy
+0
+Academy Division
+·
+Borderntown Regional High School
+11:00 AM
+U13
+FINAL
+Classic FC
+0
+Colorado United SC
+4
+Academy Division
+·
+Mesa del Sol field three
+11:00 AM
+U13
+FINAL
+New Mexico Soccer Academy
+2
+Broomfield Soccer Club
+1
+Academy Division
+·
+Mesa del Sol field 7
+11:00 AM
+U13
+FINAL
+Lou Fusz Athletic
+2
+Chicago FC United
+2
+League
+·
+Lou Fusz Athletic Soccer Complex - Field #4
+11:00 AM
+U13
+FINAL
+Michigan Wolves
+0
+FC Cincinnati
+6
+League
+·
+Schoolcraft College - Outdoor Turf Field 2
+11:30 AM
+U13
+FINAL
+SGA
+1
+210 FC
+1
+Academy Division
+·
+Lago Vista Middle School
+11:45 AM
+U13
+FINAL
+Blau Weiss Gottschee
+2
+The Island FC West
+1
+Academy Division
+·
+Monsignor McClancy Memorial H.S. - Field 1
+12:00 PM
+U13
+FINAL
+ALBION SC San Diego
+3
+LA Youth
+3
+Academy Division
+·
+University City High School - Upper Field
+12:00 PM
+U13
+FINAL
+Strikers FC
+0
+RSL Arizona
+3
+League
+·
+Great Park - Field 11
+12:00 PM
+U13
+FINAL
+Philadelphia Union
+5
+Baltimore Armour
+0
+League
+·
+WSFS Banks SportsPlex – Indoor
+12:00 PM
+U13
+FINAL
+Chattanooga FC
+3
+Carolina Core FC
+6
+League
+·
+UTC Sports Complex - Upper Field
+12:00 PM
+U13
+FINAL
+Atletico FC
+3
+Washington Rush
+3
+Academy Division
+·
+Starfire Sports Complex - Field 2
+12:00 PM
+U13
+FINAL
+SC Wave
+0
+Tonka Fusion Elite
+7
+Academy Division
+·
+Carroll University - Schneider Stadium
+12:00 PM
+U13
+FINAL
+NEFC South
+2
+NEFC
+7
+Academy Division
+·
+Norton High School - Field 1
+12:00 PM
+U13
+FINAL
+ALBION SC Atlanta
+4
+KSA
+0
+Academy Division
+·
+North Mount Carmel Park - Field #13
+12:00 PM
+U13
+FINAL
+Bethesda SC
+0
+FC DELCO
+4
+Academy Division
+·
+Maryland SoccerPlex - Field 12
+12:00 PM
+U13
+FINAL
+SA United SC
+2
+Capital City SC
+3
+Academy Division
+·
+GVTC Communications Sportsplex - Field 4
+12:00 PM
+U13
+FINAL
+Phoenix Premier FC
+1
+Celtic Storm
+4
+Academy Division
+·
+Copper Sky - Field 3
+12:00 PM
+U13
+FINAL
+Lou Fusz Athletic 2
+1
+Sting Nebraska
+5
+Academy Division
+·
+Lou Fusz Athletic Soccer Complex - Field #7
+12:00 PM
+U13
+FINAL
+Lou Fusz Athletic
+8
+Omaha Evolution Soccer Club
+1
+Academy Division
+·
+Lou Fusz Athletic Soccer Complex - Field #6
+12:00 PM
+U13
+FINAL
+ALBION SC Colorado
+5
+AC River
+1
+League
+·
+Twin Peaks Classical Academy - Field 1
+12:00 PM
+U13
+FINAL
+The Island FC West
+1
+Blau Weiss Gottschee
+1
+League
+·
+Medford Athletic Complex (Long Island)
+12:00 PM
+U13
+FINAL
+Santa Barbara Soccer Club
+3
+SC Del Sol
+0
+League
+·
+Westmont College - Lovik Field B
+12:30 PM
+U13
+FINAL
+FC Greater Boston Bolts
+2
+Vale Rush United
+1
+Academy Division
+·
+UMass Mount Ida - Stadium
+12:30 PM
+U13
+FINAL
+Carolina Velocity FC
+2
+Queen City Mutiny FC
+1
+Academy Division
+·
+Middle Creek Park - field 2
+12:30 PM
+U13
+FINAL
+Baltimore Armour
+4
+PA Classics
+4
+Academy Division
+·
+Glenelg High School Stadium
+1:00 PM
+U13
+FINAL
+One FC
+2
+Miami Futbol Academy Rush
+1
+Academy Division
+·
+North Bay Village Soccer Field #1
+1:00 PM
+U13
+FINAL
+Southern Soccer Academy
+2
+ASG
+2
+Academy Division
+·
+Mud Creek Soccer Complex - 2
+1:00 PM
+U13
+FINAL
+FC Richmond
+1
+Alexandria SA
+2
+Academy Division
+·
+Huguenot Park #2
+1:00 PM
+U13
+FINAL
+McLean Youth Soccer
+2
+The St. James
+2
+Academy Division
+·
+Lewinsville Park #3
+1:00 PM
+U13
+FINAL
+Pearland Soccer
+1
+Aspire FC
+1
+Academy Division
+·
+Sports Complex at Shadow Creek Ranch Field 1
+1:00 PM
+U13
+FINAL
+IMG
+1
+Orlando City Soccer School South
+1
+League
+·
+IMG Academy Field - 7
+1:00 PM
+U13
+FINAL
+West Florida Flames
+3
+Weston FC
+3
+League
+·
+JC Handly Sport Complex - JC Handly Park # 8
+1:00 PM
+U13
+FINAL
+Ironbound Soccer Club
+1
+Cedar Stars Academy Bergen
+3
+League
+·
+Ironbound Stadium
+2:00 PM
+U13
+FINAL
+AB7 Future Academy
+6
+Union County Football Club
+1
+Academy Division
+·
+Owl Hollow Soccer Field - #3
+2:00 PM
+U13
+FINAL
+Players Development Academy
+0
+The Football Academy
+6
+League
+·
+PDA Soccer Complex - Field 3 Turf
+2:00 PM
+U13
+FINAL
+KSA
+1
+Lanier Soccer Association
+4
+League
+·
+Rock Springs Park - RSP 3
+2:00 PM
+U13
+FINAL
+Bavarian United SC
+1
+Lakeville SC
+1
+Academy Division
+·
+Bavarian United Soccer Club - Ramon
+2:00 PM
+U13
+FINAL
+Azzurri Storm Soccer Club
+0
+FC Florida Prep
+0
+Academy Division
+·
+North Collier Regional Park - Field #8
+2:00 PM
+U13
+FINAL
+Albion SC Los Angeles
+6
+Los Angeles Bulls Soccer Club
+2
+Academy Division
+·
+St Pius x St Matthias Academy - Football Stadium
+2:00 PM
+U13
+FINAL
+Eastshore Alliance Fútbol Club
+5
+ALBION SC Merced
+0
+Academy Division
+·
+El Cerrito HS - Multi Use
+2:00 PM
+U13
+FINAL
+The Town FC Academy
+3
+Silicon Valley Soccer Academy
+2
+Academy Division
+·
+Tesoro Soccer Fields - Field 1
+2:00 PM
+U13
+FINAL
+LA Surf Soccer Club
+0
+ALBION SC Riverside
+8
+Academy Division
+·
+University of California Riverside - Stadium
+2:45 PM
+U13
+FINAL
+Atlantic United
+8
+Cedar Stars Academy Hudson Valley
+0
+Academy Division
+·
+The Stonybrook School - Stadium
+3:00 PM
+U13
+FINAL
+Forward Madison FC
+2
+Manitou F.C.
+4
+Academy Division
+·
+Madison College - Irwin A. & Robert D Goodman Sports Complex Stadium
+3:00 PM
+U13
+FINAL
+United Soccer Alliance
+8
+Seminole United
+1
+Academy Division
+·
+Eagle Harbor Soccer Complex #16
+3:00 PM
+U13
+FINAL
+Chargers Soccer Club
+1
+NONA Soccer Academy
+1
+Academy Division
+·
+Glenn Oaks Park - Dave Martin Fields - East Field
+3:00 PM
+U13
+FINAL
+Fox Soccer Academy Carolinas
+1
+Charlotte Eagles
+2
+Academy Division
+·
+Cornelius Rd Park - Field 3/Turf
+3:00 PM
+U13
+FINAL
+New York SC
+1
+Metropolitan Oval
+1
+Academy Division
+·
+Manhattanville College (Turf) - Mville Turf
+3:00 PM
+U13
+FINAL
+San Francisco Seals
+7
+Atletico Santa Rosa
+2
+Academy Division
+·
+Abraham Lincoln High School - Soccer Field
+3:00 PM
+U13
+FINAL
+De Anza Force
+1
+Burlingame Soccer Club
+3
+Academy Division
+·
+De Anza College - Stadium
+3:00 PM
+U13
+FINAL
+The Island FC East
+2
+FC Harlem
+2
+Academy Division
+·
+Islip High School - Field 1
+3:30 PM
+U13
+FINAL
+City SC Southwest
+3
+Las Vegas Sports Academy
+5
+League
+·
+Patricia H. Birdsall Sports Park - Field 4
+4:00 PM
+U13
+FINAL
+FC North
+0
+Bayside FC
+5
+Academy Division
+·
+The Westminster School - Hovey Field
+4:00 PM
+U13
+FINAL
+Cedar Stars Academy Monmouth
+0
+PDA Hibernian
+7
+Academy Division
+·
+Capelli Sport Complex - Field #1
+4:00 PM
+U13
+FINAL
+Roseville Soccer Club
+7
+Lamorinda Soccer Club
+0
+Academy Division
+·
+Placer Valley Soccer Complex - Field 8
+4:00 PM
+U13
+FINAL
+Woodside Soccer Club Crush
+1
+Elk Grove Soccer
+10
+Academy Division
+·
+Sequoia High School - Terremere Field
+4:00 PM
+U13
+FINAL
+FC Dallas
+5
+SGA
+0
+League
+·
+Toyota Soccer Center - Field 16
+4:00 PM
+U13
+FINAL
+FC Golden State Force
+3
+Los Angeles Bulls Soccer Club
+4
+League
+·
+Silverlakes Sports Complex - Field 18
+4:00 PM
+U13
+FINAL
+Los Angeles Sports Club
+8
+Albion SC Las Vegas
+2
+League
+·
+Silverlakes Sports Complex - Field 19
+4:00 PM
+U13
+FINAL
+Total Futbol Academy
+6
+ALBION SC San Diego
+0
+League
+·
+Silverlakes Sports Complex - Field 5
+4:30 PM
+U13
+FINAL
+Midwest United FC
+3
+AC Grand Rapids
+1
+Academy Division
+·
+Midwest United FC Complex - North Field
+4:30 PM
+U13
+FINAL
+Downtown United Soccer Club
+0
+Brooklyn United Academy
+2
+Academy Division
+·
+Pier 40 CourtYard - West Field
+4:30 PM
+U13
+FINAL
+Capital City South
+1
+Dallas Hornets
+2
+Academy Division
+·
+Build Soccer Park - BSP #1
+5:00 PM
+U13
+FINAL
+Sozo FC
+4
+Atletico Azul
+5
+Academy Division
+·
+Sozo Sports Complex - Field 2
+5:00 PM
+U13
+FINAL
+Vardar Soccer Club
+0
+Michigan Stars Elite
+2
+Academy Division
+·
+Oakland University Dome - Field 1
+6:00 PM
+U13
+FINAL
+The Football Academy
+0
+Players Development Academy
+3
+Academy Division
+·
+Kantor Park - Turf Field
+6:00 PM
+U13
+FINAL
+Albion SC Los Angeles
+12
+Ventura County Fusion
+0
+League
+·
+Long Beach City College - FIELD 2
+8:00 PM
+U13
+FINAL
+Sacramento United
+2
+North Bay Glens FC
+1
+Academy Division
+·
+Granite Regional Park - Turf
+8:15 PM
+U13
+FINAL
+FC Golden State Force
+0
+Oaks FC
+4
+Academy Division
+·
+RIo Hondo College - Stadium
+9:30 PM
+U13
+FINAL
+LA Surf Soccer Club
+0
+Chula Vista FC
+2
+League
+·
+Occidental College Stadium
+9:45 PM
+U13
+FINAL
+Strikers FC Orange County
+2
+Sporting San Diego
+0
+Academy Division
+·
+Orange County Great Park - Field 21
+9:45 PM
+U13
+FINAL
+California Athletic Soccer Club
+2
+City SC Southwest
+1
+Academy Division
+·
+Glendale Community College
+10:00 PM
+U13
+FINAL
+Almaden FC
+5
+San Francisco Glens SC
+0
+Academy Division
+·
+Pioneer High School - Stadium
+10:00 PM
+U13
+FINAL
+Modesto Ajax United
+0
+FC Bay Area Surf
+2
+Academy Division
+·
+Mary Grogan Community Park - Field 2
+10:00 PM
+U13
+FINAL
+FC Bay Area Surf
+1
+Silicon Valley Soccer Academy
+1
+League
+·
+Ohlone College - Soccer Field
 
 BEYOND THE NUMBERS
 

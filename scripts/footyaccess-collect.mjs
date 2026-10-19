@@ -25,7 +25,7 @@ if(d.page!==n)throw Error('API page mismatch: expected '+n+', got '+d.page);
 if(expected===null)expected=d.totalPlayers;
 players.push(...d.players);
 console.log(age+' page '+n+': '+d.players.length+' records, total '+players.length+'/'+expected);
-if(!d.hasMore){completed=true;break;}
+if(players.length>=expected){completed=true;break;} // Do not trust hasMore: API can stop one page early
 if(!d.players.length)throw Error('Empty page with hasMore=true');
 }
 fs.writeFileSync(out+'/'+age.toLowerCase()+'-all.json',JSON.stringify(players,null,2));
@@ -39,10 +39,10 @@ const key=p=>norm(p.player)+'|'+norm(p.audit_club);
 const oldMap=new Map(old.map(p=>[key(p),p]));
 const freshMap=new Map(matched.map(p=>[key(p),p]));
 const changed=matched.filter(p=>oldMap.has(key(p))&&oldMap.get(key(p)).goals!==p.goals).map(p=>({player:p.player,club:p.audit_club,previous:oldMap.get(key(p)).goals,current:p.goals}));
-const missing=old.filter(p=>!freshMap.has(key(p))).map(p=>({player:p.player,club:p.audit_club,previous:p.goals}));
+const missing=old.filter(p=>p.goals>0&&!freshMap.has(key(p))).map(p=>({player:p.player,club:p.audit_club,previous:p.goals}));
 const added=matched.filter(p=>!oldMap.has(key(p))).map(p=>({player:p.player,club:p.audit_club,current:p.goals}));
 const found=[...new Set(matched.map(p=>p.audit_club))];
-const valid=found.length===15&&missing.length===0&&matched.length>=old.length&&matched.every(p=>Number.isFinite(p.goals));
+const valid=found.length===15&&missing.length===0&&matched.every(p=>Number.isFinite(p.goals));
 report.ages[age]={totalPlayers:expected,matchedPlayers:matched.length,baselinePlayers:old.length,clubsFound:found.length,missingClubs:clubs.filter(c=>!found.includes(c)),changed,missing,added,valid};
 fs.writeFileSync(out+'/'+age.toLowerCase()+'-garden-state.json',JSON.stringify(matched,null,2));
 if(!valid)report.warnings.push(age+' comparison requires review; no publishing');

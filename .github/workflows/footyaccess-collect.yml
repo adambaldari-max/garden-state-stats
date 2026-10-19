@@ -1,48 +1,70 @@
-name: FootyAccess U13 U14 diagnostics
+name: Garden State U13 U14 automated update
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 8,9 * * 2,3'
+    # 04:30 New York time, accounting for daylight saving changes
+    - cron: '30 8 * * 2,3'
+    - cron: '30 9 * * 2,3'
 permissions:
-  contents: read
+  contents: write
+concurrency:
+  group: garden-state-site-update
+  cancel-in-progress: false
 jobs:
-  collect:
+  update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
-      - name: Check Eastern time window
-        id: eastern
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify Eastern update window
+        id: window
         shell: bash
         run: |
-          if [[ "${{ github.event_name }}" == "workflow_dispatch" || "$(TZ=America/New_York date +%H)" == "04" ]]; then
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" || "$(TZ=America/New_York date +%H:%M)" == "04:30" ]]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
-            echo "Skipping alternate UTC hour; not 4 AM Eastern."
+            echo "Skipping UTC cron occurrence outside 04:30 Eastern."
           fi
-      - uses: actions/checkout@v4
-        if: steps.eastern.outputs.run == 'true'
-        with:
-          ref: weekly-update-workflow
-      - uses: actions/setup-node@v4
-        if: steps.eastern.outputs.run == 'true'
-        with:
-          node-version: '22'
-      - name: Check collector JavaScript syntax
-        if: steps.eastern.outputs.run == 'true'
-        run: node --check scripts/footyaccess-collect.mjs
-      - name: Install browser runner
-        if: steps.eastern.outputs.run == 'true'
+      - name: Check JavaScript syntax
+        if: steps.window.outputs.run == 'true'
+        run: |
+          node --check scripts/footyaccess-collect.mjs
+          node --check scripts/apply-validated-footyaccess.mjs
+      - name: Install Playwright
+        if: steps.window.outputs.run == 'true'
         run: |
           npm install --no-save playwright
           npx playwright install --with-deps chromium
-      - name: Inspect FootyAccess stats
-        if: steps.eastern.outputs.run == 'true'
+      - name: Collect U13 and U14 player stats
+        if: steps.window.outputs.run == 'true'
         run: node scripts/footyaccess-collect.mjs
-      - name: Upload diagnostic artifacts
-        if: always() && steps.eastern.outputs.run == 'true'
+      - name: Apply only validated player data
+        if: steps.window.outputs.run == 'true'
+        run: node scripts/apply-validated-footyaccess.mjs
+      - name: Commit verified player changes
+        if: steps.window.outputs.run == 'true'
+        shell: bash
+        run: |
+          if git diff --quiet -- index.html; then
+            echo "No validated player updates to publish."
+            exit 0
+          fi
+          git config user.name "garden-state-stats-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Update verified U13/U14 FootyAccess player statistics"
+          git push origin HEAD:main
+      - name: Upload collection and comparison
+        if: always() && steps.window.outputs.run == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: footyaccess-diagnostics
           path: footyaccess-output/
-          retention-days: 14
+          retention-days: 30

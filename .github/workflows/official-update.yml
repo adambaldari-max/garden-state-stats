@@ -1,6 +1,7 @@
 name: Nightly official MLS NEXT update
 # Refreshes results, kickoff times and fields for every U13/U14 Academy Division
-# conference from the official MLS NEXT feed. Commits only when something changed.
+# conference from the official MLS NEXT feed, then rebuilds the Garden State Golden Boot
+# from FootyAccess match reports. Commits only when something changed.
 on:
   workflow_dispatch:
   schedule:
@@ -23,6 +24,8 @@ jobs:
           node-version: '22'
       - name: Pull official MLS NEXT schedule and standings
         run: node scripts/official-update.mjs
+      - name: Rebuild Garden State Golden Boot from match reports
+        run: node scripts/golden-boot-update.mjs
       - name: Commit changes
         shell: bash
         run: |

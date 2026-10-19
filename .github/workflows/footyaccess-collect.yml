@@ -1,0 +1,29 @@
+name: FootyAccess U13 U14 diagnostics
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: weekly-update-workflow
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser runner
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Inspect FootyAccess stats
+        run: node scripts/footyaccess-collect.mjs
+      - name: Upload diagnostic artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: footyaccess-diagnostics
+          path: footyaccess-output/
+          retention-days: 14

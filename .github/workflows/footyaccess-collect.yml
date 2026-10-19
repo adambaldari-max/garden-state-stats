@@ -1,6 +1,8 @@
 name: FootyAccess U13 U14 diagnostics
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '30 8,9 * * 2,3'
 permissions:
   contents: read
 jobs:
@@ -8,22 +10,37 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
+      - name: Check Eastern time window
+        id: eastern
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" || "$(TZ=America/New_York date +%H)" == "04" ]]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping alternate UTC hour; not 4 AM Eastern."
+          fi
       - uses: actions/checkout@v4
+        if: steps.eastern.outputs.run == 'true'
         with:
           ref: weekly-update-workflow
       - uses: actions/setup-node@v4
+        if: steps.eastern.outputs.run == 'true'
         with:
           node-version: '22'
       - name: Check collector JavaScript syntax
+        if: steps.eastern.outputs.run == 'true'
         run: node --check scripts/footyaccess-collect.mjs
       - name: Install browser runner
+        if: steps.eastern.outputs.run == 'true'
         run: |
           npm install --no-save playwright
           npx playwright install --with-deps chromium
       - name: Inspect FootyAccess stats
+        if: steps.eastern.outputs.run == 'true'
         run: node scripts/footyaccess-collect.mjs
       - name: Upload diagnostic artifacts
-        if: always()
+        if: always() && steps.eastern.outputs.run == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: footyaccess-diagnostics

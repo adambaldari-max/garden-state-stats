@@ -42,7 +42,13 @@ official MLS NEXT Academy Division schedule and standings feeds (the data behind
 mlssoccer.com/mlsnext/standings/academy_division/), rewrites the two
 `data/academy-*.json` files and refreshes the Garden State matches embedded in
 `index.html` (scores, dates, kickoff times, fields). Player/Golden Boot data is
-never touched. If the feed looks incomplete the script stops without writing.
+never touched by that step. If the feed looks incomplete the script stops without writing.
+
+The same job then runs `scripts/golden-boot-update.mjs`, which rebuilds the Garden State
+Golden Boot (U13 and U14) from the named goal events in each completed match's FootyAccess
+match report. A match counts only when its goal events add up to the final score (own goals
+credited to the benefiting team); others are listed as awaiting scorer details. If
+FootyAccess can't be reached, the Golden Boot is left as it was.
 Run it on demand from **Actions → Nightly official MLS NEXT update → Run workflow**.
 
 

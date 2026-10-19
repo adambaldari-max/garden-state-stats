@@ -42,9 +42,21 @@ const freshMap=new Map(matched.map(p=>[key(p),p]));
 const changed=matched.filter(p=>oldMap.has(key(p))&&oldMap.get(key(p)).goals!==p.goals).map(p=>({player:p.player,club:p.audit_club,previous:oldMap.get(key(p)).goals,current:p.goals}));
 const missing=old.filter(p=>p.goals>0&&!freshMap.has(key(p))).map(p=>({player:p.player,club:p.audit_club,previous:p.goals}));
 const added=matched.filter(p=>!oldMap.has(key(p))).map(p=>({player:p.player,club:p.audit_club,current:p.goals}));
+
+const missingLookup=[];
+for(const p of missing){
+ const q=encodeURIComponent(p.player);
+ try{
+  const lookup=await context.request.get('https://footy-access-dev.onrender.com/api/mls-next/stats/dashboard?season=2027&ageGroup='+age+'&metric=goals&page=1&q='+q,{timeout:30000});
+  const payload=await lookup.json();
+  missingLookup.push({player:p.player,club:p.club,http:lookup.status(),totalPlayers:payload.data?.totalPlayers,results:(payload.data?.players||[]).slice(0,15).map(x=>({name:x.name,team:x.team,goals:x.stats?.goals,ageGroup:x.ageGroup}))});
+ }catch(e){missingLookup.push({player:p.player,error:String(e)});}
+}
+fs.writeFileSync(out+'/'+age.toLowerCase()+'-missing-lookups.json',JSON.stringify(missingLookup,null,2));
+
 const found=[...new Set(matched.map(p=>p.audit_club))];
 const valid=paginationComplete&&found.length===15&&missing.length===0&&matched.every(p=>Number.isFinite(p.goals));
-report.ages[age]={totalPlayers:expected,collectedPlayers:players.length,paginationComplete,stoppedOnEmpty,matchedPlayers:matched.length,baselinePlayers:old.length,clubsFound:found.length,missingClubs:clubs.filter(c=>!found.includes(c)),changed,missing,added,valid};
+report.ages[age]={totalPlayers:expected,collectedPlayers:players.length,paginationComplete,stoppedOnEmpty,matchedPlayers:matched.length,baselinePlayers:old.length,clubsFound:found.length,missingClubs:clubs.filter(c=>!found.includes(c)),changed,missing,added,missingLookup,valid};
 fs.writeFileSync(out+'/'+age.toLowerCase()+'-garden-state.json',JSON.stringify(matched,null,2));
 if(!paginationComplete)report.warnings.push(age+': API count mismatch ('+players.length+'/'+expected+'); comparison is provisional; no publishing');
 if(!valid)report.warnings.push(age+' comparison requires review; no publishing');

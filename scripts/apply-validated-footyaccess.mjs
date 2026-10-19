@@ -36,7 +36,7 @@ for(const age of ['U13','U14']){
  const ab7=data.scorers.filter(p=>norm(p.audit_club)===norm('AB7 Future Academy'));
  let ab7Rank=0,ab7Previous=null;
  data.ab7=ab7.map((p,i)=>{if(p.goals!==ab7Previous)ab7Rank=i+1;ab7Previous=p.goals;return {player:p.player,jersey:p.jersey||'',roster_age:age,goals:p.goals,rank:ab7Rank};});
- data.scorer_note='FootyAccess MLS NEXT-wide player goals — updated '+new Date().toISOString().slice(0,10);
+ data.raw_player_totals_note='Legacy goals field: FootyAccess MLS NEXT-wide source totals, updated '+new Date().toISOString().slice(0,10)+'. Golden Boot uses conference_goals with its separate audit coverage.';
  data.updated=new Date().toISOString().slice(0,10);
  html=html.slice(0,start)+JSON.stringify(data)+html.slice(end);
  console.log(age+' updated '+oldCount+' -> '+data.scorers.length+' roster records');

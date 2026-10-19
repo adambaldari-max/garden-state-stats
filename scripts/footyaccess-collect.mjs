@@ -3,7 +3,7 @@ import fs from 'node:fs';
 const out='footyaccess-output';fs.mkdirSync(out,{recursive:true});
 const html=fs.readFileSync('index.html','utf8');
 function baseline(age){const k='const DATA_'+age+'=';const i=html.indexOf(k);if(i<0)throw Error('Baseline not found: '+age);return JSON.parse(html.slice(i+k.length,html.indexOf(';',i)));}
-const norm=s=>String(s||'').toLowerCase().normalize('NFKD').replace(/[\\u0300-\\u036f]/g,'').replace(/[^a-z0-9]/g,'');
+const norm=s=>String(s||'').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'');
 const clubs=baseline('U13').standings.map(x=>x.team);
 const aliases=new Map(clubs.map(c=>[norm(c),c]));
 const report={generated:new Date().toISOString(),mode:'read-only',ages:{},warnings:[]};
@@ -14,7 +14,7 @@ const page=await context.newPage();
 await page.goto('https://www.footyaccess.com/leagues/mls-next?ageGroups=U13',{waitUntil:'domcontentloaded',timeout:60000});
 for(const age of ['U13','U14']){
 try{
-const players=[];let expected=null;let completed=false;
+const players=[];let expected=null;let completed=false;let stoppedOnEmpty=false;
 for(let n=1;n<=100;n++){
 const url='https://footy-access-dev.onrender.com/api/mls-next/stats/dashboard?season=2027&ageGroup='+age+'&metric=goals&page='+n+'&q=';
 const response=await context.request.get(url,{timeout:60000});
@@ -23,13 +23,13 @@ const payload=await response.json();const d=payload.data;
 if(!payload.success||!d||!Array.isArray(d.players))throw Error('Unexpected API response on page '+n);
 if(d.page!==n)throw Error('API page mismatch: expected '+n+', got '+d.page);
 if(expected===null)expected=d.totalPlayers;
-players.push(...d.players);
+if(!d.players.length){stoppedOnEmpty=true;console.warn(age+' page '+n+' is empty, despite expected '+expected+'; keeping collected records for review');break;}\nplayers.push(...d.players);
 console.log(age+' page '+n+': '+d.players.length+' records, total '+players.length+'/'+expected);
 if(players.length>=expected){completed=true;break;} // Do not trust hasMore: API can stop one page early
-if(!d.players.length)throw Error('Empty page with hasMore=true');
+
 }
 fs.writeFileSync(out+'/'+age.toLowerCase()+'-all.json',JSON.stringify(players,null,2));
-if(!completed||players.length!==expected)throw Error('Incomplete pagination: '+players.length+'/'+expected);
+const paginationComplete=completed&&players.length===expected&&!stoppedOnEmpty;
 if(players.some(p=>p.ageGroup!==age))throw Error('Cross-age players detected');
 const unique=new Set(players.map(p=>p.playerId));
 if(unique.size!==players.length)throw Error('Duplicate player IDs: '+unique.size+'/'+players.length);
@@ -42,10 +42,10 @@ const changed=matched.filter(p=>oldMap.has(key(p))&&oldMap.get(key(p)).goals!==p
 const missing=old.filter(p=>p.goals>0&&!freshMap.has(key(p))).map(p=>({player:p.player,club:p.audit_club,previous:p.goals}));
 const added=matched.filter(p=>!oldMap.has(key(p))).map(p=>({player:p.player,club:p.audit_club,current:p.goals}));
 const found=[...new Set(matched.map(p=>p.audit_club))];
-const valid=found.length===15&&missing.length===0&&matched.every(p=>Number.isFinite(p.goals));
-report.ages[age]={totalPlayers:expected,matchedPlayers:matched.length,baselinePlayers:old.length,clubsFound:found.length,missingClubs:clubs.filter(c=>!found.includes(c)),changed,missing,added,valid};
+const valid=paginationComplete&&found.length===15&&missing.length===0&&matched.every(p=>Number.isFinite(p.goals));
+report.ages[age]={totalPlayers:expected,collectedPlayers:players.length,paginationComplete,stoppedOnEmpty,matchedPlayers:matched.length,baselinePlayers:old.length,clubsFound:found.length,missingClubs:clubs.filter(c=>!found.includes(c)),changed,missing,added,valid};
 fs.writeFileSync(out+'/'+age.toLowerCase()+'-garden-state.json',JSON.stringify(matched,null,2));
-if(!valid)report.warnings.push(age+' comparison requires review; no publishing');
+if(!paginationComplete)report.warnings.push(age+': API count mismatch ('+players.length+'/'+expected+'); comparison is provisional; no publishing');\nif(!valid)report.warnings.push(age+' comparison requires review; no publishing');
 console.log(age+' complete: '+expected+' total, '+matched.length+' Garden State, '+found.length+' clubs, '+changed.length+' changed, '+missing.length+' missing, '+added.length+' added');
 }catch(e){report.ages[age]={error:String(e)};report.warnings.push(age+': '+String(e));console.error(age+': '+String(e));}
 }

@@ -1,0 +1,25 @@
+{
+  "captured_at": "2026-10-18T20:00:00-04:00",
+  "ages": {
+    "U13": {
+      "matches": [
+        {
+          "event_id": "5858232",
+          "date": "2026-10-18",
+          "home": "AB7 Future Academy",
+          "away": "Union County Football Club",
+          "completed": false,
+          "hs": null,
+          "as_": null,
+          "source_name": "Official MLS NEXT",
+          "source_url": "https://www.mlssoccer.com/mlsnext/schedule/academy_division/"
+        }
+      ],
+      "players": []
+    },
+    "U14": {
+      "matches": [],
+      "players": []
+    }
+  }
+}

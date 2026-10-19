@@ -1,20 +1,13 @@
-// Read-only: record every data request the official MLS NEXT Academy Division standings page makes.
-import { chromium } from 'playwright';
+// Read-only: official MLS NEXT Academy Division schedule + standings (conference membership), U13/U14 only.
 import fs from 'node:fs';
 const out='probe-output';fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});
-const log=[];
-const browser=await chromium.launch({headless:true});
-const ctx=await browser.newContext({userAgent:'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36',viewport:{width:1366,height:900}});
-ctx.on('response',async r=>{const u=r.url();const ct=r.headers()['content-type']||'';if(/\.(css|png|jpe?g|svg|gif|woff2?|ico|webp)(\?|$)/i.test(u))return;let len=0,hit=false,body='';try{if(/json|text\/plain|javascript/.test(ct)&&!/\.js(\?|$)/.test(u)){body=await r.text();len=body.length;hit=/Garden State|Trenton City|Ironbound/.test(body)}}catch(e){}log.push({u,s:r.status(),ct,len,hit});if(hit)fs.writeFileSync(`${out}/hit-${log.length}.json`,JSON.stringify({url:u,body:body.slice(0,2500000)}))});
-for(const url of ['https://www.mlssoccer.com/mlsnext/standings/academy_division/','https://www.mlssoccer.com/mlsnext/standings/u13/','https://www.mlssoccer.com/mlsnext/standings/u14/']){
- const p=await ctx.newPage();
- try{await p.goto(url,{waitUntil:'load',timeout:90000});await p.waitForTimeout(20000);
-  const frames=p.frames().map(f=>f.url());log.push({page:url,frames});
-  for(const f of p.frames()){try{const t=await f.locator('body').innerText({timeout:5000});if(/Garden State|Trenton/.test(t))fs.writeFileSync(`${out}/text-${url.split('/').filter(Boolean).pop()}-${f.url().replace(/[^a-z0-9]+/gi,'_').slice(0,60)}.txt`,t.slice(0,200000))}catch(e){}}
-  await p.screenshot({path:`${out}/shot-${url.split('/').filter(Boolean).pop()}.png`,fullPage:false});
- }catch(e){log.push({page:url,error:String(e).slice(0,300)})}
- await p.close();
-}
-await browser.close();
-fs.writeFileSync(out+'/log.json',JSON.stringify(log,null,1));
-console.log(log.filter(x=>x.hit||x.frames).map(x=>JSON.stringify(x)).join('\n'));
+const base='https://mls-assist.theintelligenceplatform.com/data';const key='mls-next-2-academy-division-26-27';
+const get=async u=>{const r=await fetch(u+'?_t='+Date.now(),{headers:{'user-agent':'Mozilla/5.0'}});const t=await r.text();return {status:r.status,ct:r.headers.get('content-type'),t}};
+const s=await get(`${base}/schedule/${key}.json`);
+const res={schedule_status:s.status,ct:s.ct,len:s.t.length};
+try{const j=JSON.parse(s.t);res.top=Object.keys(j);res.synced_at=j.synced_at;const ev=j.events||[];res.count=ev.length;const ages={};for(const e of ev)ages[e.home_squad_name]=(ages[e.home_squad_name]||0)+1;res.ages=ages;
+ fs.writeFileSync(out+'/ad-schedule-u13u14.json',JSON.stringify(ev.filter(e=>['U13','U14'].includes(e.home_squad_name))))}catch(e){res.err=String(e);res.head=s.t.slice(0,300)}
+const st=await get(`${base}/standings/${key}.json`);const sj=JSON.parse(st.t);
+const mem={};for(const b of sj.competition_season.competition_brackets){if(!['U13','U14'].includes(b.age_group.name))continue;mem[b.age_group.name+'|'+b.name]={id:b.id,teams:b.standings.map(x=>({n:x.team.name,org:x.team.organisation_id,squad:x.team.squad_id,logo:x.team.logo_url,v:x.tiebreaker_values}))}}
+fs.writeFileSync(out+'/ad-conferences.json',JSON.stringify(mem));
+fs.writeFileSync(out+'/summary.json',JSON.stringify(res,null,1));console.log(JSON.stringify(res));

@@ -1,0 +1,25 @@
+name: Temporary data probe (read-only)
+on:
+  push:
+    branches: [claude/data-probe]
+    paths: [probe/**, .github/workflows/data-probe.yml]
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - run: npm install --no-save playwright && npx playwright install --with-deps chromium
+      - run: node probe/probe.mjs
+      - name: Save results to this branch
+        if: always()
+        run: |
+          git config user.name "garden-state-stats-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f probe-output
+          git commit -m "Data probe results" || exit 0
+          git push origin HEAD:claude/data-probe

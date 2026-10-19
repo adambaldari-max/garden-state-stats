@@ -25,6 +25,15 @@ try{
    console.log('PASS '+age+' '+tab+' ('+text.length+' chars)');
   }
   await page.locator('.tabs button[data-tab="standings"]').click();
+  const rows=await page.locator('#standingsRows tr').count();
+  if(rows!==15)throw Error(age+' standings has '+rows+' rows; expected 15');
+  const header=await page.locator('.standings-table thead').innerText();
+  if(!header.includes('Δ'))throw Error(age+' movement column missing');
+  const movementCells=await page.locator('#standingsRows td.movement-col').count();
+  if(movementCells!==15)throw Error(age+' movement cells: '+movementCells+'; expected 15');
+  const names=await page.locator('#standingsRows .team-link').allTextContents();
+  if(new Set(names).size!==15)throw Error(age+' has duplicate or missing club names');
+  console.log('PASS '+age+' standings: 15 distinct clubs and 15 movement cells');
   await page.screenshot({path:'output/smoke-'+age+'.png',fullPage:true});
  }
  if(errors.length)throw Error('Browser JS errors: '+errors.join(' | '));

@@ -1,10 +1,17 @@
-name: Garden State U13 U14 automated update
+name: MLS NEXT Garden State results and standings
 on:
   workflow_dispatch:
   schedule:
-    # 04:30 New York time, accounting for daylight saving changes
+    # Tuesday and Wednesday 04:30 America/New_York (one DST-aware occurrence).
     - cron: '30 8 * * 2,3'
     - cron: '30 9 * * 2,3'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/footyaccess-collect.yml'
+      - 'scripts/update-standings.mjs'
+      - 'scripts/update-standings.test.mjs'
+      - 'scripts/smoke-site.mjs'
 permissions:
   contents: write
 concurrency:
@@ -22,49 +29,52 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Verify Eastern update window
+      - name: Select Eastern cron occurrence (tolerates delayed starts)
         id: window
-        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
         run: |
-          if [[ "${{ github.event_name }}" == "workflow_dispatch" || "$(TZ=America/New_York date +%H:%M)" == "04:30" ]]; then
+          if [[ "$EVENT_NAME" != "schedule" ]]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
-            echo "run=false" >> "$GITHUB_OUTPUT"
-            echo "Skipping UTC cron occurrence outside 04:30 Eastern."
+            node --input-type=module -e "import {isScheduledWindow} from './scripts/update-standings.mjs'; console.log('run='+isScheduledWindow(process.env.EVENT_SCHEDULE))" >> "$GITHUB_OUTPUT"
           fi
-      - name: Check JavaScript syntax
+      - name: Test validation, rank history, and Eastern schedule gate
+        if: steps.window.outputs.run == 'true'
+        run: node --test scripts/update-standings.test.mjs
+      - name: Fetch official MLS NEXT Academy Division schedule
         if: steps.window.outputs.run == 'true'
         run: |
-          node --check scripts/footyaccess-collect.mjs
-          node --check scripts/apply-validated-footyaccess.mjs
-      - name: Install Playwright
+          mkdir -p schedule-output
+          curl --fail --show-error --location --retry 3 --max-time 120 'https://mls-assist.theintelligenceplatform.com/data/schedule/mls-next-2-academy-division-26-27.json' --output schedule-output/source-feed.json
+      - name: Validate feed and rebuild both ages atomically
+        if: steps.window.outputs.run == 'true'
+        run: node scripts/update-standings.mjs --feed schedule-output/source-feed.json
+      - name: Install browser for publication checks
         if: steps.window.outputs.run == 'true'
         run: |
           npm install --no-save playwright
           npx playwright install --with-deps chromium
-      - name: Collect U13 and U14 player stats
+      - name: Verify mobile page, scoring coverage, tabs, and club views
         if: steps.window.outputs.run == 'true'
-        run: node scripts/footyaccess-collect.mjs
-      - name: Apply only validated player data
+        run: node scripts/smoke-site.mjs
+      - name: Publish successfully checked results and standings
         if: steps.window.outputs.run == 'true'
-        run: node scripts/apply-validated-footyaccess.mjs
-      - name: Commit verified player changes
-        if: steps.window.outputs.run == 'true'
-        shell: bash
         run: |
           if git diff --quiet -- index.html; then
-            echo "No validated player updates to publish."
+            echo "No results-page changes to publish."
             exit 0
           fi
           git config user.name "garden-state-stats-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add index.html
-          git commit -m "Update verified U13/U14 FootyAccess player statistics"
+          git commit -m "Refresh Garden State results and standings from official MLS NEXT schedule"
           git push origin HEAD:main
-      - name: Upload collection and comparison
+      - name: Preserve source, reconciliation report, and browser evidence
         if: always() && steps.window.outputs.run == 'true'
         uses: actions/upload-artifact@v4
         with:
-          name: footyaccess-diagnostics
-          path: footyaccess-output/
+          name: mls-next-schedule-audit
+          path: schedule-output/
           retention-days: 30

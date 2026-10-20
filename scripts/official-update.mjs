@@ -66,7 +66,7 @@ for (const age of AGES) {
     byName.get(conf).matches.push({
       event_id: String(e.id), date: lp.date,
       kickoff: lp.hour >= TBA_BEFORE_HOUR ? `${lp.date}T${lp.time}` : null,
-      venue: clean(e.event_location?.name),
+      venue: /^(tbd|tba|to be (determined|announced))$/i.test(clean(e.event_location?.name) || '') ? null : clean(e.event_location?.name),
       home, away,
       hs: done ? e.home_score : null, as_: done ? e.away_score : null, completed: done,
     });
@@ -103,7 +103,7 @@ for (const age of AGES) {
     if (o.home !== m.home || o.away !== m.away) { log.push(`${age} ${m.event_id}: home/away differs, left unchanged`); continue; }
     m.date = o.date;
     if (o.kickoff) m.kickoff = o.kickoff; else delete m.kickoff;
-    if (o.venue) m.venue = o.venue;
+    if (o.venue) m.venue = o.venue; else delete m.venue;
     if (o.completed) {
       if (m.completed && (m.hs !== o.hs || m.as_ !== o.as_)) log.push(`${age} ${m.date} ${m.home} v ${m.away}: score ${m.hs}-${m.as_} -> ${o.hs}-${o.as_}`);
       if (!m.completed) log.push(`${age} ${m.date} ${m.home} ${o.hs}-${o.as_} ${m.away}: new result`);

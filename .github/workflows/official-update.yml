@@ -26,6 +26,12 @@ jobs:
         run: node scripts/official-update.mjs
       - name: Rebuild Garden State Golden Boot from match reports
         run: node scripts/golden-boot-update.mjs
+      - name: Check the updated page in a phone-sized browser before publishing
+        run: |
+          mkdir -p schedule-output
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+          node scripts/smoke-site.mjs
       - name: Commit changes
         shell: bash
         run: |

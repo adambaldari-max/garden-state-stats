@@ -1,17 +1,8 @@
 name: MLS NEXT Garden State results and standings
+# Manual-only since the nightly "Nightly official MLS NEXT update" job refreshes
+# results, standings and the Golden Boot every night. Run from Actions → Run workflow.
 on:
   workflow_dispatch:
-  schedule:
-    # Tuesday and Wednesday 04:30 America/New_York (one DST-aware occurrence).
-    - cron: '30 8 * * 2,3'
-    - cron: '30 9 * * 2,3'
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/footyaccess-collect.yml'
-      - 'scripts/update-standings.mjs'
-      - 'scripts/update-standings.test.mjs'
-      - 'scripts/smoke-site.mjs'
 permissions:
   contents: write
 concurrency:

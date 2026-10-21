@@ -59,6 +59,7 @@ Run it manually from the **Actions** tab with **Run workflow**.
 
 ## Settings in `index.html`
 
-- `CONTACT_EMAIL`: set to a public address to show the footer
-  "Report a correction" link. Leave it empty to hide the link.
+- `CONTACT_EMAIL`: public contact address (currently contact@mlsnextacademystats.com),
+  shown as the footer "Contact / corrections" link and in the About section.
+  Leave it empty to hide both.
 - `SITE_URL`: the address printed on the Instagram standings graphic.

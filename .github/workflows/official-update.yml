@@ -26,6 +26,8 @@ jobs:
         run: node scripts/official-update.mjs
       - name: Rebuild Garden State Golden Boot from match reports
         run: node scripts/golden-boot-update.mjs
+      - name: Rebuild search-friendly pages, sitemap and robots.txt
+        run: node scripts/build-seo-pages.mjs
       - name: Check the updated page in a phone-sized browser before publishing
         run: |
           mkdir -p schedule-output
@@ -35,13 +37,13 @@ jobs:
       - name: Commit changes
         shell: bash
         run: |
-          if git diff --quiet -- index.html data/; then
+          if [[ -z "$(git status --porcelain -- index.html data/ garden-state/ conferences/ sitemap.xml robots.txt)" ]]; then
             echo "No changes since the last update."
             exit 0
           fi
           git config user.name "garden-state-stats-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html data/
+          git add index.html data/ garden-state/ conferences/ sitemap.xml robots.txt
           git commit -m "Nightly official MLS NEXT data update"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"

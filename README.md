@@ -57,6 +57,22 @@ Run it on demand from **Actions → Nightly official MLS NEXT update → Run wor
 validation check passes, updates the player records inside `index.html`.
 Run it manually from the **Actions** tab with **Run workflow**.
 
+## Search pages, sitemap and analytics
+
+`scripts/build-seo-pages.mjs` turns the same data into plain pages Google can index:
+`/garden-state/u13/` and `/u14/` (table, results, fixtures, Golden Boot top 10),
+`/garden-state/u13/golden-boot/` and `/u14/golden-boot/`, a page per Garden State club
+under `/garden-state/clubs/`, and `/conferences/` with a page per conference and per club.
+It also writes `sitemap.xml` and `robots.txt` and adds crawlable links to the homepage
+footer. **Everything under `garden-state/` and `conferences/` is generated; don't edit it.**
+The nightly job runs it after each data update.
+
+`site-config.json` controls it:
+
+- `cloudflareAnalyticsToken`: Cloudflare Web Analytics token; adds the beacon to every page.
+- `googleSiteVerification`: optional Search Console meta-tag code (not needed with DNS verification).
+- `playerNames`: `initial` shows "Liam A." on the search pages; `full` shows full names.
+
 ## Settings in `index.html`
 
 - `CONTACT_EMAIL`: public contact address (currently contact@mlsnextacademystats.com),

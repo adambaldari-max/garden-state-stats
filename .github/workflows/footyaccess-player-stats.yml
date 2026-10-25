@@ -28,6 +28,17 @@ jobs:
           npx playwright install --with-deps chromium
       - name: Collect FootyAccess player stats (read-only)
         run: node scripts/footyaccess-collect.mjs
+      - name: Summarize validation on the run page
+        if: always()
+        run: |
+          node -e "
+          const r=JSON.parse(require('fs').readFileSync('footyaccess-output/comparison.json','utf8'));
+          for(const [a,v] of Object.entries(r.ages)){
+            if(v.error){console.log('::warning title=FootyAccess '+a+'::'+v.error);continue;}
+            const s=a+': '+(v.valid?'VALID':'NOT VALID')+' | collected '+v.collectedPlayers+'/'+v.totalPlayers+' | Garden State players '+v.matchedPlayers+' | clubs '+v.clubsFound+'/15 | changed '+v.changed.length+' | added '+v.added.length+' | missing '+v.missing.length+(v.missing.length?' ('+v.missing.slice(0,6).map(m=>m.player+' - '+m.club).join('; ')+')':'')+' | pagination '+(v.paginationComplete?'ok':'not verified');
+            console.log((v.valid?'::notice':'::warning')+' title=FootyAccess '+a+'::'+s);
+          }
+          for(const w of r.warnings) console.log('::warning title=FootyAccess check::'+w);"
       - name: Apply player totals only if validation passed
         run: node scripts/apply-validated-footyaccess.mjs
       - name: Rebuild search-friendly pages, sitemap and robots.txt

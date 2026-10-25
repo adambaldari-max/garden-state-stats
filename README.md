@@ -52,7 +52,7 @@ FootyAccess can't be reached, the Golden Boot is left as it was.
 Run it on demand from **Actions → Nightly official MLS NEXT update → Run workflow**.
 
 
-`.github/workflows/footyaccess-collect.yml` runs Tuesday and Wednesday at
+`.github/workflows/footyaccess-player-stats.yml` runs Tuesday and Wednesday at
 4:30 AM Eastern. It collects FootyAccess player statistics and, only if every
 validation check passes, updates the player records inside `index.html`.
 Run it manually from the **Actions** tab with **Run workflow**.

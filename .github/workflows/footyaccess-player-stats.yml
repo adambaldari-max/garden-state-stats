@@ -1,0 +1,68 @@
+name: FootyAccess player stats update
+# Collects FootyAccess player statistics for U13 and U14 and, only if every
+# validation check passes, updates the player records inside index.html.
+# Runs Tuesday and Wednesday at about 4:30 AM Eastern, or on demand from
+# Actions → FootyAccess player stats update → Run workflow.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 8 * * 2,3'   # Tue and Wed, about 4:30 AM Eastern (3:30 AM in winter)
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: garden-state-site-update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Collect FootyAccess player stats (read-only)
+        run: node scripts/footyaccess-collect.mjs
+      - name: Apply player totals only if validation passed
+        run: node scripts/apply-validated-footyaccess.mjs
+      - name: Rebuild search-friendly pages, sitemap and robots.txt
+        run: node scripts/build-seo-pages.mjs
+      - name: Check the updated page in a phone-sized browser before publishing
+        run: |
+          mkdir -p schedule-output
+          node scripts/smoke-site.mjs
+      - name: Commit changes
+        id: commit
+        shell: bash
+        run: |
+          if [[ -z "$(git status --porcelain -- index.html garden-state/ conferences/ sitemap.xml robots.txt)" ]]; then
+            echo "No player-stat changes to publish."
+            exit 0
+          fi
+          git config user.name "garden-state-stats-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html garden-state/ conferences/ sitemap.xml robots.txt
+          git commit -m "FootyAccess player stats update"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+      - name: Republish the site
+        if: steps.commit.outputs.changed == 'true'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds" || echo "Pages rebuild request not accepted; the push will still publish on the next build."
+      - name: Keep the validation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: footyaccess-report
+          path: |
+            footyaccess-output/
+            schedule-output/
+          retention-days: 30

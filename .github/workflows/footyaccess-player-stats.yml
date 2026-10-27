@@ -5,6 +5,9 @@ name: FootyAccess player stats update
 # Actions → FootyAccess player stats update → Run workflow.
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/footyaccess-player-stats.yml']
   schedule:
     - cron: '30 8 * * 2,3'   # Tue and Wed, about 4:30 AM Eastern (3:30 AM in winter)
 permissions:
@@ -13,12 +16,15 @@ permissions:
 concurrency:
   group: garden-state-site-update
   cancel-in-progress: false
+  queue: max
 jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: '22'

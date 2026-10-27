@@ -65,7 +65,7 @@ for (const age of ['U13', 'U14']) {
     if (ok) reconciled.push({ m, r, goals }); else pending.push({ m, reason: !r ? 'no report' : r.hs == null ? 'scorer details not posted yet' : 'events do not match the final score' });
     if (!cached) await new Promise((res) => setTimeout(res, 200));
   }
-  if (reached < completed.length * 0.8) { console.log(`${age}: FootyAccess reachable for only ${reached}/${completed.length} matches; Golden Boot left unchanged.`); process.exit(0); }
+  if (pending.length) { console.warn(`${age}: ${pending.length}/${completed.length} completed match reports are missing, stale or unreconciled; preserving all Golden Boot totals and roster records for BOTH ages. Pending: ${pending.map(p => p.m.event_id + ' (' + p.reason + ')').join(', ')}`); process.exit(0); }
 
   // ---- tally
   const index = new Map();
@@ -96,6 +96,13 @@ for (const age of ['U13', 'U14']) {
       tally.get(rec).push(ev);
     }
   }
+
+  // Never silently reduce previously published conference totals, even if an upstream report changes.
+  // Review corrections separately before any destructive scorer update.
+  const decreases = data.scorers.filter(s => clubAudit[s.audit_club] && Number.isInteger(s.conference_goals) && (tally.get(s) || []).length < s.conference_goals);
+  if (decreases.length) { console.warn(`${age}: ${decreases.length} published player totals would decrease; preserving both ages until reviewed: ${decreases.map(s => s.player + ' (' + s.audit_club + ')').join(', ')}`); process.exit(0); }
+  const unnamed = reconciled.flatMap(({ goals }) => goals.filter(e => e.t === 'goal' && !clean(e.p)));
+  if (unnamed.length) { console.warn(`${age}: ${unnamed.length} goals lack player names; preserving existing scorer data.`); process.exit(0); }
 
   // ---- write player fields (every listed player at a Garden State club gets a reconciled count, 0 included)
   const source = `FootyAccess Academy Division match reports checked ${today}`;

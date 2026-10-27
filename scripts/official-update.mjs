@@ -40,6 +40,7 @@ const brackets = standings?.competition_season?.competition_brackets;
 if (!Array.isArray(brackets)) fail('standings feed has no conference brackets');
 
 const syncedAt = schedule.synced_at || null;
+if (!syncedAt || !Number.isFinite(new Date(syncedAt).getTime()) || Date.now() - new Date(syncedAt).getTime() > 72 * 3600000 || new Date(syncedAt).getTime() > Date.now() + 3600000) fail('schedule feed timestamp is missing, stale, or in the future');
 const generated = new Date().toISOString();
 const built = {};
 
@@ -96,6 +97,7 @@ for (const age of AGES) {
   const data = JSON.parse(html.slice(start, end));
   const official = new Map(built[age].conferences.find((c) => c.name === HOME_CONFERENCE).matches.map((m) => [m.event_id, m]));
   let changed = 0;
+  const correctedIds = new Set();
   for (const m of data.matches) {
     const o = official.get(String(m.event_id));
     if (!o) continue;
@@ -105,7 +107,7 @@ for (const age of AGES) {
     if (o.kickoff) m.kickoff = o.kickoff; else delete m.kickoff;
     if (o.venue) m.venue = o.venue; else delete m.venue;
     if (o.completed) {
-      if (m.completed && (m.hs !== o.hs || m.as_ !== o.as_)) log.push(`${age} ${m.date} ${m.home} v ${m.away}: score ${m.hs}-${m.as_} -> ${o.hs}-${o.as_}`);
+      if (m.completed && (m.hs !== o.hs || m.as_ !== o.as_)) { log.push(`${age} ${m.date} ${m.home} v ${m.away}: score ${m.hs}-${m.as_} -> ${o.hs}-${o.as_}`); correctedIds.add(String(m.event_id)); }
       if (!m.completed) log.push(`${age} ${m.date} ${m.home} ${o.hs}-${o.as_} ${m.away}: new result`);
       Object.assign(m, { hs: o.hs, as_: o.as_, completed: true });
       delete m.status; delete m.status_source;
@@ -119,6 +121,29 @@ for (const age of AGES) {
   const known = new Set(data.matches.map((m) => String(m.event_id)));
   for (const o of official.values()) if (!known.has(o.event_id)) { data.matches.push({ ...o, schedule_source: 'MLS NEXT official feed' }); changed++; log.push(`${age} ${o.date} ${o.home} v ${o.away}: new fixture added`); }
   data.matches.sort((a, b) => a.date.localeCompare(b.date) || a.home.localeCompare(b.home));
+  // Keep the saved player totals intact while marking new or corrected results
+  // that have not been independently reconciled to named FootyAccess goal events.
+  const audit = data.conference_scorer_audit;
+  if (audit) {
+    const priorPending = new Map((audit.pending_matches || []).map(p => [p.date + '|' + p.home + '|' + p.away, p.reason || 'previously unreconciled']));
+    const auditedIds = new Set(Object.values(data.club_scorer_audits || {}).flatMap(a => a.match_ids || []).map(String));
+    const pending = data.matches.filter(m => m.completed && (!auditedIds.has(String(m.event_id)) || correctedIds.has(String(m.event_id)) || priorPending.has(m.date + '|' + m.home + '|' + m.away))).map(m => ({
+      event_id: String(m.event_id), date: m.date, home: m.home, away: m.away,
+      reason: correctedIds.has(String(m.event_id)) ? 'official score correction requires goal-event recheck' : priorPending.get(m.date + '|' + m.home + '|' + m.away) || 'new result needs scorer verification'
+    }));
+    audit.total_completed_matches = data.matches.filter(m => m.completed).length;
+    audit.currently_reconciled_matches = audit.total_completed_matches - pending.length;
+    audit.pending_matches = pending;
+    audit.status = pending.length ? 'Partial attribution, published scorer totals preserved pending verification' : 'All completed games reconciled';
+    for (const [club, clubAudit] of Object.entries(data.club_scorer_audits || {})) {
+      const items = pending.filter(p => p.home === club || p.away === club);
+      clubAudit.unreconciled_match_ids = items.map(p => p.event_id);
+      clubAudit.pending_matches = items.map(p => ({ date: p.date, opponent: p.home === club ? p.away : p.home, reason: p.reason }));
+    }
+    if (pending.length) data.scorer_note = 'Published player totals retained from last reconciliation. ' + pending.length + ' completed games need scorer verification as of ' + generated.slice(0, 10) + '.';
+  }
+  data.results_source_synced_at = syncedAt;
+  data.results_checked_at = generated;
   if (changed) data.updated = generated.slice(0, 10);
   const json = JSON.stringify(data);
   if (json.includes(';')) fail(`${age}: embedded data would contain ';'`);

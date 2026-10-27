@@ -8,6 +8,7 @@ permissions:
 concurrency:
   group: garden-state-site-update
   cancel-in-progress: false
+  queue: max
 jobs:
   update:
     runs-on: ubuntu-latest

@@ -36,8 +36,13 @@ function localParts(iso, tz) {
 const schedule = await load('schedule', 'SCHEDULE_FILE');
 const standings = await load('standings', 'STANDINGS_FILE');
 if (!Array.isArray(schedule?.events)) fail('schedule feed has no events array');
-const brackets = standings?.competition_season?.competition_brackets;
-if (!Array.isArray(brackets)) fail('standings feed has no conference brackets');
+// The official feed nests brackets inside competition_season_stages (v2).
+// Keep compatibility with the older flat shape for saved test fixtures.
+const season = standings?.competition_season;
+const brackets = Array.isArray(season?.competition_brackets)
+  ? season.competition_brackets
+  : (season?.competition_season_stages || []).flatMap((stage) => stage.competition_brackets || []);
+if (!Array.isArray(brackets) || !brackets.length) fail('standings feed has no conference brackets');
 
 const syncedAt = schedule.synced_at || null;
 if (!syncedAt || !Number.isFinite(new Date(syncedAt).getTime()) || Date.now() - new Date(syncedAt).getTime() > 72 * 3600000 || new Date(syncedAt).getTime() > Date.now() + 3600000) fail('schedule feed timestamp is missing, stale, or in the future');
@@ -45,11 +50,17 @@ const generated = new Date().toISOString();
 const built = {};
 
 for (const age of AGES) {
-  const confs = brackets.filter((b) => b.age_group?.name === age);
+  const ageId = age === 'U13' ? 42 : 43;
+  const confs = brackets.filter((b) => b.age_group?.name === age || b.age_group_id === ageId);
   if (confs.length < 18) fail(`${age}: only ${confs.length} conferences in the standings feed`);
   const memberOf = new Map();
   const conferences = confs.map((b) => {
-    const teams = b.standings.map((s) => ({ name: clean(s.team.name), logo: s.team.logo_url || null }));
+    if (!Array.isArray(b.standings)) fail(`${age}: missing standings for ${b.name}`);
+    const teams = b.standings.map((s) => ({
+      name: clean(s.team?.name ?? s.name),
+      logo: s.team?.logo_url ?? s.logo_url ?? null,
+    }));
+    if (teams.some((t) => !t.name)) fail(`${age}: unnamed club in ${b.name}`);
     for (const t of teams) memberOf.set(t.name, b.name);
     return { name: clean(b.name), slug: slug(b.name), teams, matches: [] };
   }).sort((a, b) => a.name.localeCompare(b.name));

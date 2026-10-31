@@ -1,6 +1,6 @@
 name: Nightly official MLS NEXT update
 # Refreshes results, kickoff times and fields for every U13/U14 Academy Division
-# conference from the official MLS NEXT feed, then rebuilds the Garden State Golden Boot
+# conference plus all U13/U14 Homegrown conferences from the official MLS NEXT feeds, then rebuilds the Garden State Golden Boot
 # from FootyAccess match reports. Commits only when something changed.
 on:
   workflow_dispatch:
@@ -16,7 +16,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
         with:
@@ -26,6 +26,11 @@ jobs:
           node-version: '22'
       - name: Pull official MLS NEXT schedule and standings
         run: node scripts/official-update.mjs
+      - name: Validate and refresh Homegrown U13 and U14
+        run: |
+          node --test scripts/homegrown-update.test.mjs
+          node scripts/homegrown-update.mjs
+          node scripts/homegrown-scorers.mjs
       - name: Rebuild Garden State Golden Boot from match reports
         run: node scripts/golden-boot-update.mjs
       - name: Rebuild search-friendly pages, sitemap and robots.txt
@@ -39,13 +44,13 @@ jobs:
       - name: Commit changes
         shell: bash
         run: |
-          if [[ -z "$(git status --porcelain -- index.html data/ garden-state/ conferences/ sitemap.xml robots.txt)" ]]; then
+          if [[ -z "$(git status --porcelain -- index.html data/ garden-state/ conferences/ homegrown/ sitemap.xml robots.txt)" ]]; then
             echo "No changes since the last update."
             exit 0
           fi
           git config user.name "garden-state-stats-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html data/ garden-state/ conferences/ sitemap.xml robots.txt
+          git add index.html data/ garden-state/ conferences/ homegrown/ sitemap.xml robots.txt
           git commit -m "Nightly official MLS NEXT data update"
           git pull --rebase origin main
           git push origin HEAD:main

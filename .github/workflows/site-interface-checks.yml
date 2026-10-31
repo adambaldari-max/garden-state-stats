@@ -6,6 +6,8 @@ on:
     paths:
       - index.html
       - scripts/smoke-site.mjs
+      - scripts/homegrown*.mjs
+      - data/homegrown-*.json
       - .github/workflows/site-interface-checks.yml
 permissions:
   contents: read
@@ -21,6 +23,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Validate Homegrown feed and scorer contracts
+        run: node --test scripts/homegrown-update.test.mjs
       - name: Install browser
         run: |
           npm install --no-save playwright

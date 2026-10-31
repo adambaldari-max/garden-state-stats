@@ -45,13 +45,14 @@ for(const divisionAge of ['U13','U14']){
   await openTab('scorers');const coverage=confData.conference_scorer_audit;
   assert((await page.locator('#goalCoverage').innerText()).includes(coverage.currently_reconciled_matches+' of '+coverage.total_completed_matches));
   if(coverage.pending_matches.length)assert((await page.locator('#scorers .status-tag').innerText()).startsWith('PARTIAL:'));
+  await page.locator('#scorerRows tr button').first().click();assert((await page.locator('#playerProfile').innerText()).includes('Homegrown'));if(coverage.pending_matches.length)assert((await page.locator('#playerProfile').innerText()).includes('Partial conference coverage'));await page.locator('#playerClose').click();
   const goals=await page.locator('#scorerRows tr td:nth-child(5)').allTextContents();assert.equal(goals.reduce((n,x)=>n+Number(x),0),confData.scorers.reduce((n,p)=>n+p.conference_goals,0));
   await openTab('results');assert(await page.locator('#resultsList details').count()>0);
   await openTab('clubView');await page.locator('#dualClub').selectOption(confData.teams[0].name);assert.equal(await page.locator('#dualOutput article').count(),2);
   await openTab('insights');assert(await page.locator('#previewOutput').innerText());
   await openTab('progress');assert.equal(await page.locator('#progressChart svg').count(),1);
   await openTab('recap');assert(await page.locator('#recapContent').innerText());
-  await openTab('map');assert(await page.locator('#mapHomeFields').innerText());await openTab('about');assert((await page.locator('.method-grid>article:first-child>p').innerText()).includes('Homegrown'));
+  await openTab('map');assert(await page.locator('#mapHomeFields').innerText());await openTab('map');assert(await page.locator('#mapHomeFields').innerText());await openTab('about');assert((await page.locator('.method-grid>article:first-child>p').innerText()).includes('Homegrown'));
  }
  await page.locator('#confSelect').selectOption('Northeast');await openTab('standings');
  const c=source.conferences.find(c=>c.name==='Northeast'),club=c.teams[0].name;

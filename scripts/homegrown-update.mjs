@@ -38,7 +38,7 @@ export function buildHomegrown(schedule,standings,{now=new Date(),previous={}}={
  }
  return output;
 }
-async function load(kind,variable){if(process.env[variable])return JSON.parse(fs.readFileSync(process.env[variable],'utf8'));const r=await fetch(`${BASE}/${kind}/${HOMEGROWN_KEY}.json`,{signal:AbortSignal.timeout(60000)});if(!r.ok)throw Error('Homegrown '+kind+' HTTP '+r.status);return r.json()}
+async function load(kind,variable){if(process.env[variable])return JSON.parse(fs.readFileSync(process.env[variable],'utf8'));const r=await fetch(`${BASE}/${kind}/${HOMEGROWN_KEY}.json?_t=${Date.now()}`,{signal:AbortSignal.timeout(60000)});if(!r.ok)throw Error('Homegrown '+kind+' HTTP '+r.status);return r.json()}
 if(process.argv[1]&&fileURLToPath(import.meta.url)===process.argv[1]){
  const [schedule,standings]=await Promise.all([load('schedule','HOMEGROWN_SCHEDULE_FILE'),load('standings','HOMEGROWN_STANDINGS_FILE')]);const previous={};for(const age of ['U13','U14']){const p='data/homegrown-'+age.toLowerCase()+'.json';if(fs.existsSync(p))previous[age]=JSON.parse(fs.readFileSync(p,'utf8'))}
  const built=buildHomegrown(schedule,standings,{previous});fs.mkdirSync('data',{recursive:true});
